@@ -28,22 +28,21 @@ cd data
 docker cp transactions.txt distracted_einstein:/home/cloudera
 ```
 
+HDFS commands compared to Linux commands
 
-+-------------------+------------------------+--------------------------+----------------------------------------------------+
-| Linux Command    | HDFS Command           | HDFS Long-Form Command  | Description                                        |
-+-------------------+------------------------+--------------------------+----------------------------------------------------+
-| ls                | hdfs dfs -ls           | hadoop fs -ls           | List files and directories                         |
-| cd                | N/A                    | N/A                     | Change directory (not applicable)                  |
-| cat               | hdfs dfs -cat          | hadoop fs -cat          | View the contents of a file                        |
-| mkdir             | hdfs dfs -mkdir        | hadoop fs -mkdir        | Create a new directory                             |
-| cp                | hdfs dfs -copyToLocal  | hadoop fs -copyToLocal  | Copy a file from HDFS to the local file system     |
-| mv                | hdfs dfs -mv           | hadoop fs -mv           | Move a file or directory                            |
-| rm                | hdfs dfs -rm           | hadoop fs -rm           | Remove a file or directory                         |
-| touch             | N/A                    | N/A                     | Create a new empty file (not applicable)           |
-| du                | hdfs dfs -du           | hadoop fs -du           | Show disk usage of files and directories in HDFS   |
+| Linux Command    | HDFS Command           | HDFS Long-Form Command   | Description                           |
+|-------------------|------------------------|--------------------------|---------------------------------------|
+| ls                | hdfs dfs -ls           | hadoop fs -ls           | List files and directories            |
+| cd                | N/A                    | N/A                     | Change directory (not applicable)     |
+| cat               | hdfs dfs -cat          | hadoop fs -cat          | View the contents of a file           |
+| mkdir             | hdfs dfs -mkdir        | hadoop fs -mkdir        | Create a new directory                |
+| cp                | hdfs dfs -copyToLocal  | hadoop fs -copyToLocal  | Copy a file from HDFS to the local file system |
+| mv                | hdfs dfs -mv           | hadoop fs -mv           | Move a file or directory               |
+| rm                | hdfs dfs -rm           | hadoop fs -rm           | Remove a file or directory            |
+| touch             | N/A                    | N/A                     | Create a new empty file (not applicable) |
+| du                | hdfs dfs -du           | hadoop fs -du           | Show disk usage of files and directories in HDFS |
 | pwd               | N/A                    | N/A                     | Display the current working directory (not applicable) |
-| ps                | N/A                    | N/A                     | List running processes (not applicable)            |
-| kill              | N/A                    | N/A                     | Kill a running process (not applicable)            |
+| ps                | N/A                    | N/A                     | List running processes (not applicable) |
+| kill              | N/A                    | N/A                     | Kill a running process (not applicable) |
 | cp local_file HDFS_destination | hdfs dfs -copyFromLocal local_file HDFS_destination | hadoop fs -copyFromLocal local_file HDFS_destination | Copy a file from the local file system to HDFS |
 | cp HDFS_source local_destination | hdfs dfs -copyToLocal HDFS_source local_destination | hadoop fs -copyToLocal HDFS_source local_destination | Copy a file from HDFS to the local file system |
-+-------------------+------------------------+--------------------------+----------------------------------------------------+
