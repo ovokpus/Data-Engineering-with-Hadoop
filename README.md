@@ -43,6 +43,6 @@ HDFS commands compared to Linux commands
 | `du`                | `hdfs dfs -du`           | `hadoop fs -du`           | Show disk usage of files and directories in HDFS |
 | `pwd`               | N/A                    | N/A                     | Display the current working directory (not applicable) |
 | `ps`                | N/A                    | N/A                     | List running processes (not applicable) |
-| `kil`l              | N/A                    | N/A                     | Kill a running process (not applicable) |
+| `kill`              | N/A                    | N/A                     | Kill a running process (not applicable) |
 | `cp local_file HDFS_destination` | `hdfs dfs -copyFromLocal local_file HDFS_destination` | `hadoop fs -copyFromLocal local_file HDFS_destination` | Copy a file from the local file system to HDFS |
 | `cp HDFS_source local_destination` | `hdfs dfs -copyToLocal HDFS_source local_destination` | `hadoop fs -copyToLocal HDFS_source local_destination` | Copy a file from HDFS to the local file system |
