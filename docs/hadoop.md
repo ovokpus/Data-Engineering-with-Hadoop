@@ -47,3 +47,35 @@ These core components collectively make Hadoop a powerful and scalable platform 
 - **Sqoop**: A tool to transfer data between HDFS and relational databases like MySQL, Oracle, etc.
 
 Each of these components and tools has its own set of configurations, optimizations, and best practices, making Hadoop a very flexible and powerful system for handling big data.
+
+### Differences Between Hadoop 1 and Hadoop 2
+
+1. **Resource Management**:
+   - **Hadoop 1**: Uses Job Tracker and Task Tracker for resource management and job scheduling.
+   - **Hadoop 2**: Introduces YARN, which separates the roles of resource management and job scheduling, making the system more scalable and flexible.
+
+2. **Scalability**:
+   - **Hadoop 1**: Limited to around 4,000 nodes per cluster.
+   - **Hadoop 2**: Can scale up to 10,000 nodes per cluster, thanks to YARN.
+
+3. **Multi-tenancy**:
+   - **Hadoop 1**: Limited to running MapReduce jobs.
+   - **Hadoop 2**: Can run multiple types of distributed applications (not just MapReduce) due to YARN, making it a multi-tenant system.
+
+4. **Data Processing Model**:
+   - **Hadoop 1**: Primarily relies on batch processing.
+   - **Hadoop 2**: Supports batch, interactive, and real-time data processing.
+
+5. **Fault Tolerance**:
+   - **Hadoop 1**: Has a single point of failure in the NameNode.
+   - **Hadoop 2**: Introduces the concept of High Availability (HA) for the NameNode, eliminating the single point of failure.
+
+6. **API and Compatibility**:
+   - **Hadoop 1**: Uses the older MapReduce API.
+   - **Hadoop 2**: Introduces a new MapReduce API (MRv2) but retains compatibility with the older version.
+
+7. **Ecosystem**:
+   - **Hadoop 1**: Limited ecosystem components.
+   - **Hadoop 2**: Richer ecosystem with additional tools and capabilities.
+
+In summary, Hadoop 2 brings significant improvements over Hadoop 1, including better scalability, flexibility, and fault tolerance, thanks to the introduction of YARN and other architectural changes.
