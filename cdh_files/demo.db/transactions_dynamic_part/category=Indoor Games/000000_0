@@ -1,0 +1,806 @@
+02-08-2011,4002473,41.52,Bowling,San Francisco,California
+10-14-2011,4003760,144.2,Darts,Phoenix,Arizona
+04-16-2011,4004237,28.11,Bowling,Westminster,Colorado
+07-13-2011,4000623,81.07,Air Hockey,Chattanooga,Tennessee
+02-11-2011,4009119,168.56,Bowling,Charlotte,North Carolina
+03-23-2011,4004946,134.55,Darts,Las Vegas,Nevada
+10-11-2011,4001423,109.4,Bowling,Buffalo,New York
+05-16-2011,4006446,34.08,Darts,St. Louis  ,Missouri
+06-26-2011,4001386,36.38,Darts,Salem,Oregon
+05-26-2011,4000340,190.26,Darts,McKinney,Texas
+01-09-2011,4005043,166.3,Foosball,Orange,California
+11-16-2011,4007271,26.12,Foosball,Columbus,Ohio
+10-06-2011,4008321,162.89,Foosball,Las Vegas,Nevada
+02-22-2011,4007604,59.15,Air Hockey,Sacramento,California
+10-27-2011,4000095,41.69,Darts,Montgomery,Alabama
+10-07-2011,4006572,175.88,Bowling,Chattanooga,Tennessee
+01-08-2011,4001717,178.61,Bowling,Omaha,Nebraska
+06-25-2011,4004259,73.97,Air Hockey,Huntsville,Alabama
+04-09-2011,4008616,63.72,Table Shuffleboard,Charleston,South Carolina
+03-08-2011,4008262,11.51,Air Hockey,Dallas,Texas
+11-11-2011,4000596,107.79,Table Shuffleboard,New Orleans,Louisiana
+05-20-2011,4004931,186.81,Darts,New Orleans,Louisiana
+11-30-2011,4008446,32.65,Billiards,St. Louis  ,Missouri
+04-02-2011,4004300,92.55,Table Shuffleboard,El Paso,Texas
+09-10-2011,4004841,128.55,Table Shuffleboard,Buffalo,New York
+11-11-2011,4009756,22.57,Darts,Phoenix,Arizona
+11-28-2011,4006839,23.14,Foosball,Denton,Texas
+09-08-2011,4009196,102.54,Billiards,West Valley City,Utah
+08-02-2011,4008037,135.99,Air Hockey,St. Petersburg,Florida
+10-13-2011,4008118,98.09,Bowling,Plano,Texas
+11-25-2011,4004134,86.4,Bowling,Columbus,Georgia
+10-14-2011,4003180,170.63,Air Hockey,Portland,Oregon
+07-30-2011,4001847,39.51,Foosball,Everett,Washington
+04-27-2011,4004022,92.06,Ping Pong,Orlando,Florida
+06-30-2011,4003880,31.24,Ping Pong,Santa Ana,California
+10-05-2011,4007367,16.92,Air Hockey,Montgomery,Alabama
+02-10-2011,4004159,130.82,Air Hockey,Jersey City,New Jersey
+07-06-2011,4000431,157.09,Air Hockey,Baltimore,Maryland
+02-23-2011,4008316,55.06,Ping Pong,Austin,Texas
+05-07-2011,4000104,99.16,Foosball,Jacksonville ,Florida
+09-03-2011,4007913,185.4,Billiards,Saint Paul,Minnesota
+08-17-2011,4000373,43.7,Billiards,Stamford,Connecticut
+08-20-2011,4006035,16.27,Billiards,Chattanooga,Tennessee
+07-07-2011,4001709,104.02,Ping Pong,McKinney,Texas
+03-17-2011,4004036,18.36,Air Hockey,Tampa,Florida
+06-16-2011,4004424,103.99,Table Shuffleboard,Overland Park,Kansas
+07-28-2011,4007187,174.64,Foosball,Charleston,South Carolina
+09-03-2011,4002687,180.14,Bowling,Cincinnati,Ohio
+02-20-2011,4002002,94.45,Air Hockey,St. Petersburg,Florida
+10-20-2011,4003199,10.43,Darts,Columbus,Georgia
+03-05-2011,4000815,121.83,Billiards,Reno,Nevada
+10-12-2011,4002191,97.77,Darts,Memphis,Tennessee
+11-12-2011,4002891,51.28,Billiards,Vancouver,Washington
+01-04-2011,4008311,90.36,Billiards,St. Petersburg,Florida
+08-04-2011,4009408,135.27,Foosball,Memphis,Tennessee
+06-28-2011,4006861,139.2,Air Hockey,Hartford,Connecticut
+11-27-2011,4001558,158.28,Table Shuffleboard,Saint Paul,Minnesota
+08-22-2011,4005485,9.4,Darts,Oklahoma City,Oklahoma
+03-19-2011,4002857,40.31,Bowling,Milwaukee,Wisconsin
+11-18-2011,4004732,124.39,Table Shuffleboard,Vancouver,Washington
+11-01-2011,4001648,53.35,Billiards,Chattanooga,Tennessee
+11-04-2011,4004655,87.26,Billiards,Jackson,Mississippi
+08-22-2011,4003395,173.58,Air Hockey,Honolulu  ,Hawaii
+11-09-2011,4000057,155.54,Air Hockey,Portland,Oregon
+06-16-2011,4007926,150.02,Air Hockey,Gilbert,Arizona
+11-03-2011,4009879,131.49,Ping Pong,Lexington,Kentucky
+06-30-2011,4006661,63.57,Bowling,Charlotte,North Carolina
+06-02-2011,4006991,177.89,Bowling,Milwaukee,Wisconsin
+07-22-2011,4000686,38.62,Billiards,Bellevue,Washington
+12-10-2011,4000073,195.67,Foosball,Nashville  ,Tennessee
+09-22-2011,4008820,83.62,Table Shuffleboard,Plano,Texas
+08-12-2011,4003084,173.31,Ping Pong,Charlotte,North Carolina
+01-05-2011,4008587,153.78,Air Hockey,Honolulu  ,Hawaii
+08-13-2011,4001088,79.73,Ping Pong,Huntsville,Alabama
+09-13-2011,4005501,61.57,Billiards,Saint Paul,Minnesota
+05-11-2011,4000354,105.56,Air Hockey,Flint,Michigan
+01-08-2011,4004584,16.65,Air Hockey,Richmond  ,Virginia
+01-17-2011,4002379,165.47,Table Shuffleboard,Plano,Texas
+02-23-2011,4003916,41.33,Billiards,Madison,Wisconsin
+07-26-2011,4008039,130.28,Ping Pong,Detroit,Michigan
+01-13-2011,4007822,101.71,Billiards,Gilbert,Arizona
+12-22-2011,4008989,122.37,Foosball,Dayton,Ohio
+12-01-2011,4006995,85.29,Bowling,Alexandria  ,Virginia
+11-23-2011,4006089,48.89,Table Shuffleboard,Brownsville,Texas
+09-27-2011,4003337,134.96,Air Hockey,Houston,Texas
+03-31-2011,4009758,124.31,Ping Pong,Stamford,Connecticut
+07-05-2011,4004531,120.11,Air Hockey,Columbia,Missouri
+07-15-2011,4002826,64.2,Foosball,Rockford,Illinois
+11-03-2011,4009748,196.36,Darts,Fremont,California
+02-13-2011,4004925,41.88,Bowling,Orlando,Florida
+05-29-2011,4009182,62.12,Table Shuffleboard,Westminster,Colorado
+03-13-2011,4004101,86.0,Ping Pong,Vancouver,Washington
+12-26-2011,4006854,126.78,Ping Pong,Richmond  ,Virginia
+06-10-2011,4000379,152.76,Foosball,Centennial,Colorado
+09-04-2011,4001633,156.13,Ping Pong,Columbia,South Carolina
+01-14-2011,4008977,149.9,Darts,Nashville  ,Tennessee
+01-11-2011,4003870,177.59,Foosball,Westminster,Colorado
+02-27-2011,4002317,86.25,Ping Pong,Everett,Washington
+09-13-2011,4008784,112.35,Billiards,St. Petersburg,Florida
+06-12-2011,4003378,84.19,Billiards,Columbia,Missouri
+08-01-2011,4003178,193.92,Billiards,El Paso,Texas
+06-07-2011,4004612,6.83,Bowling,Denton,Texas
+07-18-2011,4002788,182.54,Billiards,Oklahoma City,Oklahoma
+04-06-2011,4005737,59.67,Bowling,Denver  ,Colorado
+02-02-2011,4009058,6.25,Bowling,Westminster,Colorado
+12-17-2011,4000724,111.51,Air Hockey,Montgomery,Alabama
+08-01-2011,4003485,42.35,Ping Pong,Detroit,Michigan
+09-20-2011,4009951,101.55,Air Hockey,Stamford,Connecticut
+02-17-2011,4003999,127.43,Billiards,Springfield,Illinois
+07-12-2011,4001370,92.2,Darts,Westminster,Colorado
+02-04-2011,4004248,32.52,Darts,El Paso,Texas
+08-18-2011,4005068,119.19,Table Shuffleboard,Eugene,Oregon
+10-20-2011,4003809,121.8,Air Hockey,Long Beach,California
+11-06-2011,4003368,97.84,Bowling,Omaha,Nebraska
+01-04-2011,4009897,146.85,Ping Pong,Los Angeles,California
+05-08-2011,4004962,69.68,Foosball,Lexington,Kentucky
+06-04-2011,4006613,180.24,Foosball,San Jose,California
+08-27-2011,4003455,135.1,Bowling,Bellevue,Washington
+07-05-2011,4002324,8.2,Darts,Denton,Texas
+10-08-2011,4008055,11.57,Bowling,Chattanooga,Tennessee
+04-20-2011,4008205,52.82,Ping Pong,San Diego,California
+03-07-2011,4001557,75.1,Ping Pong,San Diego,California
+09-12-2011,4003295,18.81,Billiards,Columbus,Ohio
+10-22-2011,4001448,95.24,Ping Pong,Bellevue,Washington
+03-16-2011,4004407,103.91,Darts,Paterson,New Jersey
+04-01-2011,4000242,5.76,Table Shuffleboard,Miami,Florida
+06-17-2011,4001314,14.01,Air Hockey,Milwaukee,Wisconsin
+11-12-2011,4008805,90.91,Billiards,Long Beach,California
+05-14-2011,4009799,87.17,Foosball,Lowell,Massachusetts
+08-26-2011,4008462,108.53,Foosball,Buffalo,New York
+03-18-2011,4000748,39.37,Darts,Buffalo,New York
+11-13-2011,4002089,86.96,Bowling,Coral Springs,Florida
+12-10-2011,4002037,137.9,Foosball,San Francisco,California
+08-04-2011,4008333,152.33,Bowling,Charleston,South Carolina
+09-22-2011,4002866,90.97,Darts,Gresham,Oregon
+12-06-2011,4002845,97.23,Foosball,Everett,Washington
+04-16-2011,4003254,124.09,Billiards,Jacksonville ,Florida
+03-01-2011,4001365,51.32,Darts,Oakland,California
+03-11-2011,4005566,83.44,Table Shuffleboard,Overland Park,Kansas
+10-21-2011,4001121,178.07,Table Shuffleboard,Everett,Washington
+04-09-2011,4005001,161.14,Table Shuffleboard,Plano,Texas
+01-17-2011,4009838,89.72,Billiards,Portland,Oregon
+05-24-2011,4001174,159.14,Foosball,Clarksville,Tennessee
+06-24-2011,4000786,159.26,Foosball,Omaha,Nebraska
+10-15-2011,4003012,9.68,Billiards,Pasadena,California
+09-30-2011,4009164,45.02,Darts,Indianapolis ,Indiana
+02-07-2011,4004982,189.61,Table Shuffleboard,Fremont,California
+02-15-2011,4007303,139.06,Billiards,Washington,District of Columbia
+02-08-2011,4007054,69.74,Bowling,Los Angeles,California
+10-09-2011,4006399,185.48,Ping Pong,Montgomery,Alabama
+10-12-2011,4001975,66.58,Billiards,Dallas,Texas
+05-18-2011,4000480,77.44,Air Hockey,Montgomery,Alabama
+03-29-2011,4000931,32.2,Foosball,Salt Lake City,Utah
+09-25-2011,4003072,61.97,Darts,Overland Park,Kansas
+03-19-2011,4001933,87.59,Air Hockey,San Jose,California
+11-07-2011,4002859,63.42,Foosball,Westminster,Colorado
+01-20-2011,4009930,53.5,Ping Pong,Jersey City,New Jersey
+03-12-2011,4006127,6.47,Foosball,Irving,Texas
+09-06-2011,4007822,136.37,Bowling,Lincoln,Nebraska
+02-14-2011,4004695,192.42,Air Hockey,Las Vegas,Nevada
+03-08-2011,4003658,129.02,Darts,San Francisco,California
+04-17-2011,4005003,24.09,Table Shuffleboard,West Valley City,Utah
+12-15-2011,4003265,6.19,Bowling,Phoenix,Arizona
+08-10-2011,4004537,89.76,Billiards,Gresham,Oregon
+07-28-2011,4006496,170.93,Bowling,San Francisco,California
+06-16-2011,4004912,62.04,Billiards,Huntsville,Alabama
+06-30-2011,4001734,158.99,Foosball,Lowell,Massachusetts
+07-29-2011,4002817,174.95,Darts,New York,New York
+03-09-2011,4008404,154.58,Foosball,Detroit,Michigan
+07-10-2011,4007106,112.28,Bowling,Los Angeles,California
+11-28-2011,4003715,71.38,Billiards,Newark,New Jersey
+02-21-2011,4003515,60.56,Table Shuffleboard,Eugene,Oregon
+07-30-2011,4003799,53.92,Foosball,Denton,Texas
+05-08-2011,4003580,88.39,Table Shuffleboard,Irving,Texas
+11-10-2011,4000395,157.56,Air Hockey,Huntsville,Alabama
+01-20-2011,4009875,66.84,Foosball,Columbus,Georgia
+12-21-2011,4005739,143.08,Foosball,Omaha,Nebraska
+08-10-2011,4003741,24.25,Darts,Sunnyvale,California
+05-14-2011,4006361,174.07,Table Shuffleboard,Salt Lake City,Utah
+03-06-2011,4006111,70.9,Bowling,Montgomery,Alabama
+03-23-2011,4009837,48.15,Table Shuffleboard,Hampton  ,Virginia
+03-01-2011,4005498,80.73,Air Hockey,Houston,Texas
+10-15-2011,4002609,17.19,Ping Pong,Colorado Springs,Colorado
+10-19-2011,4007880,190.23,Billiards,Honolulu  ,Hawaii
+04-01-2011,4000195,22.1,Bowling,Reno,Nevada
+04-05-2011,4004860,43.33,Table Shuffleboard,Berkeley,California
+01-01-2011,4008989,195.33,Air Hockey,Minneapolis,Minnesota
+06-05-2011,4003338,40.6,Bowling,Salt Lake City,Utah
+12-14-2011,4004778,71.75,Darts,Kansas City,Kansas
+12-09-2011,4002827,105.49,Billiards,Oakland,California
+08-30-2011,4008116,156.34,Bowling,Reno,Nevada
+08-16-2011,4009022,152.89,Darts,Westminster,Colorado
+10-08-2011,4005048,93.12,Billiards,Jersey City,New Jersey
+04-16-2011,4008067,133.73,Ping Pong,Paterson,New Jersey
+03-03-2011,4006765,89.0,Darts,Birmingham,Alabama
+01-07-2011,4008739,39.83,Ping Pong,Paterson,New Jersey
+09-22-2011,4009517,78.58,Table Shuffleboard,Pasadena,California
+10-08-2011,4000877,141.35,Billiards,Lexington,Kentucky
+08-28-2011,4009090,15.72,Billiards,San Francisco,California
+07-19-2011,4008774,10.24,Foosball,West Valley City,Utah
+11-26-2011,4008843,71.7,Darts,Stamford,Connecticut
+10-19-2011,4002518,32.12,Darts,Irving,Texas
+06-20-2011,4004457,26.6,Billiards,Des Moines,Iowa
+05-12-2011,4006697,48.45,Foosball,Westminster,Colorado
+08-17-2011,4005414,42.55,Billiards,Nashville  ,Tennessee
+09-26-2011,4008027,6.76,Table Shuffleboard,San Antonio,Texas
+03-15-2011,4002828,183.34,Table Shuffleboard,Des Moines,Iowa
+11-17-2011,4001316,163.41,Table Shuffleboard,Jacksonville ,Florida
+09-04-2011,4001074,191.84,Ping Pong,Jackson,Mississippi
+07-21-2011,4007512,70.16,Darts,Long Beach,California
+06-05-2011,4003523,87.93,Foosball,Milwaukee,Wisconsin
+03-07-2011,4005681,93.99,Foosball,Lincoln,Nebraska
+06-11-2011,4006925,86.0,Table Shuffleboard,Philadelphia,Pennsylvania
+11-22-2011,4005911,5.73,Table Shuffleboard,Miami,Florida
+07-06-2011,4005193,155.8,Foosball,Jersey City,New Jersey
+12-28-2011,4008409,147.43,Table Shuffleboard,Lexington,Kentucky
+07-26-2011,4008417,86.26,Ping Pong,Columbus,Ohio
+03-13-2011,4008850,183.88,Ping Pong,Austin,Texas
+10-29-2011,4002356,33.97,Foosball,Brownsville,Texas
+01-13-2011,4003647,107.94,Table Shuffleboard,Chattanooga,Tennessee
+04-20-2011,4005286,32.2,Foosball,Centennial,Colorado
+07-01-2011,4000978,105.63,Foosball,Flint,Michigan
+12-29-2011,4005128,102.42,Bowling,Cincinnati,Ohio
+02-02-2011,4009890,7.24,Darts,Oklahoma City,Oklahoma
+12-03-2011,4008289,108.92,Ping Pong,Durham,North Carolina
+04-28-2011,4002692,44.28,Ping Pong,Chattanooga,Tennessee
+04-02-2011,4002289,126.3,Bowling,El Paso,Texas
+05-20-2011,4007385,156.22,Ping Pong,El Paso,Texas
+11-03-2011,4007160,120.07,Air Hockey,Plano,Texas
+11-25-2011,4004374,87.61,Air Hockey,Springfield,Illinois
+06-13-2011,4009025,62.83,Ping Pong,Salem,Oregon
+03-10-2011,4007609,130.0,Foosball,Oklahoma City,Oklahoma
+09-05-2011,4005513,41.59,Foosball,Clarksville,Tennessee
+11-20-2011,4003759,75.14,Billiards,Los Angeles,California
+02-17-2011,4005511,98.31,Billiards,Richmond  ,Virginia
+08-12-2011,4009750,113.59,Air Hockey,Tampa,Florida
+08-11-2011,4007335,164.39,Air Hockey,Lincoln,Nebraska
+11-09-2011,4001831,189.27,Billiards,Denton,Texas
+02-16-2011,4005477,153.37,Darts,Des Moines,Iowa
+02-01-2011,4006187,121.67,Air Hockey,McKinney,Texas
+10-19-2011,4002485,49.7,Bowling,Green Bay,Wisconsin
+08-20-2011,4007832,114.5,Air Hockey,Everett,Washington
+11-23-2011,4008157,63.31,Foosball,Salt Lake City,Utah
+10-07-2011,4006213,11.04,Air Hockey,Columbus,Ohio
+06-19-2011,4006740,10.22,Billiards,Orlando,Florida
+01-19-2011,4001641,43.41,Darts,Kansas City,Missouri
+03-03-2011,4009709,125.48,Darts,St. Louis  ,Missouri
+05-12-2011,4002767,83.7,Ping Pong,Kansas City,Missouri
+08-28-2011,4000097,119.97,Table Shuffleboard,Milwaukee,Wisconsin
+02-08-2011,4008855,78.34,Table Shuffleboard,Seattle,Washington
+01-03-2011,4003414,197.85,Air Hockey,Pasadena,California
+08-28-2011,4000267,164.54,Bowling,Scottsdale,Arizona
+10-03-2011,4006046,5.32,Air Hockey,Stamford,Connecticut
+03-19-2011,4004623,9.12,Ping Pong,Anaheim,California
+06-13-2011,4003301,30.84,Ping Pong,Berkeley,California
+04-24-2011,4008283,20.15,Billiards,Hampton  ,Virginia
+07-13-2011,4000730,179.01,Foosball,Minneapolis,Minnesota
+12-24-2011,4007626,137.66,Bowling,Cleveland,Ohio
+04-07-2011,4003149,14.38,Ping Pong,Irvine,California
+04-17-2011,4003783,144.81,Bowling,Anaheim,California
+03-02-2011,4003919,36.25,Foosball,West Valley City,Utah
+09-24-2011,4001720,186.24,Bowling,Centennial,Colorado
+09-13-2011,4006792,196.23,Ping Pong,Coral Springs,Florida
+02-05-2011,4000133,101.83,Table Shuffleboard,Portland,Oregon
+05-04-2011,4006348,90.22,Air Hockey,Berkeley,California
+04-16-2011,4007219,118.11,Bowling,Paterson,New Jersey
+02-17-2011,4003054,187.23,Bowling,El Paso,Texas
+01-18-2011,4000629,64.1,Air Hockey,Baltimore,Maryland
+11-11-2011,4004683,115.97,Air Hockey,Austin,Texas
+12-11-2011,4000044,189.06,Billiards,Buffalo,New York
+11-13-2011,4003677,127.6,Bowling,Houston,Texas
+06-30-2011,4005865,180.58,Billiards,Honolulu  ,Hawaii
+09-24-2011,4007247,161.85,Air Hockey,San Diego,California
+03-03-2011,4007241,171.43,Table Shuffleboard,Austin,Texas
+02-23-2011,4003440,7.1,Foosball,Irvine,California
+05-21-2011,4006024,122.19,Foosball,Hampton  ,Virginia
+03-21-2011,4005100,32.16,Ping Pong,Denver  ,Colorado
+07-25-2011,4002937,153.82,Billiards,Baltimore,Maryland
+07-07-2011,4002186,22.8,Billiards,San Francisco,California
+02-15-2011,4002373,55.24,Foosball,Cincinnati,Ohio
+08-03-2011,4009765,155.08,Air Hockey,Saint Paul,Minnesota
+12-17-2011,4001232,106.62,Bowling,Bellevue,Washington
+10-17-2011,4004720,100.78,Table Shuffleboard,Dayton,Ohio
+05-14-2011,4003690,196.8,Billiards,Las Vegas,Nevada
+11-30-2011,4006787,162.03,Foosball,Stamford,Connecticut
+03-24-2011,4007541,65.05,Table Shuffleboard,Lexington,Kentucky
+05-19-2011,4007156,72.94,Foosball,St. Petersburg,Florida
+12-29-2011,4004206,58.05,Billiards,Anaheim,California
+11-11-2011,4009693,50.76,Darts,Anaheim,California
+10-22-2011,4001374,50.54,Air Hockey,Lexington,Kentucky
+04-11-2011,4004780,123.19,Billiards,Jackson,Mississippi
+11-26-2011,4000238,60.32,Air Hockey,Louisville,Kentucky
+09-14-2011,4004002,189.53,Darts,Scottsdale,Arizona
+05-23-2011,4001652,116.73,Bowling,Phoenix,Arizona
+11-18-2011,4004217,99.49,Table Shuffleboard,Oakland,California
+11-23-2011,4004069,167.44,Foosball,Boston,Massachusetts
+02-01-2011,4003531,170.04,Foosball,Chicago,Illinois
+06-22-2011,4007388,79.37,Ping Pong,Richmond  ,Virginia
+04-25-2011,4001904,98.45,Air Hockey,Cincinnati,Ohio
+01-26-2011,4000387,134.19,Bowling,Houston,Texas
+05-17-2011,4002137,113.18,Billiards,Anaheim,California
+04-30-2011,4009684,9.48,Billiards,Gilbert,Arizona
+06-21-2011,4008299,181.61,Air Hockey,Memphis,Tennessee
+10-16-2011,4003603,146.78,Table Shuffleboard,Orlando,Florida
+07-23-2011,4005744,117.13,Foosball,St. Petersburg,Florida
+01-05-2011,4004933,69.08,Foosball,Portland,Oregon
+05-26-2011,4004363,10.62,Bowling,Colorado Springs,Colorado
+12-25-2011,4007457,175.43,Ping Pong,Des Moines,Iowa
+10-16-2011,4003870,116.14,Table Shuffleboard,Tampa,Florida
+08-04-2011,4004534,31.84,Air Hockey,Midland,Texas
+06-15-2011,4003027,163.82,Billiards,McKinney,Texas
+05-27-2011,4000196,188.05,Billiards,Scottsdale,Arizona
+04-20-2011,4002033,62.57,Bowling,San Antonio,Texas
+05-04-2011,4007192,65.82,Air Hockey,Chicago,Illinois
+08-05-2011,4002806,155.25,Table Shuffleboard,Westminster,Colorado
+08-16-2011,4004786,89.51,Billiards,Chicago,Illinois
+11-26-2011,4003317,90.03,Bowling,El Paso,Texas
+07-17-2011,4000000,103.79,Bowling,Flint,Michigan
+03-06-2011,4000054,144.12,Table Shuffleboard,Atlanta,Georgia
+03-16-2011,4006782,167.77,Darts,Irving,Texas
+11-08-2011,4008671,54.85,Darts,Overland Park,Kansas
+12-10-2011,4006670,75.09,Billiards,Austin,Texas
+07-23-2011,4008797,192.14,Bowling,Pasadena,Texas
+07-17-2011,4007443,71.83,Table Shuffleboard,Centennial,Colorado
+09-12-2011,4003134,31.96,Billiards,Durham,North Carolina
+04-30-2011,4000546,92.58,Darts,St. Petersburg,Florida
+05-10-2011,4000542,12.35,Table Shuffleboard,Pasadena,Texas
+10-31-2011,4009258,19.9,Foosball,Jersey City,New Jersey
+01-15-2011,4006159,52.08,Billiards,Minneapolis,Minnesota
+08-31-2011,4002667,137.93,Ping Pong,Paterson,New Jersey
+03-19-2011,4000836,45.57,Bowling,Baltimore,Maryland
+07-27-2011,4002429,12.74,Billiards,Berkeley,California
+02-25-2011,4009099,25.12,Table Shuffleboard,Irvine,California
+07-25-2011,4007890,138.4,Darts,Salem,Oregon
+11-04-2011,4003285,30.49,Foosball,Springfield,Illinois
+09-04-2011,4004479,138.76,Table Shuffleboard,San Jose,California
+12-21-2011,4007514,53.97,Table Shuffleboard,Hartford,Connecticut
+09-23-2011,4005567,106.71,Air Hockey,Dayton,Ohio
+06-10-2011,4006523,144.26,Ping Pong,Coral Springs,Florida
+05-20-2011,4001804,8.99,Ping Pong,El Paso,Texas
+07-31-2011,4004470,73.37,Darts,Honolulu  ,Hawaii
+02-03-2011,4004119,40.17,Table Shuffleboard,Alexandria  ,Virginia
+08-25-2011,4005805,20.53,Ping Pong,Alexandria  ,Virginia
+10-17-2011,4005092,65.5,Ping Pong,Las Vegas,Nevada
+06-25-2011,4007946,184.16,Foosball,Springfield,Illinois
+12-20-2011,4002886,8.24,Air Hockey,Nashville  ,Tennessee
+01-08-2011,4003032,179.28,Table Shuffleboard,Los Angeles,California
+09-24-2011,4001026,179.39,Bowling,El Paso,Texas
+10-12-2011,4007036,192.13,Bowling,Stamford,Connecticut
+05-23-2011,4008472,111.61,Bowling,Durham,North Carolina
+09-25-2011,4006225,126.0,Bowling,Saint Paul,Minnesota
+06-08-2011,4001097,75.58,Foosball,Sacramento,California
+11-10-2011,4001530,73.97,Table Shuffleboard,West Valley City,Utah
+09-27-2011,4005859,182.73,Darts,Montgomery,Alabama
+01-26-2011,4005244,161.0,Ping Pong,Eugene,Oregon
+06-07-2011,4004130,159.54,Air Hockey,Anaheim,California
+09-26-2011,4009839,61.42,Bowling,Salem,Oregon
+07-20-2011,4006909,152.91,Foosball,Scottsdale,Arizona
+06-20-2011,4001296,147.16,Ping Pong,Cincinnati,Ohio
+11-08-2011,4008374,177.64,Ping Pong,Miami,Florida
+04-17-2011,4001884,66.08,Foosball,Pasadena,Texas
+04-09-2011,4006353,80.7,Air Hockey,Flint,Michigan
+04-09-2011,4008813,145.41,Billiards,Newark,New Jersey
+11-05-2011,4007203,46.9,Table Shuffleboard,Irvine,California
+02-19-2011,4008980,92.65,Darts,Buffalo,New York
+03-24-2011,4002193,79.8,Bowling,Santa Ana,California
+07-24-2011,4002261,120.82,Darts,Newark,New Jersey
+05-24-2011,4008548,73.34,Bowling,Cincinnati,Ohio
+11-09-2011,4008809,78.74,Bowling,Columbia,Missouri
+11-26-2011,4003740,185.62,Foosball,Eugene,Oregon
+03-20-2011,4001149,140.93,Ping Pong,Columbus,Ohio
+01-08-2011,4009291,183.31,Billiards,New Orleans,Louisiana
+03-26-2011,4002809,109.66,Darts,Las Vegas,Nevada
+02-25-2011,4008181,73.74,Table Shuffleboard,Cambridge,Massachusetts
+12-18-2011,4003441,129.37,Table Shuffleboard,Sacramento,California
+01-03-2011,4009779,76.99,Air Hockey,Flint,Michigan
+11-21-2011,4007755,144.54,Air Hockey,Hartford,Connecticut
+01-20-2011,4003891,136.9,Darts,Paterson,New Jersey
+01-08-2011,4000201,140.0,Billiards,Irving,Texas
+10-18-2011,4006523,141.92,Table Shuffleboard,Chicago,Illinois
+12-12-2011,4006910,58.84,Table Shuffleboard,Vancouver,Washington
+02-03-2011,4000563,153.86,Bowling,Sunnyvale,California
+09-28-2011,4004257,47.64,Air Hockey,Sacramento,California
+06-08-2011,4007607,104.17,Table Shuffleboard,Colorado Springs,Colorado
+05-07-2011,4009947,75.6,Ping Pong,San Francisco,California
+09-25-2011,4003596,18.86,Foosball,Brownsville,Texas
+02-05-2011,4009702,142.21,Foosball,Washington,District of Columbia
+09-02-2011,4000475,125.47,Table Shuffleboard,El Paso,Texas
+01-27-2011,4003900,178.22,Foosball,Paterson,New Jersey
+09-09-2011,4009406,155.14,Table Shuffleboard,Fremont,California
+10-11-2011,4005062,143.62,Ping Pong,Anaheim,California
+07-07-2011,4007725,140.73,Darts,Paterson,New Jersey
+02-18-2011,4006074,78.1,Air Hockey,Irving,Texas
+08-13-2011,4001370,72.92,Ping Pong,Irvine,California
+07-27-2011,4005960,134.04,Table Shuffleboard,Austin,Texas
+07-03-2011,4002180,118.41,Table Shuffleboard,Philadelphia,Pennsylvania
+08-08-2011,4004918,80.09,Ping Pong,Colorado Springs,Colorado
+05-16-2011,4002078,87.15,Air Hockey,Lowell,Massachusetts
+11-28-2011,4009616,193.33,Foosball,Sunnyvale,California
+01-03-2011,4003783,78.31,Ping Pong,Jacksonville ,Florida
+01-22-2011,4001744,122.16,Darts,Des Moines,Iowa
+05-07-2011,4003116,28.69,Table Shuffleboard,Buffalo,New York
+04-12-2011,4000666,114.08,Ping Pong,Gresham,Oregon
+12-23-2011,4004272,101.73,Ping Pong,Long Beach,California
+02-21-2011,4009845,49.08,Darts,Columbia,South Carolina
+11-11-2011,4004152,194.74,Table Shuffleboard,San Diego,California
+04-27-2011,4001180,20.33,Ping Pong,Midland,Texas
+07-09-2011,4002676,63.74,Ping Pong,Gilbert,Arizona
+05-03-2011,4006429,9.28,Bowling,Flint,Michigan
+11-13-2011,4009786,147.28,Ping Pong,Berkeley,California
+08-08-2011,4004397,112.93,Foosball,Denton,Texas
+05-19-2011,4008251,168.85,Foosball,St. Louis  ,Missouri
+06-15-2011,4005310,195.26,Darts,Springfield,Illinois
+01-11-2011,4001323,49.65,Billiards,Oakland,California
+07-18-2011,4007203,42.3,Ping Pong,Brownsville,Texas
+08-21-2011,4008652,68.36,Darts,Stamford,Connecticut
+08-01-2011,4001699,62.21,Darts,Columbus,Georgia
+11-17-2011,4009711,173.86,Darts,Alexandria  ,Virginia
+01-11-2011,4006298,152.2,Air Hockey,Centennial,Colorado
+02-11-2011,4009332,118.01,Air Hockey,Plano,Texas
+10-06-2011,4000887,187.57,Air Hockey,San Diego,California
+09-14-2011,4002576,62.57,Foosball,Dayton,Ohio
+09-09-2011,4001870,39.93,Foosball,Tampa,Florida
+06-18-2011,4001545,117.39,Bowling,McKinney,Texas
+03-03-2011,4000937,67.19,Table Shuffleboard,Dallas,Texas
+01-29-2011,4009851,176.91,Billiards,Fremont,California
+09-22-2011,4004269,159.7,Ping Pong,Jacksonville ,Florida
+12-07-2011,4007108,83.39,Billiards,Huntsville,Alabama
+04-12-2011,4002249,140.54,Bowling,Buffalo,New York
+09-30-2011,4002731,34.97,Billiards,Flint,Michigan
+05-26-2011,4007969,58.0,Foosball,Lowell,Massachusetts
+07-07-2011,4009354,52.31,Bowling,Oakland,California
+08-04-2011,4006590,93.59,Foosball,Madison,Wisconsin
+08-23-2011,4003902,14.07,Ping Pong,Centennial,Colorado
+12-30-2011,4000035,195.67,Billiards,Austin,Texas
+01-03-2011,4006384,95.63,Darts,Reno,Nevada
+05-10-2011,4005034,196.75,Air Hockey,Columbia,South Carolina
+02-18-2011,4007265,20.25,Ping Pong,Huntsville,Alabama
+03-07-2011,4004731,62.1,Ping Pong,Lowell,Massachusetts
+09-17-2011,4009145,64.92,Billiards,Santa Ana,California
+07-07-2011,4000685,177.4,Table Shuffleboard,Tampa,Florida
+02-13-2011,4004913,166.24,Ping Pong,Seattle,Washington
+03-10-2011,4002011,27.5,Darts,Orange,California
+02-06-2011,4001399,71.9,Darts,Plano,Texas
+12-03-2011,4000972,101.06,Billiards,Alexandria  ,Virginia
+12-30-2011,4004713,165.19,Ping Pong,El Paso,Texas
+06-01-2011,4001141,17.03,Ping Pong,Chattanooga,Tennessee
+08-22-2011,4001167,182.4,Bowling,Philadelphia,Pennsylvania
+09-11-2011,4009529,24.87,Foosball,Overland Park,Kansas
+01-23-2011,4009628,142.37,Billiards,Orlando,Florida
+05-03-2011,4008558,174.09,Bowling,Birmingham,Alabama
+01-07-2011,4008764,66.88,Darts,Buffalo,New York
+10-31-2011,4007334,72.14,Bowling,Anaheim,California
+09-04-2011,4009047,192.88,Foosball,Des Moines,Iowa
+04-12-2011,4000997,75.82,Ping Pong,Anaheim,California
+09-06-2011,4007775,100.62,Billiards,Minneapolis,Minnesota
+12-26-2011,4004563,138.42,Table Shuffleboard,Vancouver,Washington
+04-30-2011,4003896,158.91,Air Hockey,Los Angeles,California
+06-04-2011,4004103,32.95,Table Shuffleboard,Centennial,Colorado
+09-11-2011,4001087,115.81,Air Hockey,Charleston,South Carolina
+06-01-2011,4005857,98.14,Air Hockey,Detroit,Michigan
+05-01-2011,4009460,6.19,Darts,Plano,Texas
+08-03-2011,4006327,166.4,Darts,Pasadena,Texas
+11-14-2011,4009688,71.34,Foosball,McKinney,Texas
+12-06-2011,4009288,158.36,Darts,Boise,Idaho
+09-18-2011,4009840,184.46,Ping Pong,San Francisco,California
+10-10-2011,4002465,63.45,Air Hockey,Hartford,Connecticut
+12-26-2011,4008060,110.22,Darts,Colorado Springs,Colorado
+04-10-2011,4009226,65.14,Bowling,Paterson,New Jersey
+01-22-2011,4000793,29.78,Billiards,Colorado Springs,Colorado
+01-23-2011,4009769,193.23,Table Shuffleboard,Pittsburgh,Pennsylvania
+08-31-2011,4009331,101.59,Foosball,Charleston,South Carolina
+05-12-2011,4008478,77.57,Billiards,Oklahoma City,Oklahoma
+01-27-2011,4004537,38.56,Darts,Columbus,Ohio
+10-09-2011,4001915,135.33,Foosball,Midland,Texas
+03-07-2011,4007770,43.21,Table Shuffleboard,Eugene,Oregon
+11-23-2011,4005508,199.09,Table Shuffleboard,Sacramento,California
+03-12-2011,4000361,11.19,Bowling,New Orleans,Louisiana
+04-09-2011,4002313,142.1,Table Shuffleboard,Charleston,South Carolina
+07-07-2011,4008386,154.3,Billiards,Omaha,Nebraska
+10-09-2011,4008966,166.93,Ping Pong,Memphis,Tennessee
+01-05-2011,4008313,181.83,Air Hockey,Westminster,Colorado
+01-14-2011,4001852,152.08,Darts,Pittsburgh,Pennsylvania
+09-21-2011,4003542,112.42,Table Shuffleboard,Boise,Idaho
+06-17-2011,4004926,180.66,Billiards,San Antonio,Texas
+06-12-2011,4001986,174.11,Darts,Austin,Texas
+04-20-2011,4007734,168.88,Bowling,Austin,Texas
+12-30-2011,4003064,75.69,Air Hockey,Reno,Nevada
+07-03-2011,4001431,85.77,Table Shuffleboard,Atlanta,Georgia
+01-11-2011,4001066,55.48,Foosball,El Paso,Texas
+09-01-2011,4007552,90.3,Air Hockey,Salt Lake City,Utah
+09-04-2011,4008006,180.93,Air Hockey,Long Beach,California
+12-19-2011,4003308,113.86,Air Hockey,Indianapolis ,Indiana
+04-06-2011,4006793,168.06,Foosball,Richmond  ,Virginia
+06-05-2011,4001699,110.99,Billiards,Denver  ,Colorado
+12-29-2011,4007965,142.93,Air Hockey,McKinney,Texas
+05-06-2011,4008929,66.02,Bowling,Irvine,California
+07-01-2011,4006787,143.33,Air Hockey,Dayton,Ohio
+08-27-2011,4003509,14.05,Billiards,Irving,Texas
+07-05-2011,4002201,28.73,Ping Pong,Pasadena,California
+06-14-2011,4005719,150.04,Air Hockey,Alexandria  ,Virginia
+10-25-2011,4005065,73.83,Darts,Fremont,California
+08-17-2011,4001804,186.11,Air Hockey,Columbus,Georgia
+11-01-2011,4006899,60.02,Air Hockey,Chattanooga,Tennessee
+04-07-2011,4004057,35.25,Foosball,Milwaukee,Wisconsin
+12-01-2011,4008442,68.86,Billiards,Honolulu  ,Hawaii
+08-24-2011,4007812,19.15,Foosball,Orlando,Florida
+05-31-2011,4003143,125.8,Foosball,Seattle,Washington
+06-12-2011,4009559,78.53,Darts,Irving,Texas
+12-01-2011,4000141,141.21,Ping Pong,Los Angeles,California
+02-12-2011,4009098,150.08,Billiards,Reno,Nevada
+01-15-2011,4007041,179.65,Darts,Sunnyvale,California
+12-21-2011,4006020,55.25,Darts,Reno,Nevada
+06-19-2011,4007270,58.8,Darts,Richmond  ,Virginia
+10-07-2011,4000144,67.15,Foosball,Lowell,Massachusetts
+06-12-2011,4008318,187.36,Air Hockey,Oakland,California
+03-12-2011,4007216,159.82,Bowling,Plano,Texas
+10-03-2011,4006801,21.02,Foosball,Coral Springs,Florida
+05-04-2011,4006749,125.82,Air Hockey,Gresham,Oregon
+08-29-2011,4003212,52.07,Billiards,Memphis,Tennessee
+05-20-2011,4004497,10.67,Darts,Hampton  ,Virginia
+08-17-2011,4002133,25.14,Ping Pong,Oklahoma City,Oklahoma
+11-04-2011,4008133,154.96,Air Hockey,Santa Ana,California
+09-20-2011,4005386,108.27,Air Hockey,Austin,Texas
+02-26-2011,4007271,128.41,Billiards,Miami,Florida
+04-03-2011,4009958,135.39,Darts,Buffalo,New York
+12-12-2011,4004936,59.95,Foosball,Columbus,Ohio
+03-12-2011,4009478,126.9,Air Hockey,Coral Springs,Florida
+02-28-2011,4000791,27.89,Foosball,Dayton,Ohio
+06-13-2011,4002421,131.52,Bowling,Lexington,Kentucky
+03-02-2011,4001589,79.26,Ping Pong,St. Petersburg,Florida
+10-16-2011,4004893,54.65,Darts,Milwaukee,Wisconsin
+11-20-2011,4004499,167.0,Air Hockey,Boise,Idaho
+09-27-2011,4001978,160.78,Table Shuffleboard,Memphis,Tennessee
+03-04-2011,4005960,161.64,Air Hockey,Houston,Texas
+12-05-2011,4000860,178.54,Air Hockey,Gilbert,Arizona
+02-16-2011,4001523,113.24,Darts,Overland Park,Kansas
+06-06-2011,4000974,11.93,Bowling,Irving,Texas
+12-30-2011,4009869,191.72,Ping Pong,Everett,Washington
+06-10-2011,4001427,173.63,Air Hockey,Vancouver,Washington
+01-18-2011,4005026,71.07,Foosball,Vancouver,Washington
+10-31-2011,4001448,53.57,Foosball,Charleston,South Carolina
+08-29-2011,4009819,183.02,Table Shuffleboard,Louisville,Kentucky
+05-02-2011,4000488,50.49,Foosball,Reno,Nevada
+10-11-2011,4002753,68.91,Table Shuffleboard,Plano,Texas
+09-30-2011,4009363,25.35,Darts,Indianapolis ,Indiana
+11-15-2011,4000389,126.47,Billiards,Kansas City,Kansas
+01-16-2011,4006415,186.68,Bowling,San Diego,California
+12-09-2011,4000989,75.66,Table Shuffleboard,Pasadena,Texas
+03-23-2011,4009609,138.2,Foosball,Vancouver,Washington
+07-30-2011,4004137,24.49,Billiards,Overland Park,Kansas
+07-17-2011,4001942,16.36,Air Hockey,Eugene,Oregon
+10-15-2011,4000334,6.02,Billiards,Los Angeles,California
+01-19-2011,4008256,136.89,Table Shuffleboard,Houston,Texas
+07-25-2011,4000390,52.53,Foosball,Jersey City,New Jersey
+02-07-2011,4003280,138.05,Darts,St. Petersburg,Florida
+11-28-2011,4006673,170.58,Darts,Louisville,Kentucky
+09-29-2011,4009262,180.87,Foosball,Montgomery,Alabama
+01-07-2011,4009214,87.28,Darts,Anaheim,California
+10-29-2011,4003770,124.44,Foosball,Fremont,California
+11-30-2011,4001537,93.17,Ping Pong,Columbia,Missouri
+02-10-2011,4000056,128.11,Darts,Newark,New Jersey
+04-21-2011,4005136,60.42,Darts,Vancouver,Washington
+07-01-2011,4005703,139.04,Billiards,Gilbert,Arizona
+03-24-2011,4005957,180.09,Billiards,Detroit,Michigan
+12-11-2011,4007441,166.78,Darts,Buffalo,New York
+04-26-2011,4000367,168.84,Air Hockey,Jersey City,New Jersey
+07-25-2011,4009712,145.52,Ping Pong,Phoenix,Arizona
+10-21-2011,4006791,146.24,Ping Pong,Lowell,Massachusetts
+06-08-2011,4004985,61.12,Billiards,Salem,Oregon
+12-20-2011,4003494,184.22,Billiards,Midland,Texas
+02-06-2011,4004139,76.12,Darts,New York,New York
+05-10-2011,4007186,128.12,Air Hockey,Irvine,California
+11-27-2011,4006798,66.15,Air Hockey,New York,New York
+01-21-2011,4000447,183.49,Darts,St. Louis  ,Missouri
+06-29-2011,4008793,18.52,Bowling,Gresham,Oregon
+03-12-2011,4003228,150.61,Billiards,Cambridge,Massachusetts
+12-18-2011,4001781,82.38,Darts,Green Bay,Wisconsin
+05-31-2011,4002995,56.22,Billiards,Jacksonville ,Florida
+06-10-2011,4006032,31.59,Air Hockey,Phoenix,Arizona
+06-16-2011,4008528,126.35,Ping Pong,Chicago,Illinois
+10-25-2011,4005831,176.86,Bowling,Des Moines,Iowa
+03-13-2011,4001095,92.51,Bowling,Birmingham,Alabama
+09-19-2011,4008701,27.74,Bowling,Centennial,Colorado
+05-24-2011,4007664,23.92,Foosball,Fremont,California
+09-23-2011,4003901,120.88,Darts,Columbus,Ohio
+10-28-2011,4007521,161.87,Bowling,Paterson,New Jersey
+11-22-2011,4006680,137.3,Foosball,Cincinnati,Ohio
+11-18-2011,4001831,71.86,Air Hockey,Hartford,Connecticut
+10-23-2011,4003111,45.59,Billiards,Colorado Springs,Colorado
+02-06-2011,4005283,136.02,Ping Pong,Berkeley,California
+05-07-2011,4000526,126.53,Air Hockey,Atlanta,Georgia
+04-26-2011,4008683,149.3,Darts,New Orleans,Louisiana
+11-23-2011,4009995,46.5,Bowling,Phoenix,Arizona
+04-04-2011,4007187,24.84,Ping Pong,Orlando,Florida
+01-08-2011,4005089,91.71,Billiards,Dayton,Ohio
+10-11-2011,4009664,9.6,Foosball,New Orleans,Louisiana
+03-24-2011,4003862,53.12,Darts,West Valley City,Utah
+09-12-2011,4000520,128.78,Foosball,Saint Paul,Minnesota
+04-12-2011,4000377,113.86,Bowling,West Valley City,Utah
+03-11-2011,4004338,106.55,Billiards,San Diego,California
+10-16-2011,4006580,115.92,Darts,Stamford,Connecticut
+03-07-2011,4007937,173.13,Darts,Phoenix,Arizona
+12-01-2011,4007478,188.45,Foosball,Columbia,South Carolina
+05-22-2011,4006734,154.6,Table Shuffleboard,Gresham,Oregon
+09-15-2011,4003217,55.23,Air Hockey,Honolulu  ,Hawaii
+02-04-2011,4009679,92.08,Ping Pong,Indianapolis ,Indiana
+12-16-2011,4008901,94.61,Foosball,Denver  ,Colorado
+05-26-2011,4002477,107.58,Table Shuffleboard,Phoenix,Arizona
+12-17-2011,4002639,165.73,Foosball,Stamford,Connecticut
+06-01-2011,4007915,124.78,Bowling,Orange,California
+08-16-2011,4001844,180.03,Air Hockey,Saint Paul,Minnesota
+06-14-2011,4006413,119.75,Air Hockey,Atlanta,Georgia
+04-15-2011,4006918,52.82,Bowling,Colorado Springs,Colorado
+01-19-2011,4000276,143.73,Bowling,Buffalo,New York
+10-14-2011,4003713,153.89,Bowling,Salt Lake City,Utah
+05-07-2011,4007745,98.32,Table Shuffleboard,Buffalo,New York
+07-14-2011,4004841,92.17,Darts,Anaheim,California
+10-10-2011,4001136,71.01,Table Shuffleboard,Newark,New Jersey
+08-19-2011,4002405,181.44,Table Shuffleboard,Kansas City,Kansas
+09-09-2011,4009853,60.53,Ping Pong,Omaha,Nebraska
+02-09-2011,4004441,87.83,Air Hockey,Reno,Nevada
+12-11-2011,4003362,12.21,Darts,Chattanooga,Tennessee
+09-12-2011,4001545,105.17,Table Shuffleboard,Eugene,Oregon
+12-03-2011,4009919,166.98,Table Shuffleboard,Alexandria  ,Virginia
+02-16-2011,4005852,34.9,Darts,Pasadena,California
+10-25-2011,4001212,156.04,Ping Pong,St. Petersburg,Florida
+12-19-2011,4006660,79.1,Billiards,Oakland,California
+06-23-2011,4001880,70.57,Bowling,Alexandria  ,Virginia
+08-30-2011,4000130,67.25,Foosball,New Orleans,Louisiana
+12-08-2011,4004964,150.21,Bowling,Lowell,Massachusetts
+10-19-2011,4005206,14.66,Billiards,Flint,Michigan
+04-21-2011,4006901,95.17,Table Shuffleboard,Coral Springs,Florida
+03-20-2011,4001609,181.67,Foosball,Durham,North Carolina
+08-12-2011,4006866,189.79,Foosball,Newark,New Jersey
+09-23-2011,4009182,34.01,Air Hockey,Kansas City,Missouri
+03-28-2011,4001416,8.08,Bowling,Sunnyvale,California
+09-11-2011,4003235,94.18,Billiards,Colorado Springs,Colorado
+04-29-2011,4003164,14.6,Air Hockey,Memphis,Tennessee
+10-21-2011,4002983,14.97,Darts,Long Beach,California
+05-10-2011,4000413,124.91,Table Shuffleboard,Washington,District of Columbia
+01-27-2011,4000193,186.11,Air Hockey,Baltimore,Maryland
+11-14-2011,4005334,11.38,Bowling,Lincoln,Nebraska
+11-25-2011,4009478,191.13,Foosball,Houston,Texas
+08-15-2011,4005078,170.84,Bowling,Vancouver,Washington
+04-03-2011,4003500,150.63,Bowling,Stamford,Connecticut
+08-24-2011,4008138,12.31,Ping Pong,Pasadena,California
+03-03-2011,4008026,90.37,Foosball,Newark,New Jersey
+05-09-2011,4006054,108.0,Billiards,Jackson,Mississippi
+02-22-2011,4005637,101.58,Table Shuffleboard,Newark,New Jersey
+10-13-2011,4004012,65.0,Table Shuffleboard,Brownsville,Texas
+08-31-2011,4004409,108.39,Foosball,Sacramento,California
+09-06-2011,4001305,22.34,Bowling,Baltimore,Maryland
+07-23-2011,4007313,41.47,Table Shuffleboard,Lexington,Kentucky
+01-26-2011,4008868,10.34,Table Shuffleboard,Milwaukee,Wisconsin
+01-11-2011,4005278,178.45,Darts,Kansas City,Missouri
+07-30-2011,4001802,111.66,Foosball,Oakland,California
+09-07-2011,4006325,122.06,Bowling,Kansas City,Kansas
+12-26-2011,4003208,198.17,Darts,Jacksonville ,Florida
+10-31-2011,4001163,58.39,Bowling,Colorado Springs,Colorado
+12-27-2011,4002642,15.94,Billiards,Long Beach,California
+02-26-2011,4004595,151.48,Ping Pong,Orlando,Florida
+08-23-2011,4007678,50.13,Foosball,Columbia,Missouri
+09-11-2011,4001594,14.02,Darts,Columbia,South Carolina
+02-24-2011,4005413,157.64,Billiards,Memphis,Tennessee
+09-20-2011,4002809,130.78,Ping Pong,McKinney,Texas
+05-03-2011,4009107,85.92,Ping Pong,Philadelphia,Pennsylvania
+01-03-2011,4005885,69.54,Table Shuffleboard,Minneapolis,Minnesota
+04-28-2011,4006461,136.92,Darts,Fremont,California
+05-26-2011,4008575,20.28,Foosball,Salt Lake City,Utah
+05-20-2011,4002923,160.93,Table Shuffleboard,Milwaukee,Wisconsin
+07-12-2011,4005682,194.02,Billiards,Salem,Oregon
+05-05-2011,4009572,165.17,Billiards,Louisville,Kentucky
+05-19-2011,4007871,125.08,Ping Pong,Columbus,Georgia
+10-28-2011,4002401,63.96,Billiards,Sacramento,California
+05-29-2011,4003177,108.88,Table Shuffleboard,Chicago,Illinois
+07-28-2011,4007503,119.78,Billiards,St. Petersburg,Florida
+02-13-2011,4009950,111.59,Bowling,Orlando,Florida
+04-05-2011,4006431,176.58,Bowling,Madison,Wisconsin
+10-12-2011,4009002,77.53,Ping Pong,Milwaukee,Wisconsin
+03-20-2011,4002471,191.99,Air Hockey,Detroit,Michigan
+12-27-2011,4001655,65.31,Foosball,Orange,California
+08-14-2011,4005568,6.3,Foosball,Salem,Oregon
+10-15-2011,4004847,99.5,Darts,Cambridge,Massachusetts
+12-02-2011,4002995,130.45,Foosball,Gresham,Oregon
+06-02-2011,4005791,101.27,Foosball,Cleveland,Ohio
+06-11-2011,4005788,89.21,Billiards,St. Petersburg,Florida
+05-25-2011,4008650,15.33,Table Shuffleboard,Columbia,Missouri
+04-23-2011,4002557,87.72,Darts,Chicago,Illinois
+05-20-2011,4008701,112.56,Foosball,Santa Ana,California
+01-06-2011,4000434,79.17,Table Shuffleboard,McKinney,Texas
+01-05-2011,4004607,35.91,Ping Pong,Denton,Texas
+04-05-2011,4003868,91.19,Ping Pong,Jackson,Mississippi
+01-13-2011,4009732,110.15,Billiards,Orange,California
+02-10-2011,4001919,56.64,Air Hockey,El Paso,Texas
+04-07-2011,4005842,79.9,Billiards,Atlanta,Georgia
+11-27-2011,4005892,110.58,Ping Pong,Detroit,Michigan
+08-17-2011,4003689,165.11,Foosball,Fremont,California
+06-29-2011,4008755,153.07,Bowling,Milwaukee,Wisconsin
+08-14-2011,4007705,25.98,Ping Pong,Dayton,Ohio
+09-04-2011,4001005,165.6,Air Hockey,Houston,Texas
+01-18-2011,4008263,140.22,Darts,Columbia,South Carolina
+06-29-2011,4004079,114.17,Ping Pong,Durham,North Carolina
+05-07-2011,4008300,143.76,Foosball,Sunnyvale,California
+11-24-2011,4006435,83.24,Foosball,Everett,Washington
+12-15-2011,4003051,180.62,Ping Pong,Richmond  ,Virginia
+05-16-2011,4004852,45.89,Billiards,Vancouver,Washington
+11-20-2011,4003921,6.05,Table Shuffleboard,Stamford,Connecticut
+11-15-2011,4002501,62.57,Air Hockey,Brownsville,Texas
+01-13-2011,4004770,44.5,Ping Pong,Cincinnati,Ohio
+10-27-2011,4009519,72.35,Bowling,Oklahoma City,Oklahoma
+06-09-2011,4009614,182.5,Billiards,Chicago,Illinois
+11-17-2011,4006485,58.45,Table Shuffleboard,Oakland,California
+03-19-2011,4004646,181.53,Ping Pong,Portland,Oregon
+06-10-2011,4004589,7.07,Table Shuffleboard,Dallas,Texas
+02-19-2011,4008277,54.68,Bowling,Madison,Wisconsin
+01-03-2011,4008843,187.74,Table Shuffleboard,Columbia,Missouri
+12-27-2011,4001539,17.84,Ping Pong,Columbus,Georgia
+09-24-2011,4000663,178.16,Darts,Jackson,Mississippi
+04-06-2011,4008364,102.93,Air Hockey,Lowell,Massachusetts
+02-01-2011,4000613,81.7,Darts,Salt Lake City,Utah
+05-21-2011,4004618,159.0,Table Shuffleboard,Chicago,Illinois
+08-06-2011,4001118,135.13,Air Hockey,Seattle,Washington
+02-23-2011,4002978,146.08,Air Hockey,Louisville,Kentucky
+01-09-2011,4003530,113.31,Table Shuffleboard,Detroit,Michigan
+09-09-2011,4008599,80.62,Darts,Baltimore,Maryland
+11-04-2011,4003951,8.02,Billiards,Alexandria  ,Virginia
+04-10-2011,4007003,46.42,Bowling,Hartford,Connecticut
+02-04-2011,4009322,146.13,Bowling,Jacksonville ,Florida
+10-19-2011,4004466,101.13,Darts,West Valley City,Utah
+05-24-2011,4002874,111.8,Foosball,Everett,Washington
+07-15-2011,4004881,165.34,Bowling,Gresham,Oregon
+01-13-2011,4009394,22.11,Table Shuffleboard,Colorado Springs,Colorado
+03-10-2011,4002106,143.65,Bowling,Midland,Texas
+01-25-2011,4000400,82.39,Darts,Gresham,Oregon
+08-22-2011,4008923,149.43,Billiards,Anaheim,California
+02-16-2011,4005159,109.5,Foosball,Hampton  ,Virginia
+02-23-2011,4008643,125.1,Ping Pong,Salem,Oregon
+01-04-2011,4009513,105.53,Darts,New York,New York
+08-10-2011,4006004,93.14,Billiards,Dayton,Ohio
+02-15-2011,4004705,185.88,Bowling,Pasadena,Texas
+11-12-2011,4004119,192.58,Billiards,Memphis,Tennessee
+08-10-2011,4005028,108.1,Table Shuffleboard,Vancouver,Washington
+07-31-2011,4005305,175.62,Foosball,San Diego,California
+06-14-2011,4007325,115.31,Air Hockey,Salem,Oregon
+07-01-2011,4002429,51.27,Ping Pong,Richmond  ,Virginia
+09-26-2011,4000095,61.61,Air Hockey,Denton,Texas
+10-05-2011,4008264,184.33,Bowling,New York,New York
+05-08-2011,4004712,40.0,Table Shuffleboard,Berkeley,California
+12-07-2011,4009456,33.69,Foosball,Omaha,Nebraska
+04-16-2011,4005759,128.11,Table Shuffleboard,Kansas City,Kansas
+10-17-2011,4001173,168.89,Billiards,Colorado Springs,Colorado
+11-04-2011,4004531,120.78,Ping Pong,Jacksonville ,Florida
+09-04-2011,4006466,19.18,Darts,Reno,Nevada
+12-04-2011,4000805,110.79,Darts,Boston,Massachusetts
+11-14-2011,4000952,76.47,Table Shuffleboard,Lincoln,Nebraska
+08-18-2011,4005147,18.96,Foosball,Washington,District of Columbia
+04-21-2011,4006462,28.83,Billiards,San Francisco,California
+03-07-2011,4001704,98.58,Table Shuffleboard,Rockford,Illinois
+04-26-2011,4007738,63.31,Table Shuffleboard,Flint,Michigan
+06-21-2011,4007166,113.24,Darts,San Francisco,California
+04-16-2011,4004920,89.24,Ping Pong,Chicago,Illinois
+07-06-2011,4009447,84.12,Billiards,Dallas,Texas
+07-05-2011,4003340,129.8,Darts,Portland,Oregon
+12-07-2011,4009407,97.17,Billiards,Sunnyvale,California
+04-20-2011,4003985,78.44,Billiards,Cleveland,Ohio
+07-29-2011,4000477,88.44,Billiards,Dayton,Ohio
+11-07-2011,4009153,179.01,Foosball,Reno,Nevada
+01-25-2011,4002639,84.18,Foosball,Denton,Texas
+09-20-2011,4006418,20.03,Bowling,Saint Paul,Minnesota
+04-20-2011,4008686,42.5,Bowling,Salt Lake City,Utah
+03-07-2011,4003916,15.0,Bowling,Huntsville,Alabama
+12-09-2011,4000808,176.39,Ping Pong,Oklahoma City,Oklahoma
+09-05-2011,4007356,134.45,Darts,New York,New York
+04-18-2011,4008856,158.75,Table Shuffleboard,Chattanooga,Tennessee
+11-26-2011,4009878,26.85,Darts,Dayton,Ohio
+07-23-2011,4004465,134.9,Bowling,Oklahoma City,Oklahoma
+11-17-2011,4006763,140.0,Air Hockey,Philadelphia,Pennsylvania
+01-05-2011,4004459,83.95,Foosball,Chattanooga,Tennessee
+08-06-2011,4002838,37.4,Ping Pong,Cambridge,Massachusetts
+04-05-2011,4008441,108.3,Air Hockey,Irving,Texas
+10-14-2011,4000237,43.08,Billiards,Oklahoma City,Oklahoma
+08-31-2011,4003483,175.47,Table Shuffleboard,Minneapolis,Minnesota
+03-24-2011,4003551,142.06,Air Hockey,Gilbert,Arizona
+07-20-2011,4007304,103.8,Air Hockey,St. Petersburg,Florida
+10-29-2011,4002190,34.25,Bowling,Gilbert,Arizona
+07-18-2011,4005308,169.2,Foosball,Boise,Idaho
+07-23-2011,4006625,52.26,Table Shuffleboard,Nashville  ,Tennessee
+05-07-2011,4004701,103.36,Foosball,Boston,Massachusetts
+07-10-2011,4000367,97.19,Darts,Rockford,Illinois
+02-13-2011,4002819,141.54,Bowling,Rockford,Illinois
+08-09-2011,4002908,111.85,Foosball,Orlando,Florida
+08-20-2011,4008265,161.76,Ping Pong,Seattle,Washington
+11-12-2011,4008742,131.67,Bowling,Saint Paul,Minnesota
+03-02-2011,4002592,147.84,Table Shuffleboard,Brownsville,Texas
+10-09-2011,4002588,65.5,Table Shuffleboard,Gilbert,Arizona
+02-08-2011,4009232,197.78,Darts,El Paso,Texas
+11-29-2011,4006629,75.64,Billiards,Boston,Massachusetts
+09-20-2011,4009957,23.52,Darts,Phoenix,Arizona
+07-22-2011,4000210,54.58,Air Hockey,Salem,Oregon
+08-11-2011,4007849,170.09,Bowling,Cleveland,Ohio
+08-27-2011,4008171,83.81,Ping Pong,Columbia,Missouri
+11-16-2011,4009861,129.72,Table Shuffleboard,Eugene,Oregon
+02-05-2011,4000974,175.09,Bowling,Salt Lake City,Utah
+01-27-2011,4005354,125.52,Ping Pong,Centennial,Colorado
+01-18-2011,4003225,198.69,Darts,New York,New York

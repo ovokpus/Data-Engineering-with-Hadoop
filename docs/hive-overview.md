@@ -207,6 +207,8 @@ In Hive, tables can be categorized into two types: Internal (Managed) Tables and
 CREATE TABLE internal_table (id INT, name STRING);
 ```
 
+---
+
 #### Hive External Tables
 
 ##### Characteristics
@@ -244,6 +246,7 @@ LOCATION '/path/to/external/data';
 
 Understanding the differences between Hive internal and external tables will help data engineers make informed decisions on how to structure and manage data in Hive effectively.
 
+---
 ### Hive Partitioning and Bucketing: An Overview
 
 In Hive, partitioning and bucketing are two techniques used to optimize query performance by organizing data in a more manageable and accessible manner. Both methods aim to reduce the amount of data scanned during query execution, thereby speeding up data retrieval.
@@ -314,6 +317,8 @@ CLUSTERED BY (id) INTO 4 BUCKETS;
 
 By understanding and effectively using partitioning and bucketing, data engineers can significantly optimize Hive query performance and manage large datasets more efficiently.
 
+---
+
 ### Static Partitioning in Hive
 
 #### What is it?
@@ -383,6 +388,179 @@ Below is a tabular comparison of Static and Dynamic Partitioning in Hive:
 
 Both static and dynamic partitioning have their own advantages and disadvantages, and the choice between the two often depends on the specific requirements of your data and queries.
 
+---
+
+# Hive SerDe: Overview, Registration, and Code Examples
+
+## Introduction
+
+In Hive, SerDe (short for **Serializer and Deserializer**) is responsible for understanding the structure of the data in tables. It allows Hive to read data from a table, process it, and write it back to HDFS in any custom format. Users can also write custom SerDe for their own data formats.
+
+## Why is SerDe Important?
+
+1. **Data Interpretation**: SerDe interprets the results of the table's row object to the client.
+2. **Flexibility**: Hive supports different data formats by using different SerDe. This means data can be read from/written to the table in formats like JSON, Avro, Parquet, etc.
+3. **Customization**: Users can write their own SerDe, allowing Hive to read data in custom formats.
+
+## Built-in SerDe in Hive
+
+Hive provides several built-in SerDe, including:
+
+- `LazySimpleSerDe`: Used for most native data formats.
+- `AvroSerDe`: Used for Avro data formats.
+- `ParquetHiveSerDe`: Used for Parquet table format.
+- `ORCSerDe`: Used for ORC table format.
+- `RegexSerDe`: Used for tables that need to be processed with regular expressions.
+- `JsonSerDe`: Used for JSON data formats.
+- `ColumnarSerDe`: Used for columnar data formats.
+- `DynamicSerDe`: Supports dynamic typing and is used with Thrift serialized data formats.
+
+## Code Examples
+
+### Using `JsonSerDe`
+
+```sql
+CREATE TABLE json_table (name STRING, age INT, address STRING)
+ROW FORMAT SERDE 'org.openx.data.jsonserde.JsonSerDe';
+```
+
+### Using `ColumnarSerDe`
+
+```sql
+CREATE TABLE columnar_table (name STRING, age INT, address STRING)
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.columnar.ColumnarSerDe';
+```
+
+### Using `LazySimpleSerDe` for a Text File
+
+```sql
+CREATE TABLE text_table (name STRING, age INT, address STRING)
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.lazy.LazySimpleSerDe'
+WITH SERDEPROPERTIES (
+   'field.delim'=',',
+   'line.delim'='\n'
+)
+STORED AS TEXTFILE;
+```
+
+### Using `AvroSerDe`
+
+```sql
+CREATE TABLE avro_table
+ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.avro.AvroSerDe'
+STORED AS INPUTFORMAT 'org.apache.hadoop.hive.ql.io.avro.AvroContainerInputFormat'
+OUTPUTFORMAT 'org.apache.hadoop.hive.ql.io.avro.AvroContainerOutputFormat'
+TBLPROPERTIES ('avro.schema.url'='path/to/avro/schema');
+```
+
+### Using `RegexSerDe`
+
+Suppose we have log data in the format: `[INFO] 2023-09-23 10:00:00 - Sample log message`.
+
+```sql
+CREATE TABLE logs (log_level STRING, log_date STRING, log_time STRING, log_msg STRING)
+ROW FORMAT SERDE 'org.apache.hadoop.hive.contrib.serde2.RegexSerDe'
+WITH SERDEPROPERTIES (
+  "input.regex" = "\\[(.*?)\\] (\\d{4}-\\d{2}-\\d{2}) (\\d{2}:\\d{2}:\\d{2}) - (.*)"
+)
+STORED AS TEXTFILE;
+```
+
+## Custom SerDe
+
+Users can write their own SerDe if they have a custom data format. This involves implementing the `SerDe` interface provided by Hive and overriding methods like `serialize` and `deserialize`.
+
+---
+
+## Registration of SerDe
+
+Before using a custom SerDe or some built-in SerDe not packaged with Hive by default, it's essential to register them with Hive. This is done using the `ADD JAR` command followed by the path to the SerDe's JAR file.
+
+For example, to register a custom SerDe:
+
+```sql
+ADD JAR /path/to/custom_serde.jar;
+```
+
+Once the SerDe is registered, you can reference it in the `ROW FORMAT SERDE` clause when creating tables.
+
+---
+
+## ORC SerDe
+The Optimized Row Columnar (ORC) file format provides a highly efficient way to store Hive data. It was designed to overcome limitations of the other Hive file formats. Using ORC files improves performance when Hive is reading, writing, and processing data.
+
+Here's how you can create a Hive table using the `ORCSerDe`:
+
+## Code Example:
+
+```sql
+CREATE TABLE orc_table_example (
+    id INT,
+    name STRING,
+    age INT,
+    address STRING
+)
+STORED AS ORC
+TBLPROPERTIES ("orc.compress"="ZLIB");
+```
+
+In this example:
+
+- We're creating a table named `orc_table_example` with columns `id`, `name`, `age`, and `address`.
+  
+- The `STORED AS ORC` clause tells Hive to use the ORC file format for storing the data of this table.
+  
+- The `TBLPROPERTIES` clause is used to set specific properties for the ORC table. In this case, we're specifying that the ORC data should be compressed using the `ZLIB` compression algorithm.
+
+## Notes:
+
+- ORC typically provides better compression than other columnar formats.
+  
+- ORC also provides efficient ways to read and write data, which can significantly improve the performance of Hive queries.
+
+- You can also use other compression algorithms like `SNAPPY` or leave it out to use the default.
+
+By using the `ORCSerDe`, you can take advantage of the ORC file format's performance improvements and storage efficiency in your Hive tables.
+
+Certainly!
+
+## Additional Features of ORC:
+
+### 1. **Lightweight Compression**:
+ORC supports lightweight compression algorithms like ZLIB and SNAPPY. This means you can achieve high compression rates without a significant performance overhead. The result is reduced storage costs and faster query performance.
+
+### 2. **Predicate Pushdown**:
+With ORC, predicates (conditions in your WHERE clause) can be pushed down to the storage layer. This means that only relevant data blocks are read into memory, which can significantly speed up query performance, especially when dealing with large datasets.
+
+### 3. **Bloom Filters**:
+ORC supports bloom filters. A bloom filter is a data structure that can be used to test whether an element is a member of a set. By using bloom filters, ORC can skip over irrelevant data blocks, further improving query performance.
+
+### 4. **Column Pruning**:
+Since ORC is a columnar storage format, it can read only the necessary columns for a particular query. If your query only accesses a subset of columns, ORC will only read those specific columns from storage, reducing I/O operations.
+
+### 5. **ACID Transactions**:
+ORC supports ACID transactions. This means you can perform operations like INSERT, UPDATE, and DELETE on ORC tables while maintaining the ACID properties (Atomicity, Consistency, Isolation, Durability).
+
+## Code Example for Partitioned ORC Table:
+
+Partitioning can further improve the performance of your queries by allowing Hive to skip over large amounts of data that are not relevant to the current query.
+
+```sql
+CREATE TABLE partitioned_orc_table (
+    id INT,
+    name STRING,
+    age INT
+)
+PARTITIONED BY (address STRING)
+STORED AS ORC
+TBLPROPERTIES ("orc.compress"="ZLIB");
+```
+
+In this example, the table is partitioned by the `address` column. Each unique address will have its own directory in HDFS, allowing Hive to read data only from the relevant partitions.
+
+The ORC file format, combined with the features of the `ORCSerDe`, offers a powerful solution for storing and querying data in Hive. By understanding and leveraging these features, you can achieve faster query performance, reduced storage costs, and more efficient data processing in your Hive-based big data solutions. Whether you're dealing with large-scale analytics or real-time data processing, ORC is a robust choice for optimizing your Hive workloads.
+
+Hive SerDe plays a crucial role in how data is read and written in Hive tables. By understanding and leveraging the right SerDe, users can efficiently query data in various formats and even extend Hive's capabilities to support custom data formats.
 
 ## Conclusion
 

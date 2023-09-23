@@ -1,0 +1,10 @@
+06-05-2011,4002199,198.19,Gymnastics Rings,Milwaukee,Wisconsin
+02-25-2011,4004613,036.81,Vaulting Horses,Los Angeles,California
+05-02-2011,4007596,099.50,Gymnastics Rings,Springfield,Illinois
+05-27-2011,4005580,052.29,Vaulting Horses,Cleveland,Ohio
+08-04-2011,4005751,039.80,Springboards,St. Louis  ,Missouri
+01-16-2011,4001098,021.23,Gymnastics Rings,Tampa,Florida
+06-05-2011,4001050,089.56,Gymnastics Mats,West Valley City,Utah
+10-07-2011,4007842,145.65,Pommel Horses,Chattanooga,Tennessee
+03-05-2011,4000401,173.56,Gymnastics Protective Gear,Portland,Oregon
+11-28-2011,4005743,078.16,Pommel Horses,Eugene,Oregon

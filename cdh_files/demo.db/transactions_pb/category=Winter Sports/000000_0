@@ -1,0 +1,983 @@
+01-17-2011,4007361,10.44,Snowmobiling,Des Moines,Iowa
+11-07-2011,4002854,21.43,Snowboarding,Philadelphia,Pennsylvania
+11-25-2011,4009719,129.26,Downhill Skiing,Orlando,Florida
+02-01-2011,4006425,193.11,Sledding,Irvine,California
+12-24-2011,4003044,88.87,Downhill Skiing,Irvine,California
+04-20-2011,4007283,62.9,Downhill Skiing,Long Beach,California
+08-14-2011,4002325,169.18,Snowmobiling,Detroit,Michigan
+01-06-2011,4000208,110.7,Cross-Country Skiing,Baltimore,Maryland
+12-05-2011,4004962,39.05,Cross-Country Skiing,Berkeley,California
+02-25-2011,4005977,96.71,Snowshoeing,Baltimore,Maryland
+11-30-2011,4002117,38.02,Downhill Skiing,Charlotte,North Carolina
+03-11-2011,4000358,60.2,Snowboarding,Orlando,Florida
+03-03-2011,4006792,31.35,Downhill Skiing,Cleveland,Ohio
+08-18-2011,4009632,80.63,Snowmobiling,Irving,Texas
+12-15-2011,4004900,153.58,Snowboarding,Columbia,South Carolina
+07-26-2011,4007111,28.82,Downhill Skiing,Sacramento,California
+05-02-2011,4007230,64.75,Sledding,Huntsville,Alabama
+11-08-2011,4001295,149.36,Snowboarding,Detroit,Michigan
+03-22-2011,4002442,51.66,Snowboarding,Buffalo,New York
+05-03-2011,4006971,107.54,Downhill Skiing,Portland,Oregon
+06-28-2011,4000455,60.64,Sledding,Salt Lake City,Utah
+09-28-2011,4002459,29.67,Downhill Skiing,Indianapolis ,Indiana
+05-14-2011,4005979,69.74,Snowboarding,Dayton,Ohio
+08-15-2011,4008140,46.36,Snowmobiling,Memphis,Tennessee
+12-16-2011,4003366,17.28,Snowmobiling,Las Vegas,Nevada
+07-14-2011,4008987,144.35,Downhill Skiing,Kansas City,Missouri
+09-28-2011,4001714,57.85,Snowshoeing,Overland Park,Kansas
+10-01-2011,4001538,92.74,Snowboarding,Salem,Oregon
+07-20-2011,4007591,123.85,Snowshoeing,Madison,Wisconsin
+03-21-2011,4001458,193.59,Sledding,Columbus,Ohio
+03-14-2011,4000038,198.83,Snowmobiling,Huntsville,Alabama
+02-12-2011,4005139,98.61,Bobsledding,Irving,Texas
+12-11-2011,4005211,134.52,Cross-Country Skiing,Pasadena,Texas
+07-15-2011,4006816,43.81,Sledding,Cambridge,Massachusetts
+03-03-2011,4001117,113.92,Downhill Skiing,Flint,Michigan
+03-14-2011,4003847,96.28,Bobsledding,Denver  ,Colorado
+02-26-2011,4009214,172.63,Snowmobiling,Sunnyvale,California
+10-15-2011,4000162,168.26,Snowboarding,Hartford,Connecticut
+02-19-2011,4004528,60.68,Cross-Country Skiing,Irvine,California
+12-10-2011,4008014,173.42,Snowmobiling,Las Vegas,Nevada
+12-20-2011,4009269,166.18,Downhill Skiing,Bellevue,Washington
+07-29-2011,4005974,43.05,Luge,Kansas City,Missouri
+05-16-2011,4000986,56.9,Snowshoeing,Philadelphia,Pennsylvania
+02-01-2011,4001658,120.56,Snowshoeing,Newark,New Jersey
+07-23-2011,4000377,176.67,Snowmobiling,Lexington,Kentucky
+11-28-2011,4008160,174.89,Snowboarding,Fremont,California
+10-15-2011,4001159,148.41,Snowshoeing,Madison,Wisconsin
+07-15-2011,4006112,17.86,Downhill Skiing,Seattle,Washington
+05-10-2011,4007536,63.83,Snowshoeing,Gilbert,Arizona
+01-20-2011,4009368,187.43,Downhill Skiing,San Diego,California
+09-23-2011,4003989,91.55,Snowshoeing,Chattanooga,Tennessee
+03-03-2011,4000306,196.29,Cross-Country Skiing,Hartford,Connecticut
+07-05-2011,4004896,16.83,Cross-Country Skiing,Pasadena,Texas
+08-22-2011,4003408,38.61,Bobsledding,Seattle,Washington
+04-21-2011,4005063,80.46,Snowshoeing,Centennial,Colorado
+04-06-2011,4005240,96.91,Cross-Country Skiing,Lexington,Kentucky
+05-07-2011,4007519,30.56,Bobsledding,Cleveland,Ohio
+01-31-2011,4001235,60.13,Sledding,Centennial,Colorado
+02-26-2011,4001202,81.22,Bobsledding,Portland,Oregon
+03-10-2011,4002439,17.14,Cross-Country Skiing,St. Louis  ,Missouri
+03-01-2011,4003576,134.67,Snowmobiling,Plano,Texas
+12-21-2011,4005076,83.2,Sledding,Colorado Springs,Colorado
+03-10-2011,4001153,55.54,Bobsledding,Durham,North Carolina
+09-25-2011,4008851,23.58,Snowmobiling,Nashville  ,Tennessee
+08-30-2011,4005166,173.9,Cross-Country Skiing,San Diego,California
+01-04-2011,4000251,79.56,Sledding,St. Louis  ,Missouri
+04-22-2011,4007442,80.69,Cross-Country Skiing,Lowell,Massachusetts
+12-10-2011,4008849,175.82,Cross-Country Skiing,Paterson,New Jersey
+06-05-2011,4005059,165.72,Downhill Skiing,Coral Springs,Florida
+10-03-2011,4007233,69.67,Downhill Skiing,Philadelphia,Pennsylvania
+01-11-2011,4005510,19.79,Sledding,Salem,Oregon
+06-04-2011,4005038,43.28,Luge,Detroit,Michigan
+01-24-2011,4008276,143.51,Luge,Stamford,Connecticut
+01-28-2011,4008917,157.82,Snowboarding,Washington,District of Columbia
+04-23-2011,4002164,196.86,Snowmobiling,Pittsburgh,Pennsylvania
+05-16-2011,4003471,182.28,Cross-Country Skiing,Seattle,Washington
+08-15-2011,4009979,24.26,Snowboarding,Huntsville,Alabama
+07-13-2011,4003965,152.49,Sledding,Pasadena,Texas
+08-03-2011,4004294,192.03,Snowboarding,Stamford,Connecticut
+05-06-2011,4006812,32.9,Snowmobiling,Huntsville,Alabama
+03-01-2011,4005054,182.2,Cross-Country Skiing,Austin,Texas
+08-31-2011,4001222,199.99,Bobsledding,Columbus,Georgia
+08-30-2011,4006789,87.92,Sledding,Dallas,Texas
+09-09-2011,4006867,181.88,Downhill Skiing,Pasadena,Texas
+08-25-2011,4006674,69.2,Luge,Columbia,Missouri
+12-13-2011,4003241,133.38,Sledding,Clarksville,Tennessee
+01-19-2011,4003709,52.51,Cross-Country Skiing,Anaheim,California
+07-19-2011,4000799,31.33,Downhill Skiing,Pasadena,California
+01-01-2011,4007516,142.92,Snowboarding,Vancouver,Washington
+07-22-2011,4008479,147.38,Snowmobiling,Jackson,Mississippi
+06-04-2011,4004575,195.95,Bobsledding,Santa Ana,California
+11-21-2011,4003200,158.08,Bobsledding,St. Louis  ,Missouri
+08-24-2011,4009235,67.23,Cross-Country Skiing,Los Angeles,California
+09-01-2011,4006301,28.4,Cross-Country Skiing,Richmond  ,Virginia
+12-02-2011,4001769,35.1,Bobsledding,Oakland,California
+04-22-2011,4000270,179.78,Bobsledding,San Diego,California
+10-03-2011,4008155,78.93,Downhill Skiing,Coral Springs,Florida
+10-21-2011,4008011,186.26,Luge,Durham,North Carolina
+12-20-2011,4008933,134.85,Snowmobiling,New York,New York
+04-05-2011,4009470,72.25,Snowshoeing,Miami,Florida
+01-15-2011,4004078,54.8,Sledding,Hampton  ,Virginia
+05-09-2011,4001969,173.13,Snowshoeing,Columbia,Missouri
+07-21-2011,4007657,153.42,Luge,Oakland,California
+06-20-2011,4008864,185.19,Luge,Springfield,Illinois
+06-09-2011,4002555,101.14,Snowmobiling,Hartford,Connecticut
+12-19-2011,4002866,91.31,Cross-Country Skiing,Eugene,Oregon
+05-22-2011,4009802,157.85,Snowshoeing,Tampa,Florida
+10-07-2011,4005109,46.4,Snowmobiling,Colorado Springs,Colorado
+12-05-2011,4002399,151.98,Cross-Country Skiing,Brownsville,Texas
+11-07-2011,4005677,5.49,Snowboarding,Cleveland,Ohio
+11-23-2011,4001485,155.45,Downhill Skiing,Scottsdale,Arizona
+05-06-2011,4007983,91.56,Snowshoeing,Newark,New Jersey
+04-22-2011,4007373,137.7,Snowboarding,Milwaukee,Wisconsin
+04-02-2011,4004282,96.08,Bobsledding,Brownsville,Texas
+11-19-2011,4003516,167.64,Snowmobiling,Columbia,South Carolina
+09-09-2011,4003195,6.44,Bobsledding,Cleveland,Ohio
+01-31-2011,4004166,43.23,Cross-Country Skiing,Louisville,Kentucky
+01-31-2011,4006656,152.65,Bobsledding,Dayton,Ohio
+05-17-2011,4000974,9.48,Sledding,Columbia,Missouri
+01-25-2011,4004574,39.76,Cross-Country Skiing,Lexington,Kentucky
+06-01-2011,4006018,47.73,Sledding,Eugene,Oregon
+06-28-2011,4002345,64.73,Cross-Country Skiing,St. Petersburg,Florida
+09-20-2011,4003783,31.5,Downhill Skiing,Jersey City,New Jersey
+04-09-2011,4008197,70.97,Cross-Country Skiing,Gilbert,Arizona
+07-05-2011,4007228,195.71,Downhill Skiing,Reno,Nevada
+01-25-2011,4009304,108.98,Snowshoeing,Phoenix,Arizona
+03-18-2011,4008231,141.21,Luge,Vancouver,Washington
+01-19-2011,4006167,74.56,Bobsledding,Montgomery,Alabama
+08-13-2011,4004814,167.34,Downhill Skiing,Bellevue,Washington
+02-04-2011,4005793,91.14,Cross-Country Skiing,Charlotte,North Carolina
+05-03-2011,4008973,94.53,Snowmobiling,Omaha,Nebraska
+05-02-2011,4008073,10.54,Snowshoeing,Newark,New Jersey
+08-05-2011,4009657,186.71,Sledding,Phoenix,Arizona
+05-03-2011,4008015,18.8,Luge,Buffalo,New York
+09-19-2011,4007358,48.04,Luge,Scottsdale,Arizona
+05-12-2011,4000666,120.62,Snowmobiling,San Antonio,Texas
+04-15-2011,4002541,115.29,Snowshoeing,Santa Ana,California
+07-03-2011,4003083,135.41,Luge,Coral Springs,Florida
+10-27-2011,4001610,27.44,Sledding,Scottsdale,Arizona
+12-07-2011,4009298,59.06,Downhill Skiing,Minneapolis,Minnesota
+12-17-2011,4003927,6.44,Bobsledding,St. Petersburg,Florida
+06-15-2011,4006103,152.03,Bobsledding,Denver  ,Colorado
+09-13-2011,4001452,119.97,Downhill Skiing,Denver  ,Colorado
+08-18-2011,4004301,128.99,Bobsledding,San Diego,California
+01-19-2011,4009309,164.01,Luge,Cleveland,Ohio
+10-21-2011,4000940,112.94,Bobsledding,Minneapolis,Minnesota
+01-25-2011,4009082,174.32,Luge,Charlotte,North Carolina
+07-15-2011,4009885,46.82,Sledding,Overland Park,Kansas
+01-02-2011,4008404,64.56,Cross-Country Skiing,Pasadena,California
+12-05-2011,4003376,110.29,Downhill Skiing,Dallas,Texas
+03-22-2011,4008981,102.54,Cross-Country Skiing,Philadelphia,Pennsylvania
+09-15-2011,4002515,30.04,Cross-Country Skiing,Irvine,California
+04-10-2011,4005533,119.66,Snowmobiling,Reno,Nevada
+08-23-2011,4003289,179.62,Cross-Country Skiing,Lowell,Massachusetts
+12-15-2011,4000891,185.23,Bobsledding,Irvine,California
+11-19-2011,4000194,91.01,Snowmobiling,Brownsville,Texas
+01-18-2011,4002001,41.06,Luge,Phoenix,Arizona
+07-06-2011,4008387,122.62,Luge,Los Angeles,California
+07-27-2011,4009745,38.13,Sledding,St. Louis  ,Missouri
+03-15-2011,4003406,14.8,Snowshoeing,Centennial,Colorado
+05-15-2011,4000217,192.77,Cross-Country Skiing,Stamford,Connecticut
+02-06-2011,4004788,55.88,Cross-Country Skiing,Sacramento,California
+10-02-2011,4008528,112.83,Luge,Chattanooga,Tennessee
+03-22-2011,4004177,196.53,Sledding,Denton,Texas
+08-12-2011,4001865,133.22,Snowmobiling,Omaha,Nebraska
+01-03-2011,4006508,194.9,Snowboarding,Los Angeles,California
+12-03-2011,4005903,114.56,Snowboarding,Alexandria  ,Virginia
+01-26-2011,4003621,196.86,Downhill Skiing,Lexington,Kentucky
+08-23-2011,4001106,154.93,Snowmobiling,Dayton,Ohio
+04-30-2011,4002778,184.59,Downhill Skiing,Memphis,Tennessee
+03-22-2011,4006155,11.97,Downhill Skiing,Birmingham,Alabama
+12-06-2011,4003158,154.28,Sledding,Flint,Michigan
+06-19-2011,4008379,92.07,Snowshoeing,Chattanooga,Tennessee
+06-23-2011,4007323,165.77,Cross-Country Skiing,Los Angeles,California
+12-25-2011,4008762,19.45,Snowshoeing,Phoenix,Arizona
+07-18-2011,4008460,112.95,Downhill Skiing,Montgomery,Alabama
+09-08-2011,4001835,154.98,Downhill Skiing,San Antonio,Texas
+04-04-2011,4002971,107.28,Cross-Country Skiing,Boise,Idaho
+05-30-2011,4003451,137.83,Snowshoeing,Pasadena,California
+05-07-2011,4008317,93.0,Bobsledding,Oklahoma City,Oklahoma
+10-13-2011,4001678,98.43,Snowmobiling,Chattanooga,Tennessee
+07-15-2011,4002146,181.21,Luge,Salem,Oregon
+03-16-2011,4008105,90.78,Sledding,Colorado Springs,Colorado
+01-21-2011,4009021,57.35,Snowshoeing,Baltimore,Maryland
+09-24-2011,4007543,60.53,Snowboarding,Long Beach,California
+01-26-2011,4008812,122.26,Snowshoeing,Memphis,Tennessee
+05-10-2011,4008837,173.77,Cross-Country Skiing,Sacramento,California
+10-30-2011,4000704,109.44,Snowshoeing,Jackson,Mississippi
+11-01-2011,4002267,139.64,Luge,Newark,New Jersey
+05-09-2011,4003920,172.8,Snowmobiling,Austin,Texas
+03-27-2011,4006220,158.41,Bobsledding,Paterson,New Jersey
+06-11-2011,4006777,56.73,Luge,McKinney,Texas
+12-30-2011,4001323,110.07,Sledding,Durham,North Carolina
+11-26-2011,4005518,153.31,Snowmobiling,Chicago,Illinois
+06-08-2011,4000465,137.04,Sledding,Rockford,Illinois
+04-21-2011,4000412,152.4,Snowboarding,Dayton,Ohio
+05-27-2011,4007199,124.61,Snowboarding,Lexington,Kentucky
+08-28-2011,4009379,41.67,Downhill Skiing,Saint Paul,Minnesota
+04-29-2011,4008773,102.37,Luge,West Valley City,Utah
+08-12-2011,4006311,80.24,Cross-Country Skiing,Des Moines,Iowa
+10-07-2011,4003162,45.89,Downhill Skiing,San Diego,California
+12-24-2011,4006677,67.31,Snowmobiling,Scottsdale,Arizona
+10-04-2011,4006715,186.86,Snowshoeing,Des Moines,Iowa
+07-10-2011,4004656,44.24,Sledding,Indianapolis ,Indiana
+08-09-2011,4002037,7.01,Downhill Skiing,Salt Lake City,Utah
+04-30-2011,4004837,199.44,Snowshoeing,Cleveland,Ohio
+01-20-2011,4005830,29.81,Downhill Skiing,Denver  ,Colorado
+08-22-2011,4006980,151.69,Snowmobiling,Pittsburgh,Pennsylvania
+12-26-2011,4001018,92.06,Bobsledding,Overland Park,Kansas
+07-29-2011,4007125,173.82,Sledding,Reno,Nevada
+10-12-2011,4005512,197.27,Snowmobiling,West Valley City,Utah
+02-03-2011,4005546,96.98,Bobsledding,Overland Park,Kansas
+06-02-2011,4001777,35.32,Snowmobiling,Bellevue,Washington
+10-30-2011,4001208,72.31,Snowmobiling,Orange,California
+02-05-2011,4003713,182.83,Snowshoeing,Oklahoma City,Oklahoma
+10-11-2011,4009228,54.31,Sledding,Gilbert,Arizona
+10-25-2011,4004574,28.06,Downhill Skiing,Dallas,Texas
+02-15-2011,4003422,72.42,Luge,Oklahoma City,Oklahoma
+11-30-2011,4005818,139.6,Downhill Skiing,Atlanta,Georgia
+02-22-2011,4005462,46.35,Luge,Newark,New Jersey
+12-07-2011,4007427,12.4,Luge,Orange,California
+08-23-2011,4003443,130.1,Luge,Midland,Texas
+05-12-2011,4009257,199.83,Snowshoeing,Brownsville,Texas
+06-25-2011,4007436,111.0,Bobsledding,Kansas City,Missouri
+05-31-2011,4002212,19.78,Cross-Country Skiing,Salt Lake City,Utah
+11-18-2011,4005550,166.79,Cross-Country Skiing,Buffalo,New York
+04-22-2011,4007324,15.36,Luge,Pasadena,Texas
+02-18-2011,4004404,81.13,Cross-Country Skiing,Hartford,Connecticut
+06-19-2011,4000368,186.73,Cross-Country Skiing,Columbus,Georgia
+02-11-2011,4003690,13.34,Snowmobiling,Denton,Texas
+11-18-2011,4001841,38.18,Snowmobiling,Columbus,Ohio
+08-17-2011,4005415,151.99,Snowshoeing,Tampa,Florida
+01-27-2011,4003870,32.45,Snowmobiling,Hartford,Connecticut
+11-24-2011,4003153,163.72,Snowmobiling,Overland Park,Kansas
+05-16-2011,4001504,16.5,Downhill Skiing,Springfield,Illinois
+03-28-2011,4007897,74.9,Downhill Skiing,Santa Ana,California
+07-16-2011,4006488,174.83,Cross-Country Skiing,Cambridge,Massachusetts
+10-16-2011,4001590,91.53,Snowboarding,Denton,Texas
+11-26-2011,4001486,148.92,Snowboarding,Miami,Florida
+03-01-2011,4008582,140.29,Cross-Country Skiing,Berkeley,California
+03-04-2011,4002368,197.27,Snowmobiling,Jackson,Mississippi
+02-26-2011,4003961,178.14,Sledding,Everett,Washington
+11-04-2011,4003963,153.43,Downhill Skiing,McKinney,Texas
+05-02-2011,4002067,15.61,Luge,Brownsville,Texas
+08-23-2011,4005439,159.55,Sledding,Las Vegas,Nevada
+07-06-2011,4008689,42.09,Snowmobiling,Dayton,Ohio
+08-12-2011,4008078,138.77,Bobsledding,Buffalo,New York
+12-20-2011,4005786,169.8,Snowboarding,Kansas City,Missouri
+12-10-2011,4004096,36.47,Luge,Boston,Massachusetts
+01-20-2011,4008272,18.3,Sledding,Omaha,Nebraska
+11-27-2011,4002777,30.57,Downhill Skiing,San Jose,California
+10-16-2011,4008448,39.12,Snowshoeing,Gilbert,Arizona
+06-13-2011,4000021,43.27,Snowshoeing,El Paso,Texas
+05-02-2011,4000554,147.88,Bobsledding,Sunnyvale,California
+02-14-2011,4001113,94.18,Cross-Country Skiing,St. Petersburg,Florida
+12-12-2011,4008292,82.09,Snowshoeing,Chicago,Illinois
+03-21-2011,4000161,179.04,Sledding,Rockford,Illinois
+01-02-2011,4009271,115.76,Snowboarding,Baltimore,Maryland
+01-05-2011,4008998,141.12,Snowmobiling,Houston,Texas
+04-27-2011,4002147,115.61,Cross-Country Skiing,Orlando,Florida
+03-01-2011,4006488,86.18,Cross-Country Skiing,Miami,Florida
+12-09-2011,4005609,142.96,Sledding,Reno,Nevada
+05-10-2011,4008021,158.03,Snowboarding,Hartford,Connecticut
+08-13-2011,4006332,67.73,Downhill Skiing,Denton,Texas
+10-08-2011,4003050,104.35,Bobsledding,Richmond  ,Virginia
+01-09-2011,4003148,81.53,Snowshoeing,Lowell,Massachusetts
+05-31-2011,4005423,135.43,Sledding,Alexandria  ,Virginia
+07-20-2011,4006563,7.96,Snowboarding,Fremont,California
+05-16-2011,4004089,84.23,Snowshoeing,Detroit,Michigan
+09-21-2011,4001367,63.09,Snowshoeing,Alexandria  ,Virginia
+07-11-2011,4005322,52.38,Snowboarding,Cambridge,Massachusetts
+01-09-2011,4008821,82.57,Snowshoeing,Columbia,South Carolina
+11-14-2011,4007127,8.83,Luge,Buffalo,New York
+03-16-2011,4006313,21.82,Cross-Country Skiing,Salem,Oregon
+05-16-2011,4007236,123.29,Downhill Skiing,Charlotte,North Carolina
+02-09-2011,4007081,51.33,Snowshoeing,West Valley City,Utah
+01-15-2011,4005504,52.89,Cross-Country Skiing,Rockford,Illinois
+07-10-2011,4002132,169.77,Sledding,New York,New York
+12-01-2011,4009097,190.84,Cross-Country Skiing,Overland Park,Kansas
+03-08-2011,4005789,148.03,Sledding,Long Beach,California
+08-31-2011,4009045,24.94,Snowshoeing,Boston,Massachusetts
+07-05-2011,4008738,91.62,Snowmobiling,Salt Lake City,Utah
+05-23-2011,4004872,59.09,Snowmobiling,Charleston,South Carolina
+12-01-2011,4001950,179.26,Bobsledding,Kansas City,Kansas
+03-13-2011,4007419,129.5,Sledding,Tampa,Florida
+05-03-2011,4000141,149.19,Snowmobiling,Sacramento,California
+08-06-2011,4006540,33.58,Sledding,Santa Ana,California
+06-23-2011,4009252,137.07,Bobsledding,Boise,Idaho
+04-24-2011,4005876,39.79,Snowshoeing,Centennial,Colorado
+11-08-2011,4007076,116.18,Snowmobiling,Santa Ana,California
+07-26-2011,4009270,148.65,Bobsledding,Indianapolis ,Indiana
+02-18-2011,4008727,10.86,Snowshoeing,Las Vegas,Nevada
+12-10-2011,4002420,134.75,Cross-Country Skiing,St. Petersburg,Florida
+02-19-2011,4003688,102.46,Cross-Country Skiing,Overland Park,Kansas
+06-04-2011,4003389,95.79,Snowboarding,Gilbert,Arizona
+05-13-2011,4005423,74.98,Luge,Berkeley,California
+09-23-2011,4001222,179.07,Snowshoeing,Honolulu  ,Hawaii
+12-03-2011,4006173,115.22,Luge,Everett,Washington
+01-14-2011,4003356,192.99,Downhill Skiing,Buffalo,New York
+06-16-2011,4007925,82.38,Luge,Cincinnati,Ohio
+06-14-2011,4007948,116.83,Snowmobiling,Madison,Wisconsin
+06-07-2011,4001740,88.92,Bobsledding,Jacksonville ,Florida
+04-03-2011,4002063,120.7,Snowmobiling,Centennial,Colorado
+10-23-2011,4007147,185.99,Snowmobiling,Kansas City,Kansas
+01-29-2011,4003255,70.08,Snowmobiling,Houston,Texas
+02-20-2011,4001701,140.06,Cross-Country Skiing,Columbia,Missouri
+05-16-2011,4008207,61.3,Luge,Chicago,Illinois
+09-01-2011,4008323,49.28,Cross-Country Skiing,Paterson,New Jersey
+10-30-2011,4009017,26.23,Cross-Country Skiing,Atlanta,Georgia
+12-19-2011,4002564,21.81,Sledding,Plano,Texas
+09-03-2011,4006470,183.15,Sledding,Irving,Texas
+05-03-2011,4005362,9.62,Snowshoeing,Seattle,Washington
+10-01-2011,4006104,120.96,Snowshoeing,Colorado Springs,Colorado
+08-25-2011,4000876,192.38,Snowboarding,Rockford,Illinois
+03-11-2011,4003612,99.15,Snowmobiling,Birmingham,Alabama
+10-22-2011,4000197,155.98,Snowshoeing,Durham,North Carolina
+06-12-2011,4007834,37.22,Sledding,Fremont,California
+11-12-2011,4005311,12.73,Luge,New York,New York
+03-01-2011,4009738,45.49,Snowshoeing,San Francisco,California
+04-18-2011,4000365,191.04,Bobsledding,Madison,Wisconsin
+05-08-2011,4005035,167.55,Snowshoeing,Bellevue,Washington
+05-27-2011,4001660,113.88,Cross-Country Skiing,Salem,Oregon
+06-12-2011,4004947,122.83,Bobsledding,Brownsville,Texas
+10-27-2011,4000893,50.12,Sledding,El Paso,Texas
+03-22-2011,4001149,32.23,Bobsledding,Birmingham,Alabama
+10-31-2011,4006137,48.57,Snowshoeing,Irvine,California
+11-28-2011,4003330,177.63,Downhill Skiing,Cleveland,Ohio
+08-12-2011,4008097,111.96,Snowshoeing,Long Beach,California
+01-26-2011,4001805,23.31,Sledding,Montgomery,Alabama
+02-11-2011,4004414,153.55,Bobsledding,Boston,Massachusetts
+10-19-2011,4007533,182.2,Snowmobiling,Pasadena,Texas
+03-27-2011,4000838,109.19,Sledding,Houston,Texas
+11-05-2011,4003851,54.35,Snowboarding,Atlanta,Georgia
+05-14-2011,4000818,99.04,Snowshoeing,Las Vegas,Nevada
+07-13-2011,4004188,6.33,Snowshoeing,Kansas City,Kansas
+10-16-2011,4004380,23.76,Bobsledding,Jackson,Mississippi
+04-07-2011,4006810,22.44,Bobsledding,Nashville  ,Tennessee
+05-03-2011,4006561,11.39,Bobsledding,Orange,California
+05-24-2011,4008255,83.03,Snowshoeing,Coral Springs,Florida
+12-24-2011,4003469,139.7,Downhill Skiing,Bellevue,Washington
+07-10-2011,4009161,197.04,Luge,Boston,Massachusetts
+10-31-2011,4003907,193.7,Sledding,Anaheim,California
+09-16-2011,4009946,199.88,Cross-Country Skiing,Paterson,New Jersey
+12-18-2011,4004290,132.47,Snowboarding,Columbus,Ohio
+01-06-2011,4006416,20.62,Sledding,Chattanooga,Tennessee
+02-23-2011,4008253,91.15,Snowmobiling,Baltimore,Maryland
+01-17-2011,4001286,34.42,Sledding,Jackson,Mississippi
+11-12-2011,4000993,196.68,Snowmobiling,Columbus,Ohio
+05-14-2011,4009990,97.19,Luge,Atlanta,Georgia
+07-29-2011,4007602,46.99,Snowmobiling,Reno,Nevada
+11-09-2011,4005451,143.06,Cross-Country Skiing,Boston,Massachusetts
+08-20-2011,4001597,123.03,Sledding,New York,New York
+03-02-2011,4002947,30.99,Sledding,Plano,Texas
+12-08-2011,4006312,23.06,Snowshoeing,Jackson,Mississippi
+12-18-2011,4007239,85.98,Bobsledding,Brownsville,Texas
+08-28-2011,4009426,60.59,Sledding,Gresham,Oregon
+09-12-2011,4006513,36.78,Snowshoeing,Colorado Springs,Colorado
+05-03-2011,4007814,197.55,Luge,Westminster,Colorado
+07-03-2011,4006076,106.79,Luge,Birmingham,Alabama
+04-07-2011,4005770,12.92,Snowboarding,Jackson,Mississippi
+04-18-2011,4001912,127.87,Luge,Irvine,California
+07-29-2011,4000200,48.97,Snowmobiling,Santa Ana,California
+08-12-2011,4005949,6.54,Snowboarding,Phoenix,Arizona
+11-22-2011,4002487,61.23,Cross-Country Skiing,Charlotte,North Carolina
+07-29-2011,4002378,194.36,Cross-Country Skiing,Atlanta,Georgia
+07-27-2011,4004670,92.24,Cross-Country Skiing,Tampa,Florida
+12-29-2011,4001732,15.28,Luge,Hartford,Connecticut
+03-21-2011,4003323,92.73,Luge,Dallas,Texas
+11-24-2011,4001987,59.89,Sledding,West Valley City,Utah
+02-06-2011,4002014,181.47,Snowboarding,Denton,Texas
+08-02-2011,4006374,63.79,Downhill Skiing,Indianapolis ,Indiana
+11-02-2011,4005142,159.97,Luge,Honolulu  ,Hawaii
+08-31-2011,4002947,9.09,Snowmobiling,Centennial,Colorado
+03-19-2011,4003780,49.51,Luge,Hampton  ,Virginia
+07-30-2011,4007906,66.26,Snowmobiling,Oakland,California
+02-14-2011,4007057,84.98,Cross-Country Skiing,Seattle,Washington
+05-28-2011,4008249,151.28,Snowmobiling,St. Petersburg,Florida
+07-24-2011,4003079,133.08,Bobsledding,Kansas City,Kansas
+01-21-2011,4008586,185.81,Snowmobiling,Vancouver,Washington
+03-25-2011,4001224,148.58,Snowshoeing,San Antonio,Texas
+08-15-2011,4002206,14.84,Luge,Seattle,Washington
+07-25-2011,4005620,119.25,Snowshoeing,Kansas City,Missouri
+05-24-2011,4002128,191.39,Bobsledding,Coral Springs,Florida
+06-11-2011,4000456,139.02,Sledding,Phoenix,Arizona
+12-13-2011,4006073,98.27,Snowshoeing,Lowell,Massachusetts
+07-29-2011,4009131,172.34,Luge,Los Angeles,California
+10-02-2011,4009681,80.62,Cross-Country Skiing,Sacramento,California
+01-08-2011,4005634,110.69,Cross-Country Skiing,Scottsdale,Arizona
+03-22-2011,4009777,120.22,Luge,Brownsville,Texas
+02-26-2011,4005967,110.3,Cross-Country Skiing,Oakland,California
+11-22-2011,4003278,81.23,Snowmobiling,Baltimore,Maryland
+06-16-2011,4008747,135.13,Snowshoeing,Westminster,Colorado
+06-01-2011,4004650,69.55,Snowboarding,Jersey City,New Jersey
+03-31-2011,4003151,53.07,Downhill Skiing,Chattanooga,Tennessee
+10-22-2011,4005929,176.86,Cross-Country Skiing,Memphis,Tennessee
+10-18-2011,4002680,123.62,Snowmobiling,Denton,Texas
+03-15-2011,4006637,82.15,Bobsledding,San Diego,California
+01-20-2011,4002858,22.34,Downhill Skiing,Saint Paul,Minnesota
+06-25-2011,4001578,33.71,Snowshoeing,Columbia,South Carolina
+05-17-2011,4009197,70.36,Downhill Skiing,Coral Springs,Florida
+09-12-2011,4006817,189.91,Snowmobiling,Cleveland,Ohio
+05-12-2011,4009150,196.46,Cross-Country Skiing,Santa Ana,California
+09-30-2011,4007873,193.43,Luge,Louisville,Kentucky
+05-23-2011,4005273,190.24,Cross-Country Skiing,Newark,New Jersey
+07-11-2011,4004936,107.1,Snowboarding,Vancouver,Washington
+03-27-2011,4002165,33.89,Cross-Country Skiing,New Orleans,Louisiana
+05-30-2011,4006652,193.0,Snowshoeing,Charleston,South Carolina
+10-01-2011,4008582,25.18,Snowmobiling,Austin,Texas
+09-12-2011,4008795,44.79,Snowmobiling,Sacramento,California
+05-01-2011,4005295,163.06,Snowboarding,Las Vegas,Nevada
+10-21-2011,4003129,132.49,Snowshoeing,Pasadena,Texas
+03-08-2011,4007383,22.09,Luge,Columbia,Missouri
+10-31-2011,4009796,71.35,Luge,Sunnyvale,California
+05-13-2011,4009364,147.4,Snowboarding,Philadelphia,Pennsylvania
+10-10-2011,4005357,169.97,Cross-Country Skiing,Columbus,Georgia
+04-24-2011,4007589,116.78,Cross-Country Skiing,Charlotte,North Carolina
+01-06-2011,4000492,124.45,Bobsledding,Irving,Texas
+12-27-2011,4001010,193.85,Snowboarding,Atlanta,Georgia
+04-27-2011,4006181,94.72,Cross-Country Skiing,Flint,Michigan
+11-03-2011,4000160,167.23,Cross-Country Skiing,Newark,New Jersey
+09-16-2011,4006261,136.53,Snowshoeing,Santa Ana,California
+03-03-2011,4006123,99.99,Snowmobiling,Jacksonville ,Florida
+12-06-2011,4001843,185.62,Cross-Country Skiing,Durham,North Carolina
+10-18-2011,4001203,12.96,Snowshoeing,Jersey City,New Jersey
+05-01-2011,4008291,130.6,Downhill Skiing,Dallas,Texas
+04-08-2011,4007330,8.32,Bobsledding,New York,New York
+04-23-2011,4003692,188.17,Snowboarding,Green Bay,Wisconsin
+05-16-2011,4008062,198.16,Luge,Chattanooga,Tennessee
+01-23-2011,4005947,68.67,Snowshoeing,Omaha,Nebraska
+09-07-2011,4000469,31.43,Snowmobiling,Minneapolis,Minnesota
+02-09-2011,4009332,108.71,Snowboarding,Vancouver,Washington
+04-04-2011,4004617,180.11,Sledding,Scottsdale,Arizona
+04-25-2011,4009882,179.93,Snowboarding,Newark,New Jersey
+06-02-2011,4006368,67.38,Cross-Country Skiing,Columbia,Missouri
+08-16-2011,4002255,96.69,Cross-Country Skiing,Brownsville,Texas
+05-05-2011,4002776,151.56,Luge,Orlando,Florida
+01-09-2011,4002997,169.07,Snowboarding,Charlotte,North Carolina
+04-29-2011,4005728,89.4,Downhill Skiing,Sacramento,California
+02-09-2011,4001329,77.34,Snowshoeing,Huntsville,Alabama
+06-30-2011,4006716,51.17,Snowshoeing,Newark,New Jersey
+09-20-2011,4002382,36.64,Snowshoeing,Gresham,Oregon
+05-30-2011,4009682,107.38,Bobsledding,Bellevue,Washington
+12-02-2011,4000956,119.63,Luge,Jackson,Mississippi
+08-05-2011,4007755,101.38,Downhill Skiing,Midland,Texas
+06-30-2011,4004342,174.09,Bobsledding,Phoenix,Arizona
+05-08-2011,4005814,59.12,Snowboarding,Pittsburgh,Pennsylvania
+04-18-2011,4003773,196.02,Snowboarding,Boston,Massachusetts
+07-05-2011,4000493,51.19,Sledding,Scottsdale,Arizona
+03-08-2011,4000004,152.25,Snowshoeing,McKinney,Texas
+12-12-2011,4009757,36.83,Snowboarding,Louisville,Kentucky
+01-23-2011,4005333,147.59,Sledding,Huntsville,Alabama
+01-21-2011,4005012,176.42,Snowmobiling,El Paso,Texas
+05-09-2011,4001922,14.65,Snowshoeing,Vancouver,Washington
+06-05-2011,4005673,192.57,Snowboarding,Long Beach,California
+04-29-2011,4003876,118.52,Snowmobiling,San Diego,California
+02-28-2011,4005968,185.34,Snowshoeing,Memphis,Tennessee
+08-04-2011,4007640,41.22,Downhill Skiing,Baltimore,Maryland
+07-11-2011,4004909,34.89,Cross-Country Skiing,Atlanta,Georgia
+05-21-2011,4008820,93.59,Snowboarding,Fremont,California
+03-14-2011,4000874,171.74,Sledding,Boston,Massachusetts
+05-31-2011,4008529,15.5,Luge,Los Angeles,California
+05-30-2011,4000906,189.81,Cross-Country Skiing,Overland Park,Kansas
+10-25-2011,4001001,14.6,Bobsledding,Portland,Oregon
+06-29-2011,4003360,58.32,Downhill Skiing,Denton,Texas
+09-03-2011,4004049,166.56,Downhill Skiing,Detroit,Michigan
+01-04-2011,4003220,100.74,Sledding,Pasadena,California
+11-30-2011,4007212,104.8,Cross-Country Skiing,Jersey City,New Jersey
+04-20-2011,4005728,165.66,Snowmobiling,Springfield,Illinois
+09-09-2011,4006482,166.08,Bobsledding,Stamford,Connecticut
+01-22-2011,4008719,54.26,Luge,San Francisco,California
+07-05-2011,4009220,113.94,Bobsledding,Philadelphia,Pennsylvania
+06-20-2011,4000621,180.37,Downhill Skiing,Rockford,Illinois
+04-22-2011,4004755,126.99,Snowboarding,Fremont,California
+11-08-2011,4002933,194.28,Snowboarding,Saint Paul,Minnesota
+09-26-2011,4001369,167.47,Bobsledding,Las Vegas,Nevada
+10-29-2011,4005166,113.71,Bobsledding,St. Louis  ,Missouri
+09-27-2011,4007224,161.01,Cross-Country Skiing,Overland Park,Kansas
+07-07-2011,4005641,37.59,Snowboarding,Reno,Nevada
+02-11-2011,4009956,162.52,Snowshoeing,Springfield,Illinois
+12-11-2011,4002710,60.23,Snowmobiling,Hartford,Connecticut
+03-04-2011,4003941,195.8,Luge,Hampton  ,Virginia
+02-22-2011,4008347,13.2,Luge,Cleveland,Ohio
+01-05-2011,4006855,148.0,Snowshoeing,San Diego,California
+11-19-2011,4002284,46.31,Snowmobiling,Tampa,Florida
+11-30-2011,4007907,66.89,Cross-Country Skiing,Kansas City,Missouri
+06-08-2011,4003024,49.51,Sledding,Coral Springs,Florida
+10-25-2011,4003522,158.26,Luge,Clarksville,Tennessee
+06-13-2011,4004252,78.16,Luge,Las Vegas,Nevada
+03-25-2011,4003260,70.94,Luge,Charleston,South Carolina
+12-25-2011,4003170,191.94,Snowmobiling,Louisville,Kentucky
+11-28-2011,4002543,93.31,Bobsledding,Cleveland,Ohio
+08-01-2011,4007544,21.99,Sledding,Columbia,South Carolina
+07-15-2011,4008295,149.71,Snowmobiling,New Orleans,Louisiana
+03-09-2011,4005549,122.19,Snowshoeing,Dayton,Ohio
+07-26-2011,4005457,169.79,Snowboarding,Salem,Oregon
+07-05-2011,4004824,97.87,Bobsledding,Kansas City,Missouri
+06-29-2011,4005044,109.87,Luge,Reno,Nevada
+11-05-2011,4001233,58.64,Bobsledding,Washington,District of Columbia
+10-12-2011,4009348,117.61,Snowboarding,Orlando,Florida
+03-26-2011,4000743,115.53,Sledding,Centennial,Colorado
+03-02-2011,4009656,136.29,Bobsledding,Washington,District of Columbia
+02-13-2011,4006547,8.72,Cross-Country Skiing,Jackson,Mississippi
+12-10-2011,4002249,190.32,Snowboarding,Westminster,Colorado
+11-08-2011,4006843,170.29,Downhill Skiing,Orlando,Florida
+03-15-2011,4004681,32.27,Bobsledding,New Orleans,Louisiana
+03-23-2011,4009299,95.75,Cross-Country Skiing,Atlanta,Georgia
+03-05-2011,4008899,81.44,Snowmobiling,El Paso,Texas
+03-17-2011,4008151,149.32,Snowshoeing,Orlando,Florida
+02-22-2011,4003757,109.17,Snowshoeing,Springfield,Illinois
+09-10-2011,4000070,146.86,Downhill Skiing,Irving,Texas
+02-26-2011,4009649,121.94,Snowmobiling,Anaheim,California
+03-31-2011,4002104,132.41,Luge,Everett,Washington
+05-31-2011,4002947,118.54,Snowmobiling,Kansas City,Missouri
+01-04-2011,4008330,166.04,Snowmobiling,Midland,Texas
+01-13-2011,4003104,125.09,Snowboarding,Oklahoma City,Oklahoma
+06-26-2011,4003871,150.57,Snowmobiling,Overland Park,Kansas
+02-12-2011,4000327,32.64,Bobsledding,Jersey City,New Jersey
+11-03-2011,4001513,185.88,Luge,Overland Park,Kansas
+02-05-2011,4003245,184.78,Snowmobiling,Flint,Michigan
+02-25-2011,4004515,157.37,Snowshoeing,Rockford,Illinois
+02-06-2011,4001989,161.32,Snowboarding,Oakland,California
+09-28-2011,4007426,98.97,Bobsledding,Pasadena,Texas
+08-07-2011,4000302,20.35,Cross-Country Skiing,Gilbert,Arizona
+02-25-2011,4005445,111.45,Downhill Skiing,Denton,Texas
+02-03-2011,4004940,126.19,Snowmobiling,Eugene,Oregon
+11-24-2011,4008519,13.71,Sledding,Orange,California
+04-26-2011,4006018,40.16,Bobsledding,St. Petersburg,Florida
+09-30-2011,4009412,12.94,Sledding,Madison,Wisconsin
+07-04-2011,4000283,74.43,Bobsledding,Reno,Nevada
+10-17-2011,4005595,21.27,Luge,Hampton  ,Virginia
+04-06-2011,4009425,15.97,Snowshoeing,Charleston,South Carolina
+06-06-2011,4001902,23.09,Luge,Cleveland,Ohio
+03-15-2011,4000156,199.94,Snowshoeing,Montgomery,Alabama
+11-14-2011,4004379,199.03,Luge,Vancouver,Washington
+08-21-2011,4002659,38.52,Snowshoeing,Cleveland,Ohio
+08-03-2011,4005841,52.75,Bobsledding,Centennial,Colorado
+07-04-2011,4006801,193.95,Bobsledding,Westminster,Colorado
+02-04-2011,4000522,59.31,Cross-Country Skiing,San Antonio,Texas
+12-04-2011,4004498,58.46,Snowmobiling,Orange,California
+10-15-2011,4005756,80.82,Luge,Portland,Oregon
+02-21-2011,4008122,120.21,Cross-Country Skiing,Vancouver,Washington
+09-19-2011,4001942,101.39,Snowboarding,Gresham,Oregon
+08-31-2011,4002258,123.28,Snowshoeing,Gresham,Oregon
+07-15-2011,4009594,9.08,Sledding,Jackson,Mississippi
+11-12-2011,4007336,23.96,Cross-Country Skiing,Columbus,Georgia
+05-23-2011,4007025,15.34,Snowmobiling,Madison,Wisconsin
+06-11-2011,4008355,52.66,Sledding,Flint,Michigan
+02-25-2011,4005835,137.83,Cross-Country Skiing,San Francisco,California
+05-31-2011,4005518,35.39,Cross-Country Skiing,Eugene,Oregon
+01-30-2011,4005405,133.11,Snowboarding,Oklahoma City,Oklahoma
+09-25-2011,4009208,136.16,Snowshoeing,Long Beach,California
+07-07-2011,4008430,6.79,Bobsledding,Irving,Texas
+11-07-2011,4005614,105.11,Sledding,Paterson,New Jersey
+03-01-2011,4008410,156.34,Snowshoeing,San Diego,California
+11-20-2011,4005866,127.99,Sledding,New York,New York
+06-27-2011,4002244,198.11,Snowshoeing,San Diego,California
+09-19-2011,4001806,186.26,Luge,Tampa,Florida
+11-02-2011,4008160,51.64,Snowshoeing,Fremont,California
+06-01-2011,4008132,156.7,Downhill Skiing,Pasadena,Texas
+02-18-2011,4002958,15.03,Snowshoeing,Memphis,Tennessee
+08-30-2011,4006234,122.49,Cross-Country Skiing,Fremont,California
+07-31-2011,4005342,94.45,Snowboarding,Jersey City,New Jersey
+03-11-2011,4002387,12.4,Snowshoeing,Saint Paul,Minnesota
+08-01-2011,4005457,78.51,Sledding,Richmond  ,Virginia
+11-03-2011,4008971,159.18,Snowboarding,El Paso,Texas
+06-01-2011,4006200,198.15,Sledding,San Antonio,Texas
+11-27-2011,4004366,182.82,Sledding,Irvine,California
+11-18-2011,4004028,142.14,Downhill Skiing,Overland Park,Kansas
+10-27-2011,4001895,27.61,Downhill Skiing,McKinney,Texas
+08-04-2011,4007302,109.5,Downhill Skiing,San Diego,California
+04-30-2011,4005696,80.31,Bobsledding,Lexington,Kentucky
+01-10-2011,4007107,19.63,Luge,New Orleans,Louisiana
+07-25-2011,4005561,186.22,Luge,Chattanooga,Tennessee
+10-25-2011,4008500,79.29,Sledding,Colorado Springs,Colorado
+10-31-2011,4001992,97.62,Snowboarding,Miami,Florida
+02-07-2011,4003766,183.39,Downhill Skiing,Gilbert,Arizona
+02-12-2011,4003480,73.63,Downhill Skiing,Anaheim,California
+05-05-2011,4004258,56.32,Cross-Country Skiing,Las Vegas,Nevada
+02-13-2011,4000617,57.92,Cross-Country Skiing,St. Petersburg,Florida
+07-21-2011,4000151,164.42,Bobsledding,Salem,Oregon
+10-06-2011,4009799,145.66,Snowboarding,Buffalo,New York
+12-15-2011,4001578,107.14,Luge,Boston,Massachusetts
+02-14-2011,4003168,11.75,Cross-Country Skiing,Clarksville,Tennessee
+07-18-2011,4005090,164.88,Snowmobiling,St. Petersburg,Florida
+06-10-2011,4001738,50.66,Luge,Flint,Michigan
+07-17-2011,4001470,99.16,Luge,Huntsville,Alabama
+11-21-2011,4006938,106.77,Luge,Gresham,Oregon
+09-22-2011,4005968,9.36,Snowboarding,Overland Park,Kansas
+03-27-2011,4000892,158.75,Luge,Portland,Oregon
+11-02-2011,4006979,152.36,Snowboarding,Fremont,California
+05-26-2011,4002794,65.25,Sledding,El Paso,Texas
+04-29-2011,4006218,10.01,Luge,Kansas City,Kansas
+06-30-2011,4009202,134.48,Snowboarding,Sunnyvale,California
+11-19-2011,4005320,102.95,Bobsledding,Rockford,Illinois
+04-03-2011,4002555,133.63,Bobsledding,Charlotte,North Carolina
+08-11-2011,4005359,154.63,Downhill Skiing,Columbia,Missouri
+12-24-2011,4009491,144.56,Snowshoeing,Memphis,Tennessee
+07-29-2011,4003109,59.04,Downhill Skiing,Irving,Texas
+12-23-2011,4001166,76.94,Bobsledding,Irvine,California
+08-07-2011,4007063,172.42,Snowshoeing,Columbus,Ohio
+11-15-2011,4002812,69.66,Downhill Skiing,Vancouver,Washington
+06-08-2011,4008924,176.19,Snowboarding,Gresham,Oregon
+05-11-2011,4001524,95.78,Luge,Springfield,Illinois
+03-13-2011,4002861,13.31,Bobsledding,Seattle,Washington
+04-15-2011,4001011,153.92,Snowshoeing,Denver  ,Colorado
+02-16-2011,4004190,41.18,Snowshoeing,Lexington,Kentucky
+05-17-2011,4001099,78.62,Luge,Baltimore,Maryland
+09-17-2011,4002979,137.55,Downhill Skiing,Irvine,California
+12-19-2011,4008603,100.63,Downhill Skiing,Pasadena,Texas
+01-17-2011,4007268,141.36,Bobsledding,Plano,Texas
+07-27-2011,4002063,7.05,Bobsledding,San Francisco,California
+07-30-2011,4006414,104.67,Cross-Country Skiing,Pasadena,California
+12-19-2011,4001077,52.24,Snowmobiling,Clarksville,Tennessee
+05-02-2011,4001911,139.0,Downhill Skiing,Jersey City,New Jersey
+08-25-2011,4001172,84.34,Snowmobiling,Dallas,Texas
+02-26-2011,4009894,163.51,Snowshoeing,Omaha,Nebraska
+04-19-2011,4007365,162.86,Cross-Country Skiing,Gresham,Oregon
+07-26-2011,4002951,88.34,Luge,Midland,Texas
+02-23-2011,4006480,23.7,Snowshoeing,Midland,Texas
+07-08-2011,4005724,113.09,Snowshoeing,Pasadena,Texas
+10-03-2011,4004342,42.43,Bobsledding,New York,New York
+10-05-2011,4005566,57.16,Snowshoeing,Charleston,South Carolina
+02-26-2011,4003833,10.0,Luge,Cambridge,Massachusetts
+05-07-2011,4006616,109.0,Sledding,Rockford,Illinois
+09-11-2011,4005937,195.35,Snowshoeing,Saint Paul,Minnesota
+12-25-2011,4001939,199.58,Bobsledding,Phoenix,Arizona
+06-08-2011,4005263,78.41,Cross-Country Skiing,Lowell,Massachusetts
+12-30-2011,4000803,164.75,Bobsledding,St. Louis  ,Missouri
+07-07-2011,4009292,141.97,Bobsledding,Reno,Nevada
+05-24-2011,4001617,19.7,Luge,Chattanooga,Tennessee
+03-17-2011,4004446,74.79,Snowboarding,Chattanooga,Tennessee
+05-04-2011,4009027,161.64,Sledding,Gilbert,Arizona
+03-17-2011,4004154,170.98,Snowmobiling,Orlando,Florida
+08-07-2011,4001662,199.68,Sledding,Denver  ,Colorado
+12-29-2011,4009202,138.13,Snowmobiling,Charleston,South Carolina
+03-19-2011,4005597,74.79,Sledding,Westminster,Colorado
+09-23-2011,4003850,19.22,Cross-Country Skiing,Berkeley,California
+10-29-2011,4004141,165.29,Snowmobiling,Omaha,Nebraska
+12-23-2011,4009627,117.43,Bobsledding,Salt Lake City,Utah
+08-29-2011,4005267,117.04,Cross-Country Skiing,Portland,Oregon
+08-31-2011,4006087,65.05,Luge,Cambridge,Massachusetts
+08-03-2011,4005571,129.44,Luge,Columbus,Georgia
+10-05-2011,4000772,98.93,Snowmobiling,Detroit,Michigan
+09-08-2011,4009699,121.08,Snowmobiling,Hampton  ,Virginia
+01-22-2011,4004603,138.14,Snowmobiling,Irvine,California
+01-20-2011,4004515,84.68,Cross-Country Skiing,Saint Paul,Minnesota
+04-26-2011,4002234,125.94,Snowmobiling,Salem,Oregon
+06-01-2011,4009907,116.35,Cross-Country Skiing,Oakland,California
+03-15-2011,4000225,106.9,Downhill Skiing,Miami,Florida
+12-13-2011,4005510,125.56,Snowboarding,San Jose,California
+02-11-2011,4004833,44.35,Snowshoeing,Dayton,Ohio
+12-26-2011,4009582,10.45,Snowshoeing,Saint Paul,Minnesota
+04-01-2011,4004405,74.39,Cross-Country Skiing,Sacramento,California
+01-23-2011,4007830,33.61,Downhill Skiing,Orlando,Florida
+01-25-2011,4009368,50.06,Snowshoeing,Phoenix,Arizona
+12-19-2011,4001345,114.22,Downhill Skiing,Milwaukee,Wisconsin
+05-31-2011,4006256,130.74,Sledding,Pasadena,California
+11-04-2011,4008776,30.82,Sledding,San Diego,California
+11-28-2011,4001458,78.18,Luge,Omaha,Nebraska
+05-28-2011,4004760,96.42,Snowshoeing,McKinney,Texas
+11-12-2011,4009388,53.2,Bobsledding,Nashville  ,Tennessee
+02-01-2011,4004450,123.46,Cross-Country Skiing,Boston,Massachusetts
+12-07-2011,4002912,131.31,Cross-Country Skiing,Minneapolis,Minnesota
+10-09-2011,4004904,52.02,Luge,Everett,Washington
+10-03-2011,4000243,32.93,Cross-Country Skiing,Clarksville,Tennessee
+11-07-2011,4003733,158.11,Cross-Country Skiing,Sacramento,California
+05-16-2011,4008392,197.82,Bobsledding,Columbus,Ohio
+11-04-2011,4000670,128.68,Snowshoeing,Pasadena,Texas
+04-13-2011,4002324,6.58,Bobsledding,Rockford,Illinois
+07-19-2011,4004853,54.49,Luge,Las Vegas,Nevada
+06-17-2011,4000084,28.47,Bobsledding,Vancouver,Washington
+10-04-2011,4008099,152.89,Snowshoeing,Denton,Texas
+08-05-2011,4002073,87.29,Cross-Country Skiing,Santa Ana,California
+03-24-2011,4009660,118.65,Downhill Skiing,Huntsville,Alabama
+02-13-2011,4000535,73.75,Sledding,Eugene,Oregon
+05-08-2011,4001906,11.41,Snowshoeing,Brownsville,Texas
+03-06-2011,4002420,184.72,Cross-Country Skiing,Midland,Texas
+02-11-2011,4007539,107.71,Bobsledding,Lincoln,Nebraska
+06-15-2011,4008733,187.91,Luge,Buffalo,New York
+01-03-2011,4003652,175.76,Cross-Country Skiing,Gresham,Oregon
+05-24-2011,4000867,82.25,Sledding,Durham,North Carolina
+08-31-2011,4003756,143.92,Downhill Skiing,Stamford,Connecticut
+10-25-2011,4009257,26.58,Snowboarding,Huntsville,Alabama
+02-04-2011,4002127,171.26,Luge,Irvine,California
+03-21-2011,4000972,158.1,Snowshoeing,Overland Park,Kansas
+07-13-2011,4009255,164.77,Snowmobiling,Durham,North Carolina
+12-01-2011,4005690,141.8,Downhill Skiing,Minneapolis,Minnesota
+03-01-2011,4007732,148.74,Snowmobiling,Des Moines,Iowa
+09-07-2011,4005389,118.56,Bobsledding,Montgomery,Alabama
+01-16-2011,4009513,147.73,Cross-Country Skiing,Oakland,California
+07-12-2011,4006476,115.19,Downhill Skiing,Cincinnati,Ohio
+05-31-2011,4009683,42.42,Snowmobiling,Cleveland,Ohio
+09-07-2011,4004258,68.65,Cross-Country Skiing,Orange,California
+07-11-2011,4004426,69.53,Snowshoeing,Huntsville,Alabama
+01-31-2011,4003702,45.92,Snowmobiling,San Antonio,Texas
+10-25-2011,4004524,110.31,Downhill Skiing,Green Bay,Wisconsin
+08-11-2011,4000838,134.66,Snowshoeing,Charlotte,North Carolina
+06-29-2011,4004153,36.47,Snowboarding,Lowell,Massachusetts
+03-11-2011,4005991,190.11,Snowmobiling,Durham,North Carolina
+12-15-2011,4007318,188.85,Snowshoeing,Pasadena,Texas
+10-24-2011,4004377,99.81,Snowmobiling,Richmond  ,Virginia
+05-16-2011,4008855,145.37,Sledding,Pittsburgh,Pennsylvania
+11-16-2011,4008573,73.16,Bobsledding,Atlanta,Georgia
+05-11-2011,4006814,125.55,Snowboarding,Hartford,Connecticut
+05-07-2011,4007416,178.54,Cross-Country Skiing,Boston,Massachusetts
+09-18-2011,4009528,184.76,Sledding,Lincoln,Nebraska
+12-28-2011,4002003,121.77,Bobsledding,Pasadena,California
+06-02-2011,4004635,11.17,Snowboarding,El Paso,Texas
+10-04-2011,4007664,37.99,Snowmobiling,Chattanooga,Tennessee
+07-03-2011,4004239,83.08,Bobsledding,Overland Park,Kansas
+02-24-2011,4003644,20.58,Downhill Skiing,Charleston,South Carolina
+09-20-2011,4008765,25.14,Luge,Pittsburgh,Pennsylvania
+02-06-2011,4007232,66.95,Luge,Green Bay,Wisconsin
+02-04-2011,4004528,143.32,Luge,Philadelphia,Pennsylvania
+02-07-2011,4001165,23.66,Snowboarding,Des Moines,Iowa
+07-07-2011,4004766,151.2,Bobsledding,Flint,Michigan
+05-31-2011,4000586,38.77,Cross-Country Skiing,Oakland,California
+03-16-2011,4006329,53.24,Bobsledding,San Antonio,Texas
+03-12-2011,4006728,124.45,Snowshoeing,Huntsville,Alabama
+08-19-2011,4003168,159.55,Snowshoeing,Denver  ,Colorado
+01-12-2011,4004153,110.87,Bobsledding,Phoenix,Arizona
+02-25-2011,4002392,77.98,Snowmobiling,Saint Paul,Minnesota
+05-09-2011,4004438,179.13,Sledding,Centennial,Colorado
+07-03-2011,4009125,48.57,Cross-Country Skiing,Detroit,Michigan
+08-27-2011,4007848,142.65,Snowshoeing,Phoenix,Arizona
+03-18-2011,4008821,63.79,Bobsledding,Columbia,Missouri
+08-18-2011,4005120,45.72,Sledding,Nashville  ,Tennessee
+05-05-2011,4005330,83.04,Sledding,West Valley City,Utah
+09-27-2011,4009643,198.54,Downhill Skiing,McKinney,Texas
+12-07-2011,4002012,34.82,Snowshoeing,Cincinnati,Ohio
+01-08-2011,4007104,110.14,Sledding,Hartford,Connecticut
+03-12-2011,4005747,14.09,Snowshoeing,Kansas City,Kansas
+02-03-2011,4005469,48.14,Snowboarding,Tampa,Florida
+07-24-2011,4000078,31.26,Luge,Phoenix,Arizona
+06-04-2011,4002739,35.98,Luge,Plano,Texas
+12-27-2011,4008962,129.5,Sledding,Sacramento,California
+01-25-2011,4001956,42.36,Snowmobiling,Madison,Wisconsin
+09-06-2011,4000583,180.11,Snowshoeing,San Francisco,California
+07-09-2011,4002326,139.26,Bobsledding,Cambridge,Massachusetts
+10-25-2011,4009839,113.96,Bobsledding,Overland Park,Kansas
+04-07-2011,4000365,132.61,Bobsledding,San Diego,California
+08-30-2011,4009845,81.28,Cross-Country Skiing,Detroit,Michigan
+03-21-2011,4001337,182.8,Cross-Country Skiing,St. Petersburg,Florida
+09-24-2011,4008281,52.42,Snowshoeing,Charlotte,North Carolina
+04-27-2011,4006721,35.58,Snowshoeing,Minneapolis,Minnesota
+09-03-2011,4005897,21.97,Sledding,San Francisco,California
+08-21-2011,4005396,15.45,Sledding,Pasadena,Texas
+01-12-2011,4006852,51.81,Cross-Country Skiing,Clarksville,Tennessee
+10-11-2011,4004496,179.73,Luge,Scottsdale,Arizona
+11-08-2011,4003277,59.72,Luge,San Francisco,California
+07-24-2011,4001688,182.49,Bobsledding,Chattanooga,Tennessee
+07-02-2011,4006722,127.23,Snowmobiling,Salem,Oregon
+06-11-2011,4009723,101.15,Snowmobiling,Cambridge,Massachusetts
+02-24-2011,4007625,29.23,Cross-Country Skiing,Philadelphia,Pennsylvania
+10-24-2011,4007159,131.49,Luge,Cincinnati,Ohio
+02-13-2011,4006888,190.43,Downhill Skiing,Houston,Texas
+07-30-2011,4009024,116.21,Snowmobiling,Detroit,Michigan
+09-10-2011,4009973,113.36,Sledding,Columbia,South Carolina
+07-25-2011,4000415,86.71,Snowmobiling,Atlanta,Georgia
+05-17-2011,4000082,121.94,Cross-Country Skiing,Scottsdale,Arizona
+01-12-2011,4006646,182.22,Downhill Skiing,Salt Lake City,Utah
+08-25-2011,4003709,62.9,Cross-Country Skiing,Chattanooga,Tennessee
+01-14-2011,4006058,97.58,Luge,Lincoln,Nebraska
+06-23-2011,4000245,76.46,Downhill Skiing,Boston,Massachusetts
+02-09-2011,4003643,39.72,Snowshoeing,Des Moines,Iowa
+09-19-2011,4000045,179.01,Snowboarding,Fremont,California
+06-13-2011,4008158,67.88,Cross-Country Skiing,Durham,North Carolina
+04-23-2011,4000275,66.0,Snowmobiling,Charlotte,North Carolina
+12-05-2011,4000628,53.72,Bobsledding,Irving,Texas
+04-15-2011,4000898,94.69,Sledding,Salt Lake City,Utah
+12-17-2011,4009481,8.35,Bobsledding,Salem,Oregon
+10-08-2011,4004413,125.48,Snowboarding,Baltimore,Maryland
+12-13-2011,4000798,138.27,Cross-Country Skiing,Milwaukee,Wisconsin
+01-15-2011,4006088,174.89,Snowshoeing,New York,New York
+12-26-2011,4001641,129.93,Cross-Country Skiing,Stamford,Connecticut
+07-14-2011,4004991,71.18,Bobsledding,Honolulu  ,Hawaii
+12-21-2011,4009227,118.47,Snowboarding,Cincinnati,Ohio
+03-28-2011,4007607,113.49,Downhill Skiing,Berkeley,California
+09-29-2011,4003878,59.91,Bobsledding,Las Vegas,Nevada
+05-13-2011,4005600,157.19,Luge,Louisville,Kentucky
+01-27-2011,4008607,21.37,Cross-Country Skiing,Alexandria  ,Virginia
+10-28-2011,4009651,6.12,Cross-Country Skiing,Cleveland,Ohio
+06-03-2011,4001387,50.22,Luge,Long Beach,California
+12-20-2011,4004147,119.48,Sledding,Seattle,Washington
+05-07-2011,4001284,97.25,Sledding,Richmond  ,Virginia
+06-01-2011,4004298,28.56,Snowboarding,Charleston,South Carolina
+10-09-2011,4009447,159.54,Snowmobiling,Everett,Washington
+11-23-2011,4007886,182.58,Snowmobiling,San Francisco,California
+01-27-2011,4002982,47.06,Bobsledding,Cleveland,Ohio
+11-15-2011,4002995,115.72,Luge,Philadelphia,Pennsylvania
+03-24-2011,4000070,188.88,Bobsledding,Lincoln,Nebraska
+02-27-2011,4006380,42.51,Snowshoeing,Omaha,Nebraska
+03-23-2011,4006088,17.42,Snowshoeing,Brownsville,Texas
+05-15-2011,4004098,194.49,Snowmobiling,Omaha,Nebraska
+05-04-2011,4008358,87.9,Snowmobiling,Las Vegas,Nevada
+06-04-2011,4001833,141.26,Luge,Saint Paul,Minnesota
+11-10-2011,4005102,100.45,Snowshoeing,Madison,Wisconsin
+11-20-2011,4002606,47.94,Downhill Skiing,Seattle,Washington
+04-21-2011,4007147,68.45,Snowmobiling,Omaha,Nebraska
+07-04-2011,4008785,179.23,Bobsledding,Alexandria  ,Virginia
+08-11-2011,4003615,61.98,Snowshoeing,Colorado Springs,Colorado
+09-12-2011,4008468,71.25,Bobsledding,New York,New York
+03-27-2011,4008078,131.09,Sledding,Springfield,Illinois
+09-07-2011,4003314,165.0,Cross-Country Skiing,Rockford,Illinois
+01-16-2011,4005601,98.28,Sledding,Plano,Texas
+07-21-2011,4005582,107.46,Snowshoeing,Everett,Washington
+01-24-2011,4006628,177.91,Cross-Country Skiing,Pasadena,Texas
+02-03-2011,4005017,22.0,Cross-Country Skiing,Charleston,South Carolina
+09-21-2011,4003633,159.4,Luge,Minneapolis,Minnesota
+01-02-2011,4005136,71.66,Snowmobiling,Washington,District of Columbia
+08-08-2011,4000618,187.9,Bobsledding,Kansas City,Kansas
+10-14-2011,4002943,14.75,Sledding,Lexington,Kentucky
+01-17-2011,4005464,32.27,Luge,Pasadena,Texas
+10-20-2011,4006956,51.06,Bobsledding,Long Beach,California
+03-17-2011,4001926,182.23,Bobsledding,Plano,Texas
+10-02-2011,4009071,9.2,Snowshoeing,Anaheim,California
+04-27-2011,4004413,148.97,Sledding,Chicago,Illinois
+04-10-2011,4006310,8.96,Downhill Skiing,Pasadena,California
+06-17-2011,4006659,36.41,Sledding,Kansas City,Missouri
+11-06-2011,4008981,76.03,Snowshoeing,Madison,Wisconsin
+10-26-2011,4009315,154.03,Luge,Sunnyvale,California
+12-10-2011,4004988,30.34,Luge,Cincinnati,Ohio
+12-18-2011,4005238,60.17,Downhill Skiing,Overland Park,Kansas
+07-15-2011,4001047,62.84,Cross-Country Skiing,Coral Springs,Florida
+11-05-2011,4003420,57.58,Bobsledding,Dallas,Texas
+09-05-2011,4004433,22.26,Snowboarding,Denver  ,Colorado
+04-18-2011,4006388,175.64,Snowshoeing,Columbus,Ohio
+05-29-2011,4006321,101.77,Luge,Stamford,Connecticut
+07-29-2011,4000726,97.98,Cross-Country Skiing,Buffalo,New York
+10-28-2011,4007434,23.61,Snowboarding,West Valley City,Utah
+05-21-2011,4009983,163.58,Bobsledding,Charlotte,North Carolina
+07-03-2011,4000690,135.44,Snowshoeing,Boston,Massachusetts
+10-06-2011,4000591,132.14,Snowshoeing,Dallas,Texas
+03-04-2011,4006782,189.92,Luge,Honolulu  ,Hawaii
+07-25-2011,4003151,136.14,Downhill Skiing,Overland Park,Kansas
+10-08-2011,4002647,50.99,Cross-Country Skiing,Denver  ,Colorado
+04-15-2011,4007276,39.01,Snowboarding,San Francisco,California
+12-01-2011,4007146,51.49,Luge,Everett,Washington
+11-10-2011,4001172,60.25,Snowshoeing,Sacramento,California
+09-08-2011,4002386,41.24,Luge,Honolulu  ,Hawaii
+03-02-2011,4001542,44.8,Bobsledding,Miami,Florida
+10-12-2011,4009711,39.49,Snowshoeing,Columbus,Ohio
+05-26-2011,4006911,121.27,Snowmobiling,Cleveland,Ohio
+07-13-2011,4001821,111.02,Snowshoeing,Jersey City,New Jersey
+05-10-2011,4004765,66.21,Sledding,Oakland,California
+11-01-2011,4002407,169.14,Downhill Skiing,Everett,Washington
+07-26-2011,4003566,197.73,Bobsledding,Overland Park,Kansas
+06-20-2011,4002561,193.17,Bobsledding,Clarksville,Tennessee
+12-10-2011,4006521,74.0,Luge,Bellevue,Washington
+06-28-2011,4003318,167.41,Cross-Country Skiing,Louisville,Kentucky
+01-09-2011,4007616,96.73,Downhill Skiing,Denver  ,Colorado
+01-24-2011,4005638,171.19,Cross-Country Skiing,Boston,Massachusetts
+12-10-2011,4005991,103.26,Snowshoeing,McKinney,Texas
+06-08-2011,4000776,59.23,Bobsledding,Sunnyvale,California
+12-16-2011,4002737,64.02,Snowshoeing,Montgomery,Alabama
+03-05-2011,4003285,178.07,Snowboarding,Santa Ana,California
+03-10-2011,4003390,96.77,Snowmobiling,Everett,Washington
+02-09-2011,4007452,20.28,Bobsledding,Boston,Massachusetts
+10-22-2011,4008335,34.3,Bobsledding,Lexington,Kentucky
+05-26-2011,4008668,18.17,Snowmobiling,Oakland,California
+06-02-2011,4004569,111.89,Snowmobiling,Chattanooga,Tennessee
+02-17-2011,4000529,135.73,Snowmobiling,Phoenix,Arizona
+11-03-2011,4008286,133.55,Sledding,Oklahoma City,Oklahoma
+04-16-2011,4008910,166.14,Sledding,Richmond  ,Virginia
+04-27-2011,4008906,165.63,Luge,Colorado Springs,Colorado
+02-05-2011,4004356,30.22,Snowshoeing,San Francisco,California
+12-26-2011,4002194,122.47,Snowboarding,West Valley City,Utah
+01-18-2011,4004319,29.56,Sledding,Gresham,Oregon
+05-27-2011,4002569,36.96,Bobsledding,Newark,New Jersey
+05-28-2011,4008824,71.57,Downhill Skiing,Springfield,Illinois
+05-24-2011,4001257,164.04,Sledding,Reno,Nevada
+03-01-2011,4002161,93.56,Snowmobiling,Oakland,California
+03-06-2011,4006332,120.4,Snowmobiling,Columbus,Ohio
+06-19-2011,4003377,133.58,Downhill Skiing,New York,New York
+04-16-2011,4003400,5.32,Sledding,Santa Ana,California
+08-27-2011,4006791,196.96,Bobsledding,Des Moines,Iowa
+07-05-2011,4006862,9.31,Sledding,Newark,New Jersey
+06-21-2011,4005532,185.12,Snowboarding,Phoenix,Arizona
+08-21-2011,4008105,191.12,Snowshoeing,Los Angeles,California
+09-30-2011,4004758,154.9,Luge,Columbia,South Carolina
+12-01-2011,4008959,102.81,Luge,Sacramento,California
+09-23-2011,4004818,8.6,Luge,Omaha,Nebraska
+09-26-2011,4009498,81.65,Bobsledding,Memphis,Tennessee
+12-15-2011,4007161,72.0,Snowboarding,San Antonio,Texas
+08-09-2011,4009857,164.96,Cross-Country Skiing,Nashville  ,Tennessee
+04-29-2011,4001160,65.34,Cross-Country Skiing,Irving,Texas
+05-02-2011,4000650,117.71,Snowmobiling,Stamford,Connecticut
+03-05-2011,4000307,54.59,Cross-Country Skiing,Centennial,Colorado
+02-13-2011,4006935,73.45,Snowboarding,Orange,California
+09-30-2011,4008919,182.5,Snowshoeing,Boise,Idaho
+02-12-2011,4004434,106.68,Snowshoeing,Vancouver,Washington
+05-13-2011,4002637,142.13,Sledding,Boston,Massachusetts
+10-06-2011,4004361,57.38,Cross-Country Skiing,Flint,Michigan
+03-23-2011,4005381,44.33,Downhill Skiing,Salt Lake City,Utah
+10-07-2011,4007003,76.25,Cross-Country Skiing,West Valley City,Utah
+05-27-2011,4004551,38.89,Snowboarding,Boise,Idaho
+11-26-2011,4000520,49.98,Bobsledding,Anaheim,California
+12-11-2011,4002237,141.22,Snowshoeing,Bellevue,Washington
+04-30-2011,4009551,37.3,Luge,Anaheim,California
+02-04-2011,4003232,151.37,Downhill Skiing,Plano,Texas
+06-21-2011,4004244,155.95,Cross-Country Skiing,New Orleans,Louisiana
+06-28-2011,4000429,9.23,Snowmobiling,Dayton,Ohio
+08-15-2011,4009179,167.83,Cross-Country Skiing,Rockford,Illinois
+05-29-2011,4009712,135.97,Luge,Atlanta,Georgia
+06-12-2011,4004239,121.73,Sledding,Berkeley,California
+09-03-2011,4003475,64.83,Bobsledding,Pittsburgh,Pennsylvania
+08-03-2011,4003676,55.03,Sledding,Austin,Texas
+07-29-2011,4008601,35.01,Snowshoeing,San Francisco,California
+11-15-2011,4004862,65.17,Cross-Country Skiing,San Antonio,Texas
+02-23-2011,4007901,36.61,Luge,Charlotte,North Carolina
+04-11-2011,4001259,126.39,Cross-Country Skiing,Flint,Michigan
+01-10-2011,4002748,31.11,Luge,Tampa,Florida
+03-31-2011,4007131,145.07,Sledding,Salem,Oregon
+11-28-2011,4002644,145.46,Sledding,Gilbert,Arizona
+09-18-2011,4005043,22.51,Bobsledding,Springfield,Illinois
+10-14-2011,4009181,139.32,Snowboarding,Fremont,California
+10-19-2011,4006969,49.62,Sledding,San Diego,California
+11-04-2011,4003355,143.91,Snowshoeing,Jacksonville ,Florida
+04-15-2011,4003955,189.99,Luge,Pasadena,California
+11-18-2011,4005018,19.68,Downhill Skiing,Portland,Oregon
+08-13-2011,4003065,142.86,Snowmobiling,Denver  ,Colorado
+10-03-2011,4004736,140.77,Luge,Plano,Texas
+04-22-2011,4001426,92.07,Bobsledding,Alexandria  ,Virginia
+12-05-2011,4006861,177.2,Luge,Everett,Washington
+04-10-2011,4005149,78.52,Sledding,Santa Ana,California
+12-12-2011,4007820,143.9,Cross-Country Skiing,Philadelphia,Pennsylvania
+06-13-2011,4009413,46.9,Snowshoeing,San Diego,California
+05-10-2011,4004116,74.43,Luge,Lexington,Kentucky
+02-16-2011,4006643,5.7,Sledding,Birmingham,Alabama
+12-12-2011,4009211,67.76,Bobsledding,Hartford,Connecticut
+04-27-2011,4008035,76.73,Snowmobiling,Westminster,Colorado
+01-21-2011,4007635,76.74,Snowboarding,San Jose,California
+10-16-2011,4005818,48.4,Snowmobiling,Overland Park,Kansas
+10-15-2011,4001616,154.82,Snowmobiling,Cincinnati,Ohio
+07-10-2011,4003185,74.93,Downhill Skiing,Cleveland,Ohio
+02-24-2011,4008875,194.02,Snowshoeing,Orange,California
+06-25-2011,4005803,10.47,Bobsledding,Denton,Texas
+02-22-2011,4009977,183.62,Downhill Skiing,Midland,Texas
+03-07-2011,4006711,157.42,Bobsledding,Memphis,Tennessee
+06-02-2011,4003321,70.69,Snowboarding,Irvine,California
+01-25-2011,4004892,138.73,Downhill Skiing,Vancouver,Washington
+10-17-2011,4007376,59.61,Sledding,Fremont,California
+03-11-2011,4000770,165.96,Snowboarding,Kansas City,Kansas
+10-18-2011,4006425,117.13,Bobsledding,St. Petersburg,Florida
+01-11-2011,4008637,151.63,Snowmobiling,Cincinnati,Ohio
+09-27-2011,4007460,35.84,Downhill Skiing,Paterson,New Jersey
+08-20-2011,4008147,117.87,Sledding,West Valley City,Utah
+12-11-2011,4002755,24.8,Cross-Country Skiing,Boston,Massachusetts
+03-30-2011,4001363,86.11,Cross-Country Skiing,Berkeley,California
+07-28-2011,4007018,57.27,Snowboarding,Las Vegas,Nevada
+08-01-2011,4003928,153.27,Sledding,St. Petersburg,Florida
+02-14-2011,4000313,143.03,Bobsledding,Dallas,Texas
+10-17-2011,4001161,92.12,Snowmobiling,Washington,District of Columbia
+08-23-2011,4005981,26.39,Cross-Country Skiing,Lowell,Massachusetts
+03-27-2011,4002241,140.58,Cross-Country Skiing,Las Vegas,Nevada
+05-06-2011,4000450,163.76,Luge,Washington,District of Columbia
+07-20-2011,4003522,159.08,Downhill Skiing,Clarksville,Tennessee
+05-22-2011,4007641,199.79,Snowshoeing,Flint,Michigan
+12-05-2011,4005765,122.28,Snowboarding,Chattanooga,Tennessee
+02-12-2011,4000063,89.7,Bobsledding,Las Vegas,Nevada
+08-16-2011,4005818,116.27,Snowboarding,Stamford,Connecticut
+05-01-2011,4001033,91.99,Downhill Skiing,Lexington,Kentucky
+01-26-2011,4003621,45.07,Cross-Country Skiing,Charleston,South Carolina
+08-09-2011,4006945,87.74,Snowmobiling,Indianapolis ,Indiana
+03-15-2011,4001923,21.03,Bobsledding,Gresham,Oregon
+01-05-2011,4005565,37.78,Snowmobiling,Tampa,Florida
+08-12-2011,4008511,49.86,Sledding,Las Vegas,Nevada
+05-22-2011,4002242,69.4,Luge,Lincoln,Nebraska
+06-19-2011,4007837,152.24,Snowmobiling,San Jose,California
+12-08-2011,4004057,91.12,Snowmobiling,Pasadena,Texas
+01-23-2011,4002999,161.97,Snowmobiling,Springfield,Illinois
+10-20-2011,4007743,67.49,Snowshoeing,Atlanta,Georgia
+10-14-2011,4002420,48.03,Snowshoeing,Tampa,Florida
+08-15-2011,4003332,21.99,Snowboarding,Los Angeles,California
+01-22-2011,4009812,23.27,Snowboarding,New York,New York
+05-03-2011,4008659,154.53,Snowmobiling,San Diego,California
+12-25-2011,4001065,60.71,Sledding,Dayton,Ohio
+02-13-2011,4006788,29.99,Snowboarding,Green Bay,Wisconsin
+03-28-2011,4006762,142.44,Snowshoeing,Minneapolis,Minnesota
+01-09-2011,4006505,42.36,Snowboarding,Vancouver,Washington
+11-29-2011,4006071,37.97,Bobsledding,San Antonio,Texas
+09-08-2011,4006870,119.83,Bobsledding,Everett,Washington
+05-17-2011,4006406,13.84,Snowshoeing,Jacksonville ,Florida
