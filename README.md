@@ -60,7 +60,9 @@ Each of these components and tools has its own set of configurations, optimizati
 ### Start container
 
 ```bash
-docker run -m 8g --hostname=quickstart.cloudera --privileged=true -t -i -v /home/ubuntu/Data-Engineering-with-Hadoop/cdh_files:/src --publish-all=true -p 8888:8888 ovokpus/cloudera-quickstart /usr/bin/docker-quickstart
+docker run -m 8g --hostname=quickstart.cloudera 
+> --privileged=true -t -i -v /home/ubuntu/Data-Engineering-with-Hadoop/cdh_files:/src 
+> --publish-all=true -p 8888:8888 ovokpus/cloudera-quickstart /usr/bin/docker-quickstart
 ```
 
 inside the container switch user from root to cloudera
