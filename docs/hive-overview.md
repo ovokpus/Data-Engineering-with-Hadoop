@@ -524,7 +524,7 @@ By using the `ORCSerDe`, you can take advantage of the ORC file format's perform
 
 Certainly!
 
-## Additional Features of ORC:
+## Additional Features of ORC
 
 ### 1. **Lightweight Compression**:
 ORC supports lightweight compression algorithms like ZLIB and SNAPPY. This means you can achieve high compression rates without a significant performance overhead. The result is reduced storage costs and faster query performance.

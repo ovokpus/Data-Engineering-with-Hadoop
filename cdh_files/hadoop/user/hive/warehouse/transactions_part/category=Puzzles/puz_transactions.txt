@@ -1,0 +1,10 @@
+10-28-2011,4002190,027.89,Jigsaw Puzzles,Charleston,South Carolina
+10-07-2011,4000458,074.06,Jigsaw Puzzles,Jacksonville ,Florida
+02-01-2011,4004525,173.51,Jigsaw Puzzles,Dallas,Texas
+07-27-2011,4004398,024.51,Mechanical Puzzles,Hampton  ,Virginia
+08-18-2011,4007155,043.84,Jigsaw Puzzles,Honolulu  ,Hawaii
+12-16-2011,4009271,136.28,Jigsaw Puzzles,Columbia,Missouri
+08-31-2011,4002783,028.77,Mechanical Puzzles,San Francisco,California
+11-22-2011,4004455,059.12,Mechanical Puzzles,San Diego,California
+01-26-2011,4003360,081.15,Jigsaw Puzzles,Vancouver,Washington
+12-03-2011,4001420,018.70,Jigsaw Puzzles,San Francisco,California
