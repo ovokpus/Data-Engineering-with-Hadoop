@@ -93,7 +93,9 @@ Create password file for sqoop as a best practice to not expose password value i
 Import table
 
 ```bash
-[cloudera@quickstart ~]$ sqoop import --connect jdbc:mysql://quickstart.cloudera:3306/retail_db --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --table categories --target-dir /user/cloudera/sqoop-import/categories
+[cloudera@quickstart ~]$ sqoop import --connect jdbc:mysql://quickstart.cloudera:3306/retail_db \
+        --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --table categories \
+        --target-dir /user/cloudera/sqoop-import/categories
 Warning: /usr/lib/sqoop/../accumulo does not exist! Accumulo imports will fail.
 Please set $ACCUMULO_HOME to the root of your Accumulo installation.
 23/09/30 11:12:35 INFO sqoop.Sqoop: Running Sqoop version: 1.4.6-cdh5.7.0
@@ -177,7 +179,8 @@ Underlying datafiles imported into sqoop
 ## Handling Parallelism in Sqoop
 
 ```bash
-[cloudera@quickstart ~]$ sqoop import --connect jdbc:mysql://quickstart.cloudera:3306/retail_db --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --table categories --target-dir /user/cloudera/sqoop-import/categories1 --fields-terminated-by '|' --num-mappers 2
+[cloudera@quickstart ~]$ sqoop import --connect jdbc:mysql://quickstart.cloudera:3306/retail_db \
+        --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --table categories --target-dir /user/cloudera/sqoop-import/categories1 --fields-terminated-by '|' --num-mappers 2
 ```
 
 ---
@@ -188,7 +191,9 @@ Underlying datafiles imported into sqoop
 
 Import table without primary key
 ```bash
-[cloudera@quickstart ~]$ sqoop import --connect jdbc:mysql://quickstart.cloudera:3306/retail_db --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --table emp --target-dir /user/cloudera/sqoop-import/emp --split-by emp_id
+[cloudera@quickstart ~]$ sqoop import --connect jdbc:mysql://quickstart.cloudera:3306/retail_db \
+        --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --table emp \
+        --target-dir /user/cloudera/sqoop-import/emp --split-by emp_id
 
 ```
 
@@ -196,7 +201,11 @@ Import table without primary key
 
 Custom Query import
 ```bash
-[cloudera@quickstart ~]$ sqoop import --connect jdbc:mysql://quickstart.cloudera:3306/retail_db --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --query 'select order_item_id, order_item_order_id, order_item_product_id, order_item_subtotal from order_items where order_item_quantity>1 and $CONDITIONS' --target-dir /user/cloudera/sqoop-import/order_items_multiple --split-by order_item_id
+[cloudera@quickstart ~]$ sqoop import --connect jdbc:mysql://quickstart.cloudera:3306/retail_db \
+        --username cloudera --password-file /user/cloudera/sqoop_pwd.txt \
+        --query 'select order_item_id, order_item_order_id, order_item_product_id, order_item_subtotal \from order_items where order_item_quantity>1 and $CONDITIONS' \
+        --target-dir /user/cloudera/sqoop-import/order_items_multiple \
+        --split-by order_item_id
 
 ```
 
@@ -204,15 +213,24 @@ Custom Query import
 
 Incremental Sqoop import - append
 ```bash
-[cloudera@quickstart ~]$ sqoop import --connect jdbc:mysql://quickstart.cloudera:3306/retail_db --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --table orders --target-dir /user/cloudera/sqoop-import/orders --incremental append --check-column order_id --last-value 0
+[cloudera@quickstart ~]$ sqoop import --connect jdbc:mysql://quickstart.cloudera:3306/retail_db \
+        --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --table orders \
+        --target-dir /user/cloudera/sqoop-import/orders --incremental append \
+        --check-column order_id --last-value 0
 
 # It imports records after the last value set in the command. Those are the incremental records
-[cloudera@quickstart ~]$ sqoop import --connect jdbc:mysql://quickstart.cloudera:3306/retail_db --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --table orders --target-dir /user/cloudera/sqoop-import/orders --incremental append --check-column order_id --last-value 68883
+[cloudera@quickstart ~]$ sqoop import --connect jdbc:mysql://quickstart.cloudera:3306/retail_db \
+        --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --table orders \
+        --target-dir /user/cloudera/sqoop-import/orders --incremental append \
+        --check-column order_id --last-value 68883
 ```
 ---
 
 ```bash
-[cloudera@quickstart ~]$ sqoop import --connect jdbc:mysql://quickstart.cloudera:3306/retail_db --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --table orders --target-dir /user/cloudera/sqoop-import/orders_lm --incremental lastmodified --check-column order_date --last-value '2023-09-30 13:10:41.0' --merge-key order_id
+[cloudera@quickstart ~]$ sqoop import --connect jdbc:mysql://quickstart.cloudera:3306/retail_db \
+        --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --table orders \
+        --target-dir /user/cloudera/sqoop-import/orders_lm --incremental lastmodified\
+        --check-column order_date --last-value '2023-09-30 13:10:41.0' --merge-key order_id
 ```
 
 Only update jobs in sqoop have reduce. The rest are just map jobs. Use `--merge-key` for updates instead of `--append` in order to avoid duplicates
@@ -220,7 +238,11 @@ Only update jobs in sqoop have reduce. The rest are just map jobs. Use `--merge-
 ## Creating a Sqoop job
 
 ```bash
-[cloudera@quickstart ~]$ sqoop job --create import_orders -- import --connect jdbc:mysql://quickstart.cloudera:3306/retail_db --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --table orders --target-dir /user/cloudera/sqoop-import/orders_inc_job --incremental append --check-column order_id --last-value 0
+[cloudera@quickstart ~]$ sqoop job --create import_orders -- import \
+        --connect jdbc:mysql://quickstart.cloudera:3306/retail_db --username cloudera \
+        --password-file /user/cloudera/sqoop_pwd.txt --table orders \
+        --target-dir /user/cloudera/sqoop-import/orders_inc_job \
+        --incremental append --check-column order_id --last-value 0
 Warning: /usr/lib/sqoop/../accumulo does not exist! Accumulo imports will fail.
 Please set $ACCUMULO_HOME to the root of your Accumulo installation.
 23/09/30 14:07:35 INFO sqoop.Sqoop: Running Sqoop version: 1.4.6-cdh5.7.0
@@ -383,38 +405,61 @@ Note: Recompile with -Xlint:deprecation for details.
 
 ```bash
 
-[cloudera@quickstart ~]$ sqoop job --create import_orders_hive_create -- import --connect jdbc:mysql://quickstart.cloudera:3306/retail_db --username cloudera --password-file /user/cloudera/sqoop_pwd.tx
-t --table orders --target-dir /user/cloudera/sqoop-import/orders_hive --incremental append --check-column order_id --last-value 0 --hive-import --hive-table retail.orders --create-hive-table
+[cloudera@quickstart ~]$ sqoop job --create import_orders_hive_create -- import \
+        --connect jdbc:mysql://quickstart.cloudera:3306/retail_db --username cloudera \
+        --password-file /user/cloudera/sqoop_pwd.txt \
+        --table orders \
+        --target-dir /user/cloudera/sqoop-import/orders_hive \
+        --incremental append \
+        --check-column order_id \
+        last-value 0 \
+        --hive-import \
+        --hive-table retail.orders \
+        --create-hive-table
 ```
 
 ---
 Note this job creation command included the `--create hive table` flag. You'll need another job for subsequent runs without that flag so as to avoid the error that the table already exists.
 
 ```bash
-[cloudera@quickstart ~]$ sqoop job --create import_orders_hive -- import --connect jdbc:mysql://quickstart.cloudera:3306/retail_db --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --tab
-le orders --target-dir /user/cloudera/sqoop-import/orders_hive --incremental append --check-column order_id --last-value 68883 --hive-import --hive-table retail.orders
+[cloudera@quickstart ~]$ sqoop job --create import_orders_hive -- import \
+        --connect jdbc:mysql://quickstart.cloudera:3306/retail_db \
+        --username cloudera --password-file /user/cloudera/sqoop_pwd.txt \
+        --table orders --target-dir /user/cloudera/sqoop-import/orders_hive \
+        --incremental append --check-column order_id --last-value 68883 \
+        --hive-import --hive-table retail.orders
 ```
 
 ---
 
 There is an option to truncate the table before running a job
 ```bash
-[cloudera@quickstart ~]$ sqoop job --create import_orders_hive -- import --connect jdbc:mysql://quickstart.cloudera:3306/retail_db --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --table orders --target-dir /user/cloudera/sqoop-import/orders_hive --incremental append --check-column order_id --last-value 68883 --hive-import --hive-table retail.orders --hive-overwrite
+[cloudera@quickstart ~]$ sqoop job --create import_orders_hive -- import \
+--connect jdbc:mysql://quickstart.cloudera:3306/retail_db --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --table orders --target-dir /user/cloudera/sqoop-import/orders_hive --incremental append --check-column order_id --last-value 68883 --hive-import --hive-table retail.orders --hive-overwrite
 ```
 
 ## Import all tables in a database
 ```bash
-[cloudera@quickstart ~]$ sqoop import-all-tables --connect jdbc:mysql://quickstart.cloudera:3306/retail_db --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --warehouse-dir /user/clouder
-a/sqoop-import-all-tables
+[cloudera@quickstart ~]$ sqoop import-all-tables \
+        --connect jdbc:mysql://quickstart.cloudera:3306/retail_db \
+        --username cloudera --password-file /user/cloudera/sqoop_pwd.txt \
+        --warehouse-dir /user/cloudera/sqoop-import-all-tables
 ```
 
 Other Scenarios of sqoop import all tables
 ```bash
 # Excluding tables without primary key
-[cloudera@quickstart ~]$ sqoop import-all-tables --connect jdbc:mysql://quickstart.cloudera:3306/retail_db --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --warehouse-dir /user/cloudera/sqoop-import-all-tables-01 --exclude-tables dept,emp
+[cloudera@quickstart ~]$ sqoop import-all-tables \
+        --connect jdbc:mysql://quickstart.cloudera:3306/retail_db \
+        --username cloudera --password-file /user/cloudera/sqoop_pwd.txt \
+        --warehouse-dir /user/cloudera/sqoop-import-all-tables-01 \
+        --exclude-tables dept,emp
 
 # Using autoreset to one mapper
-[cloudera@quickstart ~]$ sqoop import-all-tables --connect jdbc:mysql://quickstart.cloudera:3306/retail_db --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --warehouse-dir /user/cloudera/sqoop-import-all-tables-02 --autoreset-to-one-mapper
+[cloudera@quickstart ~]$ sqoop import-all-tables \
+        --connect jdbc:mysql://quickstart.cloudera:3306/retail_db \
+        --username cloudera --password-file /user/cloudera/sqoop_pwd.txt \
+        --warehouse-dir /user/cloudera/sqoop-import-all-tables-02 --autoreset-to-one-mapper
 ```
 
 ---
@@ -423,13 +468,20 @@ Other Scenarios of sqoop import all tables
 
 ```bash
 # Move data from HDFS back to relational database
-[cloudera@quickstart ~]$ sqoop export --connect jdbc:mysql://quickstart.cloudera:3306/retail_db --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --table emp --export-dir /user/cloudera/employee
+[cloudera@quickstart ~]$ sqoop export --connect jdbc:mysql://quickstart.cloudera:3306/retail_db \
+        --username cloudera --password-file /user/cloudera/sqoop_pwd.txt \
+        --table emp --export-dir /user/cloudera/employee
 
 # Export Hive table
-[cloudera@quickstart ~]$ sqoop export --connect jdbc:mysql://quickstart.cloudera:3306/retail_db --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --table ord --hcatalog-database retail --hcatalog-table orders
+[cloudera@quickstart ~]$ sqoop export --connect jdbc:mysql://quickstart.cloudera:3306/retail_db \
+        --username cloudera --password-file /user/cloudera/sqoop_pwd.txt \
+        --table ord --hcatalog-database retail --hcatalog-table orders
 
 # Hive export using a staging table
-[cloudera@quickstart ~]$ sqoop export --connect jdbc:mysql://quickstart.cloudera:3306/retail_db --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --table ord --hcatalog-database retail --hcatalog-table orders --staging-table ord_staging --clear-staging-table
+[cloudera@quickstart ~]$ sqoop export --connect jdbc:mysql://quickstart.cloudera:3306/retail_db \
+        --username cloudera --password-file /user/cloudera/sqoop_pwd.txt \
+        --table ord --hcatalog-database retail \
+        --hcatalog-table orders --staging-table ord_staging --clear-staging-table
 ```
 
 ---
