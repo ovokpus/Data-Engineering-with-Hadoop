@@ -435,7 +435,11 @@ Note this job creation command included the `--create hive table` flag. You'll n
 There is an option to truncate the table before running a job
 ```bash
 [cloudera@quickstart ~]$ sqoop job --create import_orders_hive -- import \
---connect jdbc:mysql://quickstart.cloudera:3306/retail_db --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --table orders --target-dir /user/cloudera/sqoop-import/orders_hive --incremental append --check-column order_id --last-value 68883 --hive-import --hive-table retail.orders --hive-overwrite
+        --connect jdbc:mysql://quickstart.cloudera:3306/retail_db \
+        --username cloudera \--password-file /user/cloudera/sqoop_pwd.txt \
+        --table orders --target-dir /user/cloudera/sqoop-import/orders_hive \
+        --incremental append --check-column order_id --last-value 68883 \
+        --hive-import --hive-table retail.orders --hive-overwrite
 ```
 
 ## Import all tables in a database
