@@ -1,6 +1,6 @@
 ### **PySpark Tutorial: From Zero to Advanced**
 
-![image]](spark-cli)
+![image](https://github.com/ovokpus/Data-Engineering-with-Hadoop/blob/main/images/pyspark-shell.png)
 
 ---
 
