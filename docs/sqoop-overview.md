@@ -1,5 +1,7 @@
 # Apache Sqoop: Bridging the Gap Between Hadoop and Relational Databases
 
+![image](https://github.com/ovokpus/Data-Engineering-with-Hadoop/blob/main/images/sqoop.png)
+
 ## Introduction
 
 In the world of big data, organizations often find themselves juggling between traditional relational databases and modern distributed storage systems like Hadoop. Transferring data between these two systems can be challenging. Enter Apache Sqoop, a tool designed to efficiently transfer bulk data between Hadoop and relational databases.

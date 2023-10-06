@@ -1,12 +1,14 @@
 # Overview of the Hadoop Ecosystem
 
+![image](https://github.com/ovokpus/Data-Engineering-with-Hadoop/blob/main/images/hadoop.png)
+
 Let's dive deeper into each of the core components and some of the auxiliary tools in the Hadoop ecosystem.
 
 ### Core Components
 
 #### Hadoop Distributed File System (HDFS)
 
-![image](basic-hadoop-architecture)
+![image](https://github.com/ovokpus/Data-Engineering-with-Hadoop/blob/main/images/Basic-Hadoop-Architecture.jpg)
 
 HDFS is the storage layer of Hadoop, designed to store vast amounts of data across multiple nodes in a distributed fashion. It is optimized for high-throughput and fault-tolerance, with data automatically replicated across different nodes. HDFS is particularly well-suited for storing large files and is optimized for sequential read operations, making it ideal for batch processing tasks.
 
@@ -18,13 +20,13 @@ HDFS is the storage layer of Hadoop, designed to store vast amounts of data acro
 
 #### MapReduce
 
-![image](map-reduce-architecture)
+![image](https://github.com/ovokpus/Data-Engineering-with-Hadoop/blob/main/images/MapReduce-architecture.jpg)
 
 MapReduce is the data processing layer of Hadoop. It allows for the distributed processing of large data sets across a Hadoop cluster. The MapReduce programming model involves two primary tasks: Map and Reduce. The Map task takes a set of data and converts it into key-value pairs. The Reduce task then takes these key-value pairs and performs a reduction operation to generate the output. MapReduce is highly scalable and can handle tasks ranging from sorting and filtering to more complex analytical queries.
 
 ##### Mapreduce Execution Flow
 
-![image](mapreduce-job-execution)
+![image](https://github.com/ovokpus/Data-Engineering-with-Hadoop/blob/main/images/mapreduce-job-execution-flow-1-1.jpg)
 
 MapReduce is designed to handle vast quantities of data in parallel by dividing the task into a set of independent chunks. The execution flow of a MapReduce job can be summarized in two main phases: the Map phase and the Reduce phase, supplemented by other stages like Shuffle and Sort. 
 
@@ -40,7 +42,7 @@ Subsequently, during the Reduce phase, these key-value pairs are aggregated base
 
 #### YARN (Yet Another Resource Negotiator)
 
-![image](yarn-architecture)
+![image](https://github.com/ovokpus/Data-Engineering-with-Hadoop/blob/main/images/Apache-YARN-architecture-min.jpg)
 
 YARN serves as the resource management layer for Hadoop, decoupling the resource management capabilities from the MapReduce programming model. This allows for multiple data processing engines like Spark and Tez to run on a single Hadoop cluster. YARN improves the resource utilization and scheduling capabilities of Hadoop, making it more flexible and capable of handling a broader range of use-cases beyond just MapReduce.
 

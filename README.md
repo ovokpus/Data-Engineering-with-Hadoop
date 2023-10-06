@@ -4,7 +4,7 @@ This is a Learning project Repository, whose goal is exploring Data Engineering 
 
 ---
 
-![image](hadoop)
+![image](https://github.com/ovokpus/Data-Engineering-with-Hadoop/blob/main/images/hadoop.png)
 
 ---
 
@@ -14,11 +14,15 @@ Let's dive deeper into each of the core components and some of the auxiliary too
 
 ### Core Components
 
-![image](hadoop-ecosystem)
+![image](https://github.com/ovokpus/Data-Engineering-with-Hadoop/blob/main/images/Hadoop-Ecosystem-2-01.jpg)
+
+---
 
 #### Hadoop Distributed File System (HDFS)
 
-![image](basic-hadoop-architecture)
+![image](https://github.com/ovokpus/Data-Engineering-with-Hadoop/blob/main/images/Basic-Hadoop-Architecture.jpg)
+
+---
 
 HDFS is the storage layer of Hadoop, designed to store vast amounts of data across multiple nodes in a distributed fashion. It is optimized for high-throughput and fault-tolerance, with data automatically replicated across different nodes. HDFS is particularly well-suited for storing large files and is optimized for sequential read operations, making it ideal for batch processing tasks.
 
@@ -28,7 +32,7 @@ HDFS is the storage layer of Hadoop, designed to store vast amounts of data acro
 
 ## Local Development Setup
 
-![image](cloudera-quickstart)
+![image](https://github.com/ovokpus/Data-Engineering-with-Hadoop/blob/main/images/cloudera-quickstart.png)
 
 We'll be using the Cloudera Quickstart Docker Container for this project. The Cloudera Quickstart Docker image provides an easy way to test Cloudera's distribution, including Apache Hadoop and built-in components, on a single-node cluster. Below is a set of instructions on how to pull and run the Cloudera Quickstart Docker image for local development and testing:
 
@@ -115,7 +119,7 @@ docker cp transactions.txt distracted_einstein:/home/cloudera
 
 Open Hue with browser from Docker Desktop
 
-![image](open-hue-browser)
+![image](https://github.com/ovokpus/Data-Engineering-with-Hadoop/blob/main/images/open-hue-with-browser.png)
 
 ### HDFS commands compared to Linux commands
 

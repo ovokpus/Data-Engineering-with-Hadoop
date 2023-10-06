@@ -1,5 +1,7 @@
 # Apache Spark: Revolutionizing Big Data Processing and Analytics
 
+![image](https://github.com/ovokpus/Data-Engineering-with-Hadoop/blob/main/images/spark.png)
+
 ## Introduction
 
 In the ever-evolving landscape of big data, the need for fast, scalable, and easy-to-use data processing frameworks is paramount. Apache Spark, an open-source distributed computing system, has emerged as a leading solution, offering unparalleled speed and flexibility for large-scale data processing.
@@ -69,6 +71,37 @@ Spark operates on a distributed cluster computing model. It divides data into ch
 ---
 
 # Apache Spark: Use Cases and Code Examples in Python and Scala
+
+```bash
+ovookpubuluku@hive-atlas-poc-m:~$ pyspark
+Python 3.8.15 | packaged by conda-forge | (default, Nov 22 2022, 08:46:39) 
+[GCC 10.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+Setting default log level to "WARN".
+To adjust logging level use sc.setLogLevel(newLevel). For SparkR, use setLogLevel(newLevel).
+23/10/03 17:31:07 INFO org.apache.spark.SparkEnv: Registering MapOutputTracker
+23/10/03 17:31:07 INFO org.apache.spark.SparkEnv: Registering BlockManagerMaster
+23/10/03 17:31:08 INFO org.apache.spark.SparkEnv: Registering BlockManagerMasterHeartbeat
+23/10/03 17:31:08 INFO org.apache.spark.SparkEnv: Registering OutputCommitCoordinator
+Welcome to
+      ____              __
+     / __/__  ___ _____/ /__
+    _\ \/ _ \/ _ `/ __/  '_/
+   /__ / .__/\_,_/_/ /_/\_\   version 3.1.3
+      /_/
+
+Using Python version 3.8.15 (default, Nov 22 2022 08:46:39)
+Spark context Web UI available at http://hive-atlas-poc-m.us-central1-c.c.prj-s-richard-poc-aa5e.internal:44625
+Spark context available as 'sc' (master = yarn, app id = application_1696248961880_0016).
+SparkSession available as 'spark'.'
+>>> a = "Hello World"
+>>> print(a)
+Hello World
+>>> simple_file = sc.textFile('hdfs://hive-atlas-poc-m/data/simple_file/simple_file.csv')
+>>> simple_file.collect()
+['col_1,col_2,col3', 'value_1,1,a', 'value_2,2,b', 'value_3,3,c']               
+>>> 
+```
 
 ## Use Cases
 
