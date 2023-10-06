@@ -1,10 +1,13 @@
 # Apache Hive: A Comprehensive Guide to Its Components and Architecture
 
+![image](hive)
 ## Introduction
 
 Apache Hive is a data warehousing and SQL-like query language for Hadoop, providing a mechanism to project structure onto the data stored in Hadoop-compatible file systems. Hive enables data summarization, querying, and analysis of data by using a language very similar to standard SQL, known as Hive Query Language (HQL). In this article, we'll delve into the architecture and components of Apache Hive, exploring how it integrates with the Hadoop ecosystem to provide robust data analytics capabilities.
 
 ## Hive Architecture
+
+![image](hive-architecture)
 
 The architecture of Hive is layered and built on top of Hadoop for distributed storage and processing. The main components of Hive's architecture are:
 
@@ -101,6 +104,8 @@ Any temporary data or resources used during the query execution are cleaned up, 
 By following these steps, Hive ensures that queries are executed efficiently and accurately, leveraging the distributed computing power of the Hadoop ecosystem.
 
 ## Overview of Hive MetaStore
+
+![image](hive-metastore)
 
 The Hive MetaStore is a critical component in the Hive architecture that acts as a central repository for storing metadata about the Hive tables, databases, columns, data types, and other constructs. Essentially, it serves as the "catalog" or "schema" for Hive, allowing Hive and other services to understand the structure and properties of the data they are working with.
 

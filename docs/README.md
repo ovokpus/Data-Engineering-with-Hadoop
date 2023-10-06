@@ -6,20 +6,41 @@ Let's dive deeper into each of the core components and some of the auxiliary too
 
 #### Hadoop Distributed File System (HDFS)
 
+![image](basic-hadoop-architecture)
+
 HDFS is the storage layer of Hadoop, designed to store vast amounts of data across multiple nodes in a distributed fashion. It is optimized for high-throughput and fault-tolerance, with data automatically replicated across different nodes. HDFS is particularly well-suited for storing large files and is optimized for sequential read operations, making it ideal for batch processing tasks.
 
 - **NameNode**: This is the master server that manages the metadata and namespace of the HDFS. It keeps track of the structure of the file system tree and the metadata for all the files and directories.
 - **DataNode**: These are the worker nodes responsible for storing the actual data. They serve read and write requests from clients and perform block creation, deletion, and replication upon instruction from the NameNode.
 - **Secondary NameNode**: Contrary to its name, it's not a backup for the NameNode. It's responsible for merging the fsimage and the edits log files periodically to prevent the edits log file from becoming too large.
 
+---
+
 #### MapReduce
 
+![image](map-reduce-architecture)
+
 MapReduce is the data processing layer of Hadoop. It allows for the distributed processing of large data sets across a Hadoop cluster. The MapReduce programming model involves two primary tasks: Map and Reduce. The Map task takes a set of data and converts it into key-value pairs. The Reduce task then takes these key-value pairs and performs a reduction operation to generate the output. MapReduce is highly scalable and can handle tasks ranging from sorting and filtering to more complex analytical queries.
+
+##### Mapreduce Execution Flow
+
+![image](mapreduce-job-execution)
+
+MapReduce is designed to handle vast quantities of data in parallel by dividing the task into a set of independent chunks. The execution flow of a MapReduce job can be summarized in two main phases: the Map phase and the Reduce phase, supplemented by other stages like Shuffle and Sort. 
+
+Initially, during the Map phase, input data is divided into fixed-size pieces called splits. Each split is processed by a separate mapper, which takes the data and converts it into a set of intermediate key-value pairs. Once all the mappers have finished, the framework sorts these pairs by key. This transition between the Map and Reduce stages is often referred to as the Shuffle and Sort phase. 
+
+Subsequently, during the Reduce phase, these key-value pairs are aggregated based on their keys. Each reducer processes the key-value groups, providing an output that is then written back to the Hadoop Distributed File System (HDFS). It's worth noting that both the mapping and reducing are distributed processes; tasks are scheduled and run on nodes where data resides, optimizing data locality and thereby enhancing overall job performance.
 
 - **JobTracker**: This is the master daemon that manages all jobs and resources in a MapReduce cluster. It assigns tasks to different TaskTracker nodes in the cluster, trying to keep the work as close to the data as possible.
 - **TaskTracker**: These are the slave nodes that execute tasks (Map, Reduce, and Shuffle operations) as directed by the JobTracker. Each TaskTracker is configured with a set of slots that indicate the number of tasks it can accept.
 
+
+---
+
 #### YARN (Yet Another Resource Negotiator)
+
+![image](yarn-architecture)
 
 YARN serves as the resource management layer for Hadoop, decoupling the resource management capabilities from the MapReduce programming model. This allows for multiple data processing engines like Spark and Tez to run on a single Hadoop cluster. YARN improves the resource utilization and scheduling capabilities of Hadoop, making it more flexible and capable of handling a broader range of use-cases beyond just MapReduce.
 
