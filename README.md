@@ -1,6 +1,6 @@
 # Data-Engineering-with-Hadoop
 
-This is a Learning project Repository, whose goal is exploring Data Engineering capabilities within the Hadoop Ecosystem. Hadoop is now being perceived as a legacy framework for big data. However, the knowledge of Hadoop is now even more valuable, as opportunities arise where Enterprises are lifting and Shifting Hadoop workloads from on-prem systems into the Public Cloud. 
+This is a Learning project Repository, whose goal is exploring Data Engineering capabilities within the Hadoop Ecosystem. Hadoop is now being perceived as a legacy framework for big data. However, the knowledge of Hadoop is now even more valuable, as opportunities arise where Enterprises are lifting and Shifting Hadoop workloads from on-prem systems into the Public Cloud.
 
 ---
 
@@ -29,6 +29,8 @@ HDFS is the storage layer of Hadoop, designed to store vast amounts of data acro
 - **NameNode**: This is the master server that manages the metadata and namespace of the HDFS. It keeps track of the structure of the file system tree and the metadata for all the files and directories.
 - **DataNode**: These are the worker nodes responsible for storing the actual data. They serve read and write requests from clients and perform block creation, deletion, and replication upon instruction from the NameNode.
 - **Secondary NameNode**: Contrary to its name, it's not a backup for the NameNode. It's responsible for merging the fsimage and the edits log files periodically to prevent the edits log file from becoming too large.
+
+For more content on Hadoop, including tutorials and project walkthroughs that focus on Hive, Sqoop and Spark, do checkout the [docs](https://github.com/ovokpus/Data-Engineering-with-Hadoop/tree/main/docs) folder of this repository.
 
 ## Local Development Setup
 
