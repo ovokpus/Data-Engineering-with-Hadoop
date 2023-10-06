@@ -180,7 +180,9 @@ Underlying datafiles imported into sqoop
 
 ```bash
 [cloudera@quickstart ~]$ sqoop import --connect jdbc:mysql://quickstart.cloudera:3306/retail_db \
-        --username cloudera --password-file /user/cloudera/sqoop_pwd.txt --table categories --target-dir /user/cloudera/sqoop-import/categories1 --fields-terminated-by '|' --num-mappers 2
+        --username cloudera --password-file /user/cloudera/sqoop_pwd.txt \
+        --table categories --target-dir /user/cloudera/sqoop-import/categories1 \
+        --fields-terminated-by '|' --num-mappers 2
 ```
 
 ---
