@@ -1,6 +1,6 @@
 # Hive Walkthrough
 
-![image](hive-introduction)
+![image](https://github.com/ovokpus/Data-Engineering-with-Hadoop/blob/main/images/Apache-Hive-Introduction.jpg)
 
 ## Switching to the Hive CLI from within the Cloudera Container
 
@@ -71,7 +71,7 @@ transactions.txt
 
 View file browser in Hue (`localhost:8888`)
 
-![image](hdfs-filesystem)
+![image](https://github.com/ovokpus/Data-Engineering-with-Hadoop/blob/main/images/MapReduce-architecture.jpg)
 
 view file contents
 ```bash
@@ -90,7 +90,7 @@ view file contents
 10-27-2011,4000332,147.34,Outdoor Recreation,Deck Shuffleboard,Oakland,California,credit
 ```
 
-![image](data-imported-to-hdfs)
+![image](https://github.com/ovokpus/Data-Engineering-with-Hadoop/blob/main/images/data-imported-to-hdfs.png)
 
 ---
 
@@ -191,17 +191,17 @@ hive (demo)>
 ## View Hive query editor and query results in Hue
 
 Hive Query Editor
-![image](hive-query-editor-in-hue)
+![image](https://github.com/ovokpus/Data-Engineering-with-Hadoop/blob/main/images/hive-query-editor.png)
 
 ---
 
 Job Tracker
-![image](job-tracker)
+![image](https://github.com/ovokpus/Data-Engineering-with-Hadoop/blob/main/images/job-browser.png)
 
 ---
 
 You can also view a chart showing column distributions from the query results.
-![image](hive-query-results-chart)
+![image](https://github.com/ovokpus/Data-Engineering-with-Hadoop/blob/main/images/hive-query-results-chart.png)
 
 ---
 
