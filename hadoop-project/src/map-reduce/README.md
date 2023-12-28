@@ -301,5 +301,14 @@
 	"1310"  "00001"
 	"1320"  "00001"
 	"1325"  "00001"
-
+	"1"     "00452"
+	"288"   "00478"
+	"286"   "00481"
+	"294"   "00485"
+	"181"   "00507"
+	"100"   "00508"
+	"258"   "00509"
+	"50"    "00584"
+	Removing HDFS temp directory hdfs:///user/maria_dev/tmp/mrjob/TopMovies.maria_dev.20231228.012223.437509...
+	Removing temp directory /tmp/TopMovies.maria_dev.20231228.012223.437509...
 	```
