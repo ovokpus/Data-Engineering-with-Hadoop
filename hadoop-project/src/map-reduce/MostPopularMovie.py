@@ -1,3 +1,4 @@
+# Sort the movies by their numbers of ratings
 from mrjob.job import MRJob
 from mrjob.step import MRStep
 

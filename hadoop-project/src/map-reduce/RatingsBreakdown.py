@@ -1,3 +1,4 @@
+# Break down  movie ratings by rating score
 from mrjob.job import MRJob
 from mrjob.step import MRStep
 
