@@ -2,7 +2,7 @@
 
 1. Run locally
     ```bash
-    python[maria_dev@sandbox-hdp ~]$ python RatingsBreakdown.py u.data
+    [maria_dev@sandbox-hdp ~]$ python RatingsBreakdown.py u.data
     ```
     
     ```bash

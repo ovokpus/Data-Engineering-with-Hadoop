@@ -141,3 +141,93 @@ Open Hue with browser from Docker Desktop
 | `kill`              | N/A                    | N/A                     | Kill a running process (not applicable) |
 | `cp local_file HDFS_destination` | `hdfs dfs -copyFromLocal local_file HDFS_destination` | `hadoop fs -copyFromLocal local_file HDFS_destination` | Copy a file from the local file system to HDFS |
 | `cp HDFS_source local_destination` | `hdfs dfs -copyToLocal HDFS_source local_destination` | `hadoop fs -copyToLocal HDFS_source local_destination` | Copy a file from HDFS to the local file system |
+
+### Command usage examples
+
+Hadoop, a widely-used framework for distributed storage and processing of large datasets, provides several command-line utilities for interacting with its system. Here are terminal examples for some of the key Hadoop commands in their long-form usage:
+
+1. **hadoop fs -ls**:
+   This command lists the contents of a directory in HDFS (Hadoop Distributed File System).
+   ```bash
+   hadoop fs -ls /path/to/directory
+   ```
+
+2. **hadoop fs -mkdir**:
+   This command creates a directory in HDFS.
+   ```bash
+   hadoop fs -mkdir /new/directory
+   ```
+
+3. **hadoop fs -put**:
+   This command copies a file from the local file system to HDFS.
+   ```bash
+   hadoop fs -put localfile.txt /path/in/hdfs
+   ```
+
+4. **hadoop fs -get**:
+   This command retrieves files from HDFS to the local file system.
+   ```bash
+   hadoop fs -get /path/in/hdfs/localfile.txt .
+   ```
+
+5. **hadoop fs -rm**:
+   This command removes a file from HDFS.
+   ```bash
+   hadoop fs -rm /path/to/file.txt
+   ```
+
+6. **hadoop fs -rmdir**:
+   This command removes a directory from HDFS.
+   ```bash
+   hadoop fs -rmdir /path/to/directory
+   ```
+
+7. **hadoop fs -copyToLocal**:
+   This is another way to copy files from HDFS to the local file system.
+   ```bash
+   hadoop fs -copyToLocal /path/in/hdfs/localfile.txt .
+   ```
+
+8. **hadoop fs -copyFromLocal**:
+   This command is used to copy files from the local file system to HDFS.
+   ```bash
+   hadoop fs -copyFromLocal localfile.txt /path/in/hdfs
+   ```
+
+9. **hadoop fs -mv**:
+   This command moves files within HDFS.
+   ```bash
+   hadoop fs -mv /path/to/source /path/to/destination
+   ```
+
+10. **hadoop fs -chmod**:
+    This command changes the permissions of a file or directory in HDFS.
+    ```bash
+    hadoop fs -chmod 755 /path/to/file
+    ```
+
+11. **hadoop fs -chown**:
+    This command changes the owner and group of a file or directory in HDFS.
+    ```bash
+    hadoop fs -chown user:group /path/to/file
+    ```
+
+12. **hadoop fs -cat**:
+    This command displays the contents of a file in HDFS to the console.
+    ```bash
+    hadoop fs -cat /path/to/file.txt
+    ```
+
+13. **hadoop fs -appendToFile**:
+    This command appends the contents of a local file to a file in HDFS.
+    ```bash
+    hadoop fs -appendToFile localfile.txt /path/in/hdfs/file.txt
+    ```
+
+14. **hadoop fs -count**:
+    This command counts the number of directories, files, and bytes under the paths that match the specified file pattern.
+    ```bash
+    hadoop fs -count /path/to/directory
+    ```
+
+These commands provide basic file operations in HDFS and are crucial for managing data and resources in a Hadoop ecosystem. Remember that the actual usage of these commands can vary slightly depending on the specific version of Hadoop you are using.
