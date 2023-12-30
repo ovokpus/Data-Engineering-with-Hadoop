@@ -1,3 +1,4 @@
+# Using Spark 1.x
 from pyspark import SparkConf, SparkContext
 
 # This function just creates a Python "dictionary" we can later

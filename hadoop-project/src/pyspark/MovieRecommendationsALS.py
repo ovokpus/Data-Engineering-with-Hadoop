@@ -44,7 +44,7 @@ if __name__ == "__main__":
     print("\nRatings for user ID 0:")
     userRatings = ratings.filter("userID = 0")
     for rating in userRatings.collect():
-        print movieNames[rating['movieID']], rating['rating']
+        print(movieNames[rating['movieID']], rating['rating'])
 
     print("\nTop 20 recommendations:")
     # Find movies rated more than 100 times
