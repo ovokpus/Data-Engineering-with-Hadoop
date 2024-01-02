@@ -18,4 +18,4 @@ FROM topMovieIDs t JOIN names n on t.movieID = n.movieID;
 DROP VIEW topmovieIDs;
 ```
 
-![image]()
+![image](https://github.com/ovokpus/Data-Engineering-with-Hadoop/blob/main/images/hive2console.png)
