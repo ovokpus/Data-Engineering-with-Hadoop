@@ -160,3 +160,5 @@ cython_debug/
 #.idea/
 
 data/
+
+hadoop-project/src/hive/movielens.sql
