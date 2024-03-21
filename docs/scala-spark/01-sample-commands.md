@@ -1,6 +1,6 @@
 # Apache Spark Sample commands from EducativeIO
 
-```bash
+```scala
 // Start-up the spark-shell
 spark-shell
 
@@ -74,7 +74,7 @@ spark-submit --master local --deploy-mode client --class io.datajek.spark.CarCou
 hdfs dfs -text /output/part-00000
 ```
 
-```bash
+```scala
     // Start the Spark shell
     spark-shell
 
@@ -110,7 +110,7 @@ hdfs dfs -text /output/part-00000
 
 ## Sequence file
 
-```bash
+```scala
     # Start Hadoop
     ./DataJek/startHadoop.sh
 
@@ -129,7 +129,7 @@ hdfs dfs -text /output/part-00000
 
 ## Avro
 
-```bash
+```scala
     # cd into the DataJek directory
     cd /DataJek
 
@@ -148,7 +148,7 @@ hdfs dfs -text /output/part-00000
 
 ### Avro IDL
 
-```bash
+```scala
     # Change directory
     cd /DataJek
 
@@ -172,7 +172,7 @@ hdfs dfs -text /output/part-00000
 
 ### Parquet
 
-```bash
+```scala
     # Change directory
     cd DataJek
 
@@ -191,7 +191,7 @@ hdfs dfs -text /output/part-00000
 
 ---
 
-```bash
+```scala
     # Start spark-shell. There's also an equivalent shell for python but for this
     # exercise we'll work with the Scala shell. This is Spark running in local mode.
     # All the Spark operations run locally in a single JVM.
@@ -218,7 +218,7 @@ hdfs dfs -text /output/part-00000
 
 ## Spark Datasets
 
-```bash
+```scala
     # Create case class to reprsent a row from the data file
     import org.apache.spark.sql.Encoders
 
@@ -274,7 +274,7 @@ hdfs dfs -text /output/part-00000
 
 ### Spark Datasets with Scala Case Class and Java Bean Class
 
-```bash
+```scala
     # Generating data using SparkSession
     case class MovieDetailShort(imdbID: String, rating: Int)
 
@@ -309,7 +309,7 @@ hdfs dfs -text /output/part-00000
 
 ## DataFrames in Spark
 
-```bash
+```scala
     # Calculating average rating usig RDDs
     (sc.parallelize(Seq(("Gone with the Wind", 6), ("Gone with the Wind", 8),
         ("Gone with the Wind", 8)))
@@ -390,7 +390,7 @@ hdfs dfs -text /output/part-00000
 
 ### DataFrame Column Operations
 
-```bash
+```scala
     # Reading-in movies
     val movies = (spark.read.format("csv")
     .option("header","true")
@@ -437,7 +437,7 @@ hdfs dfs -text /output/part-00000
 
 ### DataFrame Row Operations
 
-```bash
+```scala
     # Creating Row
     import org.apache.spark.sql.Row
 
@@ -492,3 +492,67 @@ hdfs dfs -text /output/part-00000
                 .sort($"releaseYear".desc)
                 .show())             
 ```
+
+---
+
+### More DataFrame Operations
+
+```scala
+    # Read in the movies data
+    val movies = (spark.read.format("csv")
+                .option("header","true")
+                .option("inferSchema","true")
+                .load("/data/BollywoodMovieDetail.csv"))
+
+    # Changing column names
+    val moviesNewColDF = movies.withColumnRenamed("hitFlop","Rating")
+
+    moviesNewColDF.printSchema
+
+    # Changing column types
+    val newDF = movies.withColumn("launchDate", to_date($"releaseDate", "d MMM yyyy"))
+                    .drop("releaseDate")
+
+    newDF.printSchema
+
+    (newDF.select("releaseDate","launchDate")
+        .where($"launchDate".isNull)
+        .show(5,false))
+
+    (newDF.select("releaseDate","launchDate")
+        .where($"launchDate".isNull)
+        .count())
+
+    (newDF.select(year($"launchDate"))
+        .distinct()
+        .orderBy(year($"launchDate"))
+        .show())
+
+    # Aggregations
+    (movies.select("releaseYear")
+        .groupBy("releaseYear")
+        .count()
+        .orderBy("releaseYear")
+        .show)
+
+    (movies.select(max($"hitFlop"))
+        .show)
+
+    (movies.select(min($"hitFlop"))
+        .show)
+
+    (movies.select(sum($"hitFlop"))
+        .show)
+
+    (movies.select(avg($"hitFlop"))
+        .show)
+
+    (movies.select("releaseYear","hitFlop")
+        .groupBy("releaseYear")
+        .avg("hitFlop")
+        .orderBy("releaseYear")
+        .show)
+```
+
+---
+
