@@ -111,60 +111,60 @@ hdfs dfs -text /output/part-00000
 ## Sequence file
 
 ```scala
-    # Start Hadoop
+    // Start Hadoop
     ./DataJek/startHadoop.sh
 
-    # Upload a sequence file
+    // Upload a sequence file
     hdfs dfs -copyFromLocal DataJek/fancyCars.seq /
 
-    # Attempt to read the file, you'll get an error
+    // Attempt to read the file, you'll get an error
     hdfs dfs -text /fancyCars.seq
 
-    # Set the class path to include the Car class 
+    // Set the class path to include the Car class 
     export HADOOP_CLASSPATH="/DataJek/SequenceFiles-1.0-SNAPSHOT.jar"
 
-    # Rerun the text command and the contents of the sequence file are printed
+    // Rerun the text command and the contents of the sequence file are printed
     hdfs dfs -text /fancyCars.seq
 ```
 
 ## Avro
 
 ```scala
-    # cd into the DataJek directory
+    // cd into the DataJek directory
     cd /DataJek
 
-    # execute the following command to print the emebedded schema on console
+    // execute the following command to print the emebedded schema on console
     java -jar avro-tools-1.9.1.jar getschema fancyCars.avro
 
-    # Change directory to DataJek
+    // Change directory to DataJek
     cd DataJek/
 
-    # Compile the schema to Java class
+    // Compile the schema to Java class
     java -jar avro-tools-1.9.1.jar compile schema car.avsc .
 
-    # Examine the auto-generated class
+    // Examine the auto-generated class
     cat io/datajek/Car.java
 ```
 
 ### Avro IDL
 
 ```scala
-    # Change directory
+    // Change directory
     cd /DataJek
 
-    # Compile IDL file to protocol file
+    // Compile IDL file to protocol file
     java -jar avro-tools-1.9.1.jar idl car.avdl car.avpr
 
-    # Compile protocol file to Java class
+    // Compile protocol file to Java class
     java -jar avro-tools-1.9.1.jar compile protocol car.avpr .
 
-    # View the generated files
+    // View the generated files
     ls /Datajek/io/datajek/
 
-    # Compile IDL file to schema file
+    // Compile IDL file to schema file
     java -jar avro-tools-1.9.1.jar idl2schemata car.avdl
 
-    # View the generated schema
+    // View the generated schema
     cat Car.avsc
 ```
 
@@ -173,43 +173,43 @@ hdfs dfs -text /output/part-00000
 ### Parquet
 
 ```scala
-    # Change directory
+    // Change directory
     cd DataJek
 
-    # Inspect the contents of the parquet file.
+    // Inspect the contents of the parquet file.
     java  -jar ./parquet-tools-1.6.0rc7.jar cat fancyCarsInAvroParquet.parquet
 
-    # Retrieve schema.
+    // Retrieve schema.
     java  -jar ./parquet-tools-1.6.0rc7.jar schema fancyCarsInAvroParquet.parquet
 
-    # Retrieve metadata.
+    // Retrieve metadata.
     java  -jar ./parquet-tools-1.6.0rc7.jar meta fancyCarsInAvroParquet.parquet
 
-    # Debug parquet file. Prints Definition and Repitition levels.
+    // Debug parquet file. Prints Definition and Repitition levels.
     java  -jar ./parquet-tools-1.6.0rc7.jar dump fancyCarsInAvroParquet.parquet
 ```
 
 ---
 
 ```scala
-    # Start spark-shell. There's also an equivalent shell for python but for this
-    # exercise we'll work with the Scala shell. This is Spark running in local mode.
-    # All the Spark operations run locally in a single JVM.
+    // Start spark-shell. There's also an equivalent shell for python but for this
+    // exercise we'll work with the Scala shell. This is Spark running in local mode.
+    // All the Spark operations run locally in a single JVM.
     spark-shell
 
-    # Check the version of Spark. Note the variable spark represents the SparkSession.
+    // Check the version of Spark. Note the variable spark represents the SparkSession.
     spark.version
 
-    # Read a CSV file of movies. Here we are creating a DataFrame from the input
-    # file. The DataFrame is a Spark high level structured API that we'll cover 
-    # in detail later. 
+    // Read a CSV file of movies. Here we are creating a DataFrame from the input
+    // file. The DataFrame is a Spark high level structured API that we'll cover 
+    // in detail later. 
     val movies = spark.read.text("/data/BollywoodMovieDetail.csv")
 
-    # Count the number of lines in the file.
+    // Count the number of lines in the file.
     movies.count()
 
-    # Now print the first five rows of the read-in file. The second parameter if
-    # set to true will print truncated lines.
+    // Now print the first five rows of the read-in file. The second parameter if
+    // set to true will print truncated lines.
     movies.show(5, false)
 
 ```
@@ -219,7 +219,7 @@ hdfs dfs -text /output/part-00000
 ## Spark Datasets
 
 ```scala
-    # Create case class to reprsent a row from the data file
+    // Create case class to reprsent a row from the data file
     import org.apache.spark.sql.Encoders
 
     case class BMovieDetail(imdbID: String,
@@ -244,7 +244,7 @@ hdfs dfs -text /output/part-00000
 
     movieDataset.show(3)
 
-    # Actions and transformations on Datasets
+    // Actions and transformations on Datasets
 
     movieDataset.filter(row => {row.releaseYear > 2010})
 
@@ -275,7 +275,7 @@ hdfs dfs -text /output/part-00000
 ### Spark Datasets with Scala Case Class and Java Bean Class
 
 ```scala
-    # Generating data using SparkSession
+    // Generating data using SparkSession
     case class MovieDetailShort(imdbID: String, rating: Int)
 
     val rnd = new scala.util.Random(9)
@@ -286,7 +286,7 @@ hdfs dfs -text /output/part-00000
 
     datasetMovies.show(3)
 
-    # Using filter
+    // Using filter
     (datasetMovies.filter(mov => mov.rating > 5)
                 .show(3))
 
@@ -310,7 +310,7 @@ hdfs dfs -text /output/part-00000
 ## DataFrames in Spark
 
 ```scala
-    # Calculating average rating usig RDDs
+    // Calculating average rating usig RDDs
     (sc.parallelize(Seq(("Gone with the Wind", 6), ("Gone with the Wind", 8),
         ("Gone with the Wind", 8)))
         .map(v => (v._1, (v._2, 1)))
@@ -318,7 +318,7 @@ hdfs dfs -text /output/part-00000
         .map(x => (x._1, x._2._1 / (x._2._2 * 1.0)))
         .collect())
 
-    # Calculating average rating usig DataFrames
+    // Calculating average rating usig DataFrames
     val dataDF = (spark.createDataFrame(Seq(("Gone with the Wind", 6),
         ("Gone with the Wind", 8), ("Gone with the Wind", 8)))
         .toDF("movie", "rating"))
@@ -326,7 +326,7 @@ hdfs dfs -text /output/part-00000
     val avgDF = (dataDF.groupBy("movie").agg(avg("rating")))
     avgDF.show()
 
-    # More examples
+    // More examples
     val movies = (spark.read.format("csv")
         .option("header","true")
         .option("inferSchema","true")
@@ -334,7 +334,7 @@ hdfs dfs -text /output/part-00000
 
     movies.schema
 
-    # Explicitly passing-in the schema
+    // Explicitly passing-in the schema
     import org.apache.spark.sql.types._
 
     val customSchema = (StructType(Array(StructField("imdbId",StringType,true), 
@@ -354,7 +354,7 @@ hdfs dfs -text /output/part-00000
                 .schema(customSchema)load("/data/BollywoodMovieDetail.csv"))
     movies.schema
 
-    # Using sampling ratio to determine schema
+    // Using sampling ratio to determine schema
     val movies = (spark.read.format("csv")
     .option("header","true")
     .option("inferSchema","true")
@@ -363,7 +363,7 @@ hdfs dfs -text /output/part-00000
 
     movies.schema
 
-    # Specifying schema using DDL
+    // Specifying schema using DDL
     val ddl = "imdbId STRING, title STRING, releaseYear STRING, releaseDate STRING, genre STRING, writers STRING, actors STRING, directors STRING, sequel INT, hitFlop INT"
 
     val movies = (spark.read.format("csv")
@@ -371,7 +371,7 @@ hdfs dfs -text /output/part-00000
                 .option("inferSchema","false")
                 .schema(ddl).load("/data/BollywoodMovieDetail.csv"))
 
-    # Specifyig DATE types in schema
+    // Specifyig DATE types in schema
     val ddl = "imdbId STRING, title STRING, releaseYear DATE, releaseDate DATE, genre STRING, writers STRING, actors STRING, directors STRING, sequel INT, hitFlop INT"
 
     val movies = (spark.read.format("csv")
@@ -380,27 +380,27 @@ hdfs dfs -text /output/part-00000
                 .schema(ddl).load("/data/BollywoodMovieDetail.csv"))
     movies.show(1, false)
 
-    # Writing out DataFrames
+    // Writing out DataFrames
     (movies.write.format("parquet")
         .save("/data/moviesFile"))
 
-    # quit the shell using Ctrl + C 
+    // quit the shell using Ctrl + C 
     ls /data/moviesFile
 ```
 
 ### DataFrame Column Operations
 
 ```scala
-    # Reading-in movies
+    // Reading-in movies
     val movies = (spark.read.format("csv")
     .option("header","true")
     .option("inferSchema","true")
     .load("/data/BollywoodMovieDetail.csv"))
 
-    # Listing all columns
+    // Listing all columns
     movies.columns
 
-    # Accessing columns
+    // Accessing columns
     var ratingCol = movies.col("hitFlop")
 
     movies.select(ratingCol).show(5)
@@ -409,7 +409,7 @@ hdfs dfs -text /output/part-00000
 
     movies.select(expr("hitFlop")).show(5)
 
-    # Manipulating columns
+    // Manipulating columns
     (movies.select(expr("hitFlop > 5"))
         .show(3))
 
@@ -423,7 +423,7 @@ hdfs dfs -text /output/part-00000
         .select("Good Movies to Watch")
         .show(3))
 
-    # Sorting columns
+    // Sorting columns
     var ratingCol = movies.col("hitFlop")
 
     (movies.sort(ratingCol.desc)
@@ -438,7 +438,7 @@ hdfs dfs -text /output/part-00000
 ### DataFrame Row Operations
 
 ```scala
-    # Creating Row
+    // Creating Row
     import org.apache.spark.sql.Row
 
     val row = Row("Upcoming New Movie", 2021, "Comedy")
@@ -456,7 +456,7 @@ hdfs dfs -text /output/part-00000
 
     newMovies.show()
 
-    # Projections and filters
+    // Projections and filters
     val movies = (spark.read.format("csv")
                 .option("header","true")
                 .option("inferSchema","true")
@@ -498,18 +498,18 @@ hdfs dfs -text /output/part-00000
 ### More DataFrame Operations
 
 ```scala
-    # Read in the movies data
+    // Read in the movies data
     val movies = (spark.read.format("csv")
                 .option("header","true")
                 .option("inferSchema","true")
                 .load("/data/BollywoodMovieDetail.csv"))
 
-    # Changing column names
+    // Changing column names
     val moviesNewColDF = movies.withColumnRenamed("hitFlop","Rating")
 
     moviesNewColDF.printSchema
 
-    # Changing column types
+    // Changing column types
     val newDF = movies.withColumn("launchDate", to_date($"releaseDate", "d MMM yyyy"))
                     .drop("releaseDate")
 
@@ -528,7 +528,7 @@ hdfs dfs -text /output/part-00000
         .orderBy(year($"launchDate"))
         .show())
 
-    # Aggregations
+    // Aggregations
     (movies.select("releaseYear")
         .groupBy("releaseYear")
         .count()
@@ -555,4 +555,3 @@ hdfs dfs -text /output/part-00000
 ```
 
 ---
-
