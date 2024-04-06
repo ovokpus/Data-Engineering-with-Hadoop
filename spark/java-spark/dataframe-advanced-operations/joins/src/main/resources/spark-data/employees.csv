@@ -1,0 +1,7 @@
+emp_id,name,manager_emp_id,start_year,emp_dept_id,gender,salary
+1,John Smith,-1,2011,10,M,4000
+2,Julia Leeds,1,2014,20,F,3000
+3,Paul Chancellor,1,2013,20,M,2000
+4,Juan Perez,2,2013,40,M,3000
+5,Robert O'Neill,2,2018,20,M,1000
+6,Bernadette Chieftain,-1,0,0,F, 0
