@@ -1,0 +1,8 @@
+att_id,name,age_required,max_rides_revision,type
+1,Roller Coaster,13,10000,speed_acceleration
+2,Tea Cups,12,20000,casual
+3,Water Slide,15,5000,water_based
+4,Free Faller,18,3000,free_fall_vertigo
+5,Bumper Cars,12,15000,children_friendly
+6,The Demon,18,1000,high_speed_acceleration
+

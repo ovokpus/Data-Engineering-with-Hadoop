@@ -1,0 +1,6 @@
+INSERT INTO Student(Age, First_Name, Last_Name) VALUES (20, 'John', 'Brown')
+INSERT INTO Student(Age, First_Name, Last_Name) VALUES (19, 'Marie', 'Curie')
+INSERT INTO Student(Age, First_Name, Last_Name) VALUES (32, 'Harry', 'Truman')
+INSERT INTO Student(Age, First_Name, Last_Name) VALUES (28, 'Bob', 'Ross')
+INSERT INTO Student(Age, First_Name, Last_Name) VALUES (22, 'Mark', 'Spencer')
+INSERT INTO Student(Age, First_Name, Last_Name) VALUES (24, 'Adam', 'Birch')
