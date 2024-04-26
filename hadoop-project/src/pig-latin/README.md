@@ -131,7 +131,7 @@ The provided script is written in Pig Latin, which is used to perform data manip
 
 1. **Load Ratings Data**:
 
-   ```plaintext
+   ```pig
    ratings = LOAD '/user/maria_dev/ml-100k/u.data' AS (userID:int, movieID:int, rating:int, ratingTime:int);
    ```
 
@@ -139,7 +139,7 @@ The provided script is written in Pig Latin, which is used to perform data manip
 
 2. **Load Metadata**:
 
-   ```plaintext
+   ```pig
    metadata = LOAD '/user/maria_dev/ml-100k/u.item' USING PigStorage('|')
        AS (movieID:int, movieTitle:chararray, releaseDate:chararray, videoRelease:chararray, imdbLink:chararray);
    ```
@@ -148,7 +148,7 @@ The provided script is written in Pig Latin, which is used to perform data manip
 
 3. **Extract Movie Names**:
 
-   ```plaintext
+   ```pig
    nameLookup = FOREACH metadata GENERATE movieID, movieTitle;
    ```
 
@@ -156,7 +156,7 @@ The provided script is written in Pig Latin, which is used to perform data manip
 
 4. **Group Ratings by Movie ID**:
 
-   ```plaintext
+   ```pig
    groupedRatings = GROUP ratings by movieID;
    ```
 
@@ -164,7 +164,7 @@ The provided script is written in Pig Latin, which is used to perform data manip
 
 5. **Calculate Average Ratings and Count**:
 
-   ```plaintext
+   ```pig
    averageRatings = FOREACH groupedRatings GENERATE group AS movieID, AVG(ratings.rating) AS avgRating,
        COUNT(ratings.rating) AS numRatings;
    ```
@@ -173,7 +173,7 @@ The provided script is written in Pig Latin, which is used to perform data manip
 
 6. **Filter Out Bad Movies**:
 
-   ```plaintext
+   ```pig
    badMovies = FILTER averageRatings BY avgRating < 2.0;
    ```
 
@@ -181,7 +181,7 @@ The provided script is written in Pig Latin, which is used to perform data manip
 
 7. **Join Bad Movies with Their Titles**:
 
-   ```plaintext
+   ```pig
    namedBadMovies = JOIN badMovies BY movieID, nameLookup BY movieID;
    ```
 
@@ -189,7 +189,7 @@ The provided script is written in Pig Latin, which is used to perform data manip
 
 8. **Select Final Results**:
 
-   ```plaintext
+   ```pig
    finalResults = FOREACH namedBadMovies GENERATE nameLookup::movieTitle AS movieName,
        badMovies::avgRating as avgRating, badMovies::numRatings as numRatings;
    ```
@@ -198,7 +198,7 @@ The provided script is written in Pig Latin, which is used to perform data manip
 
 9. **Sort Results**:
 
-   ```plaintext
+   ```pig
    finalResultsSorted = ORDER finalResults BY numRatings DESC;
    ```
 
@@ -206,7 +206,7 @@ The provided script is written in Pig Latin, which is used to perform data manip
 
 10. **Output the Results**:
 
-   ```plaintext
+   ```pig
    DUMP finalResultsSorted;
    ```
 
